@@ -6,67 +6,90 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, { useState } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
   ScrollView,
   View,
   Text,
+  TextInput,
   StatusBar,
+  Button,
+  TouchableOpacity,
+  Picker,
 } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+
+let RNFS = require('react-native-fs');
+let select = require('xpath.js'), DOMParser = require('xmldom').DOMParser
+
+function SearchXML() {
+	const [text, setText] = useState("");
+	const [id, setID] = useState("1");
+	const [selectedValue, setSelectedValue] = useState("item");
+	const check = function(){
+		var a = "000"+Math.floor(id/100);
+		a = a.substr(-3);
+		RNFS.readFileAssets(selectedValue+'s/'+a+'00-'+a+'99.xml').then((response)=>{
+			var doc = new DOMParser().parseFromString(response);
+			var n = select(doc, "/list/"+selectedValue+"[@id="+id+"]");
+			setText(n[0].toString());
+		})
+		.catch((err)=>{
+			setText("no data:"+selectedValue+":"+id);
+			//console.log(id, ' not found?')
+		});
+	}
+	const onFocus = function(){
+		setID("");
+	}
+	const onBlur = function(){
+		check();
+	}
+	return (
+		<>
+		<Picker
+			selectedValue={selectedValue}
+			onValueChange={(itemValue, itemIndex)=>setSelectedValue(itemValue)}
+		>
+			<Picker.Item label="items" value="item" />
+			<Picker.Item label="npcs" value="npc" />
+		</Picker>
+		<TextInput
+			style={{height:40}}
+			onChangeText={id => {setID(id);check()}}
+			//defaultValue={id}
+			value={id}
+			autoFocus={true}
+			keyboardType="number-pad"
+			maxLength={5}
+			onBlur={()=>check()}
+			onEndEditing={()=>check()}
+			textAlign='center'
+			onFocus={()=>onFocus()}
+		/>
+		<Button title='check' onPress={check} />
+		<ScrollView
+          contentInsetAdjustmentBehavior="automatic"
+          style={styles.scrollView}>
+			<ScrollView
+			horizontal={true}
+			  contentInsetAdjustmentBehavior="automatic"
+			  style={styles.scrollView}>
+				<Text style={{backgroundColor: "beige"}}>{text}</Text>
+			</ScrollView>
+        </ScrollView>
+		</>
+	)
+}
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <Header />
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )}
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
-          </View>
-        </ScrollView>
+      <SafeAreaView style={{flex:1,}}>
+		  <SearchXML />
       </SafeAreaView>
     </>
   );
@@ -74,40 +97,11 @@ const App: () => React$Node = () => {
 
 const styles = StyleSheet.create({
   scrollView: {
-    backgroundColor: Colors.lighter,
-  },
-  engine: {
-    position: 'absolute',
-    right: 0,
+    backgroundColor: "lightgray",
+	flex:1,
   },
   body: {
-    backgroundColor: Colors.white,
-  },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.black,
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-    color: Colors.dark,
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
+    backgroundColor: "white",
   },
 });
 

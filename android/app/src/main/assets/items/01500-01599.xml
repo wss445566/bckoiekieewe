@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="1500" type="EtcItem" name="黑斯吐伊圖騰">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="price" val="11000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1501" type="EtcItem" name="瑪剌庫狼血族圖騰">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="price" val="1200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1502" type="EtcItem" name="祖母的珍珠">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1503" type="EtcItem" name="祖母的鏡子">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1504" type="EtcItem" name="祖母的項鍊">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="price" val="600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1505" type="EtcItem" name="祖母的髮夾">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1506" type="Armor" name="勇氣項鍊">
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<set name="price" val="51" />
+		<for>
+			<add order="0" stat="mDef" val="15" />
+		</for>
+	</item>
+	<item id="1507" type="Armor" name="勇猛項鍊">
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<set name="price" val="3600" />
+		<for>
+			<add order="0" stat="mDef" val="21" />
+		</for>
+	</item>
+	<item id="1508" type="Armor" name="浣熊戒指">
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<set name="price" val="1800" />
+		<for>
+			<add order="0" stat="mDef" val="11" />
+		</for>
+	</item>
+	<item id="1509" type="Armor" name="螢火蟲戒指">
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<set name="price" val="1800" />
+		<for>
+			<add order="0" stat="mDef" val="11" />
+		</for>
+	</item>
+	<item id="1510" type="Weapon" name="屠夫之劍">
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="1450" />
+		<set name="price" val="19500" />
+		<for>
+			<set stat="pAtk" val="13" />
+			<set stat="mAtk" val="10" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="1511" type="Weapon" name="銀匠錘">
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="1860" />
+		<set name="price" val="19500" />
+		<for>
+			<set stat="pAtk" val="13" />
+			<set stat="mAtk" val="10" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="1512" type="EtcItem" name="魔法書 - 混亂術">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="1150" />
+	</item>
+	<item id="1513" type="EtcItem" name="魔法書 - 迷魅術">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="800" />
+	</item>
+	<item id="1514" type="EtcItem" name="魔法書 - 返生術">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="800" />
+	</item>
+	<item id="1515" type="EtcItem" name="魔法書 - 水之氣息">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="800" />
+	</item>
+	<item id="1516" type="EtcItem" name="魔法書 - 死體能量吸收">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="1800" />
+	</item>
+	<item id="1517" type="EtcItem" name="魔法書 - 心靈轉換">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="1250" />
+	</item>
+	<item id="1518" type="EtcItem" name="護身符 - 完美感應">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="1800" />
+	</item>
+	<item id="1519" type="EtcItem" name="護身符 - 帕格立歐力量">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="1800" />
+	</item>
+	<item id="1520" type="EtcItem" name="護身符 - 帕格立歐祝福">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="2450" />
+	</item>
+	<item id="1521" type="EtcItem" name="護身符 - 烈焰精靈">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="800" />
+	</item>
+	<item id="1522" type="EtcItem" name="護身符 - 集體狂亂">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="500" />
+	</item>
+	<item id="1523" type="EtcItem" name="護身符 - 狂熱之魂">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="800" />
+	</item>
+	<item id="1524" type="EtcItem" name="護身符 - 狂熱之光">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="100" />
+	</item>
+	<item id="1525" type="EtcItem" name="護身符 - 嗜血慾望">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="100" />
+	</item>
+	<item id="1526" type="EtcItem" name="護身符 - 恐怖之態">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="500" />
+	</item>
+	<item id="1527" type="EtcItem" name="護身符 - 痛苦之刺">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="100" />
+	</item>
+	<item id="1528" type="EtcItem" name="護身符 - 強力恐懼封印">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="1800" />
+	</item>
+	<item id="1529" type="EtcItem" name="護身符 - 黑夜呢喃">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="100" />
+	</item>
+	<item id="1530" type="EtcItem" name="護身符 - 強力怠惰封印">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="2450" />
+	</item>
+	<item id="1531" type="EtcItem" name="護身符 - 戰慄之火">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="100" />
+	</item>
+	<item id="1532" type="EtcItem" name="護身符 - 永恆之火">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="1250" />
+	</item>
+	<item id="1533" type="EtcItem" name="護身符 - 動搖士氣">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="1250" />
+	</item>
+	<item id="1534" type="EtcItem" name="護身符 - 心靈喪失">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="800" />
+	</item>
+	<item id="1535" type="EtcItem" name="護身符 - 火焰震憾">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="800" />
+	</item>
+	<item id="1536" type="EtcItem" name="護身符 - 約束意志">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="1250" />
+	</item>
+	<item id="1537" type="EtcItem" name="護身符 - 痛苦之刃">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="800" />
+	</item>
+	<item id="1538" type="EtcItem" name="祝福的返回卷軸">
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="weight" val="120" />
+		<set name="price" val="150000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2036-1" />
+	</item>
+	<item id="1539" type="EtcItem" name="終極治癒藥水">
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="180" />
+		<set name="price" val="900" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2037-1" />
+		<set name="for_npc" val="true" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="false" />
+		</cond>
+	</item>
+	<item id="1540" type="EtcItem" name="瞬間體力治癒劑">
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="180" />
+		<set name="price" val="10000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2038-1" />
+		<set name="for_npc" val="true" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="false" />
+		</cond>
+	</item>
+	<item id="1541" type="EtcItem" name="蜂蜜坎達魯">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1542" type="EtcItem" name="灰熊皮斗篷">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1543" type="EtcItem" name="血腥斧">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1544" type="EtcItem" name="祖先的頭蓋骨">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1545" type="EtcItem" name="蜘蛛粉末">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1546" type="EtcItem" name="深海之珠">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1547" type="EtcItem" name="波特的物品明細">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1548" type="EtcItem" name="礦工長靴">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1549" type="EtcItem" name="礦工尖鎬">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1550" type="EtcItem" name="轟隆火藥">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1551" type="EtcItem" name="紅石啤酒">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1552" type="EtcItem" name="波特的臭襪子">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1553" type="EtcItem" name="哈拓斯的指示">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1554" type="EtcItem" name="哈拓斯的指示">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1555" type="EtcItem" name="哈拓斯的指示">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1556" type="EtcItem" name="寄給黑暗精靈的密函">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1557" type="EtcItem" name="寄給人類的密函">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1558" type="EtcItem" name="寄給精靈的密函">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1559" type="EtcItem" name="高普的合約書">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1560" type="EtcItem" name="黎普的合約書">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1561" type="EtcItem" name="精靈葡萄酒">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1562" type="EtcItem" name="白龍普的骰子">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1563" type="EtcItem" name="白龍普的合約書">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1564" type="EtcItem" name="海藍寶石">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1565" type="EtcItem" name="金綠寶石">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1566" type="EtcItem" name="寶石箱子">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1567" type="EtcItem" name="煤塊">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1568" type="EtcItem" name="白龍普的信">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1569" type="EtcItem" name="野莓派">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1570" type="EtcItem" name="蝙蝠之圖">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1571" type="EtcItem" name="星鑽">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1572" type="EtcItem" name="星石">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1573" type="EtcItem" name="星石">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1574" type="EtcItem" name="米麗恩的料理評價">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1575" type="EtcItem" name="米麗恩的料理評價">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1576" type="EtcItem" name="米麗恩的料理評價">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1577" type="EtcItem" name="米麗恩的料理評價">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1578" type="EtcItem" name="綠血">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1579" type="EtcItem" name="哥布林棲息地地圖">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1580" type="EtcItem" name="庫勒卡鼠人的尖牙">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1581" type="EtcItem" name="背叛者修的報告">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1582" type="EtcItem" name="背叛者瓦奴克的報告">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1583" type="EtcItem" name="背叛者丘巴的報告">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1584" type="EtcItem" name="背叛者黑塔普的報告">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1585" type="EtcItem" name="背叛者皮庫伯的報告">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1586" type="EtcItem" name="背叛者普普的報告">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1587" type="EtcItem" name="背叛者米斯庫的報告">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1588" type="EtcItem" name="背叛者楚楚的報告">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1589" type="EtcItem" name="背叛者恩巴魯的報告">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1590" type="EtcItem" name="背叛者賈卡的報告">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1591" type="EtcItem" name="背叛者之頸">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1592" type="EtcItem" name="突襲者標章">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1593" type="EtcItem" name="石榴果實">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1594" type="EtcItem" name="皮袋">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1595" type="EtcItem" name="皮袋">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1596" type="EtcItem" name="皮袋">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1597" type="EtcItem" name="裝滿的皮袋">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1598" type="EtcItem" name="裝滿的皮袋">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1599" type="EtcItem" name="裝滿的皮袋">
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+</list>

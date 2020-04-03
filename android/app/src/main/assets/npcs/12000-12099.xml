@@ -1,0 +1,3341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="12001" level="40" type="L2GrandBoss" name="巨蟻女王" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>BUG</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1362.20985" sp="140740" raidPoints="1680" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="96596" hpRegen="208" mp="300.8" mpRegen="2.1" />
+			<attack physical="105" magical="8" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1252" magical="229" evasion="-18" />
+			<attribute>
+				<defence fire="-83" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="230" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<corpseTime>300</corpseTime>
+		<skillList>
+			<skill id="4017" level="1" /> <!-- 巨蟻女王的揮舞 -->
+			<skill id="4018" level="1" /> <!-- 移動速度下降 -->
+			<skill id="4019" level="1" /> <!-- 移動速度下降 -->
+			<skill id="4021" level="1" /> <!-- 巨蟻女王 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="2000" clanHelpRange="2000" isAggressive="false">
+			<clanList>
+				<clan>QUEEN_ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="120000" max="150000" chance="100" /> <!-- 金幣 -->
+				<item id="70" min="1" max="1" chance="6" /> <!-- 雙刃大砍刀 -->
+				<item id="159" min="1" max="1" chance="5.5" /> <!-- 碎骨者 -->
+				<item id="188" min="1" max="1" chance="5.5" /> <!-- 魂靈魔杖 -->
+				<item id="189" min="1" max="1" chance="5.5" /> <!-- 生命手杖 -->
+				<item id="225" min="1" max="1" chance="5.5" /> <!-- 米索莉匕首 -->
+				<item id="262" min="1" max="1" chance="5" /> <!-- 波浪刀 -->
+				<item id="280" min="1" max="1" chance="5.5" /> <!-- 風暴弓 -->
+				<item id="297" min="1" max="1" chance="5.5" /> <!-- 闊矛 -->
+				<item id="353" min="1" max="2" chance="37.5" /> <!-- 半身盔甲 -->
+				<item id="380" min="1" max="2" chance="37.5" /> <!-- 金屬脛甲 -->
+				<item id="396" min="1" max="2" chance="42.5" /> <!-- 火蜥蜴皮甲 -->
+				<item id="438" min="1" max="2" chance="42.5" /> <!-- 賢者的破衣 -->
+				<item id="607" min="1" max="3" chance="20" /> <!-- 食人魔力量長手套 -->
+				<item id="630" min="1" max="3" chance="20" /> <!-- 方盾 -->
+				<item id="851" min="1" max="2" chance="35" /> <!-- 瑪瑙獸眼耳環 -->
+				<item id="882" min="1" max="2" chance="35" /> <!-- 米索莉戒指 -->
+				<item id="914" min="1" max="2" chance="30" /> <!-- 黑暗項鍊 -->
+				<item id="955" min="1" max="3" chance="20" /> <!-- 武器強化卷軸-D級 -->
+				<item id="1125" min="1" max="3" chance="20" /> <!-- 襲擊靴 -->
+				<item id="2412" min="1" max="3" chance="20" /> <!-- 金屬板頭盔 -->
+				<item id="2499" min="1" max="1" chance="6" /> <!-- 精靈長劍 -->
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="45" />
+			<height normal="53" />
+		</collision>
+	</npc>
+	<npc id="12002" level="38" type="L2Monster" name="巨蟻女王的幼蟲" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="591.9" hpRegen="3.5" mp="315.1" mpRegen="1.5" />
+			<attack physical="89.21" magical="59.01" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="118.72" magical="84.16" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="60" />
+			</speed>
+			<hitTime>350</hitTime>
+		</stats>
+		<status />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="4500" isAggressive="false">
+			<clanList>
+				<clan>QUEEN_ANT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="8" />
+		</collision>
+	</npc>
+	<npc id="12003" level="35" type="L2Monster" name="護衛螞蟻" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="4000" hpRegen="108" mp="402.6" mpRegen="1.8" />
+			<attack physical="637" magical="395" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="547" magical="200" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="130" />
+			</speed>
+			<hitTime>260</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4020" level="1" /> <!-- 巨蟻女王治癒1 -->
+			<skill id="4024" level="1" /> <!-- 巨蟻女王治癒 2 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="700" isAggressive="false">
+			<clanList>
+				<clan>QUEEN_ANT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="26" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="12004" level="37" type="L2Monster" name="螞蟻警衛" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="4343" hpRegen="115" mp="432.7" mpRegen="1.8" />
+			<attack physical="178" magical="27" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="211" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="230" />
+			</speed>
+			<hitTime>260</hitTime>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="700">
+			<clanList>
+				<clan>QUEEN_ANT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="26" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="12005" level="39" type="L2Monster" name="螞蟻侍衛" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="7051" hpRegen="122" mp="463.3" mpRegen="1.8" />
+			<attack physical="1190" magical="1074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="610" magical="223" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="230" />
+			</speed>
+			<hitTime>260</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="700" isAggressive="false">
+			<clanList>
+				<clan>QUEEN_ANT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="26" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="12006" level="22" type="L2Pet" name="戰鬥貓" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="HealMagic" id="4025" level="2" /> <!-- Master Recharge -->
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="387.02878" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
+			<attack physical="51.75278" magical="35.34044" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="92.65694" magical="67.80232" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4025" level="2" /> <!-- 主人回復術 -->
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="9" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="12007" level="27" type="L2Pet" name="戰鬥貓" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="HealMagic" id="4025" level="2" /> <!-- Master Recharge -->
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="515.17856" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74.99121" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="108.28767" magical="79.24022" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4025" level="3" /> <!-- 主人回復術 -->
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="9" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="12008" level="32" type="L2Pet" name="戰鬥貓" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="HealMagic" id="4025" level="3" /> <!-- Master Recharge -->
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="668.47132" hpRegen="4.5" mp="358.32" mpRegen="1.8" />
+			<attack physical="106.16525" magical="72.49711" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="125.57727" magical="91.89199" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4025" level="4" /> <!-- 主人回復術 -->
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="9" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="12009" level="83" type="L2Defender" name="盧音瓦爾德公爵" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="79" /> <!-- rhand: 大馬士革刀 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="38355.9060587002" hpRegen="8.5" mp="5332.2" mpRegen="3" />
+			<attack physical="3298.27085008098" magical="750.763809564873" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="353.86144" magical="258.94045" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="12010" level="81" type="L2Defender" name="克羅南伯格" title="親衛隊長">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="142" /> <!-- rhand: 柯貝克劍 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="34617.7253215841" hpRegen="8.5" mp="5126.4" mpRegen="3" />
+			<attack physical="3036.96805390282" magical="691.285164307598" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12011" level="79" type="L2Defender" name="親衛隊騎士" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="76" lhand="2497" /> <!-- rhand: 迷惑之劍 lhand: 全覆式盾 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3127.82459333517" hpRegen="8.5" mp="1641.0" mpRegen="3" />
+			<attack physical="929.930814318487" magical="635.022195830619" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="337.07008" magical="246.65326" shield="124" shieldRate="20" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12012" level="77" type="L2Defender" name="親衛隊巫師" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DDMagic" id="4026" level="1" /> <!-- Gludio Flame -->
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="325" /> <!-- rhand: 榮譽號角 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="22" int="41" dex="21" wit="20" con="27" men="20">
+			<vitals hp="2856.7687256316" hpRegen="8.5" mp="1574.0" mpRegen="3" />
+			<attack physical="856.44055895414" magical="584.837886935576" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="328.27073" magical="240.21427" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4026" level="1" /> <!-- 古魯丁火焰 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="12013" level="77" type="L2Defender" name="親衛隊巫師" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="MagicHeal" id="4027" level="1" /> <!-- Gludio Heal -->
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="193" /> <!-- rhand: 信仰手杖 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="22" int="41" dex="21" wit="20" con="27" men="20">
+			<vitals hp="2856.7687256316" hpRegen="8.5" mp="1574.0" mpRegen="3" />
+			<attack physical="856.44055895414" magical="584.837886935576" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="328.27073" magical="240.21427" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4027" level="1" /> <!-- 古魯丁治癒 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="12014" level="77" type="L2Defender" name="親衛隊" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="94" /> <!-- rhand: 貝卡合金 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2856.7687256316" hpRegen="8.5" mp="1574.0" mpRegen="3" />
+			<attack physical="856.44055895414" magical="584.837886935576" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="328.27073" magical="240.21427" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12015" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="12016" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="2499" /> <!-- rhand: 精靈長劍 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="12017" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="276" /> <!-- rhand: 精靈弓 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="12018" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12019" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12020" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12021" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12022" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12023" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12024" level="1" type="L2Npc" name="" title="總部">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39.74519" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<attack physical="8.47458" magical="5.78704" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44444" magical="32.52252" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" undying="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="1000" />
+		<collision>
+			<radius normal="10" />
+			<height normal="80" />
+		</collision>
+	</npc>
+	<npc id="12025" level="79" type="L2Defender" name="親衛隊騎士" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="76" lhand="2497" /> <!-- rhand: 迷惑之劍 lhand: 全覆式盾 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3127.82459333517" hpRegen="8.5" mp="1641.0" mpRegen="3" />
+			<attack physical="929.930814318487" magical="635.022195830619" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="337.07008" magical="246.65326" shield="124" shieldRate="20" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12026" level="77" type="L2Defender" name="親衛隊巫師" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DDMagic" id="4026" level="1" /> <!-- Gludio Flame -->
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="325" /> <!-- rhand: 榮譽號角 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="22" int="41" dex="21" wit="20" con="27" men="20">
+			<vitals hp="2856.7687256316" hpRegen="8.5" mp="1574.0" mpRegen="3" />
+			<attack physical="856.44055895414" magical="584.837886935576" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="328.27073" magical="240.21427" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4026" level="1" /> <!-- 古魯丁火焰 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="12027" level="77" type="L2Defender" name="親衛隊巫師" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="MagicHeal" id="4027" level="1" /> <!-- Gludio Heal -->
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="193" /> <!-- rhand: 信仰手杖 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="22" int="41" dex="21" wit="20" con="27" men="20">
+			<vitals hp="2856.7687256316" hpRegen="8.5" mp="1574.0" mpRegen="3" />
+			<attack physical="856.44055895414" magical="584.837886935576" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="328.27073" magical="240.21427" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4027" level="1" /> <!-- 古魯丁治癒 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="12028" level="77" type="L2Defender" name="親衛隊" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="94" /> <!-- rhand: 貝卡合金 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2856.7687256316" hpRegen="8.5" mp="1574.0" mpRegen="3" />
+			<attack physical="856.44055895414" magical="584.837886935576" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="328.27073" magical="240.21427" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12029" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="93" /> <!-- rhand: 翼之矛 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="12030" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="2499" /> <!-- rhand: 精靈長劍 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="12031" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="276" /> <!-- rhand: 精靈弓 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="12032" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12033" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12034" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12035" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12036" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12037" level="75" type="L2Defender" name="警衛" title="古魯丁">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GLUDIO_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12038" level="73" type="L2Monster" name="血腥君主「奴爾卡」" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="72" /> <!-- rhand: 暴風之劍 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1150000" hpRegen="8.5" mp="1442.4" mpRegen="3" />
+			<attack physical="752.73928" magical="514.02335" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="310.02959" magical="226.8662" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="110" />
+			</speed>
+			<hitTime>480</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4042" level="1" /> <!-- 奴爾卡之火 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" grown="24" />
+			<height normal="37" grown="44.5" />
+		</collision>
+	</npc>
+	<npc id="12039" level="70" type="L2Monster" name="帕提森治療師" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="7" /> <!-- rhand: 見習生之杖 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="12040" level="70" type="L2Monster" name="帕提森親衛隊" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="69" /> <!-- rhand: 重劍 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>630</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" grown="16" />
+			<height normal="27" grown="32" />
+		</collision>
+	</npc>
+	<npc id="12041" level="70" type="L2Monster" name="帕提森親衛隊" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>930</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" dodge="15" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12042" level="68" type="L2Monster" name="帕提森士兵" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2345.76698" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<attack physical="646.17968" magical="441.25696" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="286.3615" magical="209.54692" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12043" level="68" type="L2Monster" name="帕提森巫師" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="7" /> <!-- rhand: 見習生之杖 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="22" int="41" dex="21" wit="20" con="27" men="20">
+			<vitals hp="2345.76698" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<attack physical="646.17968" magical="441.25696" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="286.3615" magical="209.54692" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="12044" level="68" type="L2Monster" name="帕提森弓箭手" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2345.76698" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<attack physical="646.17968" magical="441.25696" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="286.3615" magical="209.54692" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>930</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" dodge="15" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12045" level="73" type="L2Monster" name="血腥君主「奴爾卡」" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="72" /> <!-- rhand: 暴風之劍 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1150000" hpRegen="8.5" mp="1442.4" mpRegen="3" />
+			<attack physical="752.73928" magical="514.02335" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="310.02959" magical="226.8662" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="110" />
+			</speed>
+			<hitTime>480</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4042" level="1" /> <!-- 奴爾卡之火 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" grown="24" />
+			<height normal="37" grown="44.5" />
+		</collision>
+	</npc>
+	<npc id="12046" level="70" type="L2Monster" name="帕提森治療師" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="7" /> <!-- rhand: 見習生之杖 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="22" int="41" dex="21" wit="20" con="27" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="12047" level="70" type="L2Monster" name="帕提森親衛隊" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="69" /> <!-- rhand: 重劍 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>630</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" grown="16" />
+			<height normal="27" grown="32" />
+		</collision>
+	</npc>
+	<npc id="12048" level="70" type="L2Monster" name="帕提森親衛隊" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>930</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" dodge="15" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12049" level="68" type="L2Monster" name="帕提森士兵" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2345.76698" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<attack physical="646.17968" magical="441.25696" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="286.3615" magical="209.54692" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12050" level="68" type="L2Monster" name="帕提森巫師" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="7" /> <!-- rhand: 見習生之杖 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2345.76698" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<attack physical="646.17968" magical="441.25696" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="286.3615" magical="209.54692" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4043" level="1" /> <!-- 帕提森火焰 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="12051" level="68" type="L2Monster" name="帕提森弓箭手" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="0.5" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2345.76698" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<attack physical="646.17968" magical="441.25696" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="286.3615" magical="209.54692" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>930</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" dodge="15" isAggressive="false">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12052" level="50" type="L2GrandBoss" name="核心" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire expRate="816.56286" sp="153786" raidPoints="1508" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="261551.926" hpRegen="441.65" mp="1708.8" mpRegen="20" />
+			<attack physical="722.31" magical="1398.68" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1602" magical="293" evasion="-18" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<corpseTime>10</corpseTime>
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="2000" clanHelpRange="4500" isAggressive="false">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="100000" max="150000" chance="100" /> <!-- 金幣 -->
+				<item id="60" min="1" max="1" chance="12" /> <!-- 合金盔甲 -->
+				<item id="75" min="1" max="1" chance="4.8" /> <!-- 卡里埔士劍 -->
+				<item id="84" min="1" max="1" chance="4" /> <!-- 何門奎思之劍 -->
+				<item id="107" min="1" max="1" chance="14" /> <!-- 合金盾 -->
+				<item id="162" min="1" max="1" chance="4.8" /> <!-- 巨戰斧 -->
+				<item id="174" min="1" max="1" chance="4" /> <!-- 夢想斧 -->
+				<item id="200" min="1" max="1" chance="4" /> <!-- 賢者魔杖 -->
+				<item id="233" min="1" max="1" chance="4.8" /> <!-- 黑暗狂嘯者 -->
+				<item id="265" min="1" max="1" chance="4" /> <!-- 拳刃 -->
+				<item id="283" min="1" max="1" chance="4.8" /> <!-- 阿卡特長弓 -->
+				<item id="301" min="1" max="1" chance="4.8" /> <!-- 蠍子 -->
+				<item id="400" min="1" max="1" chance="12" /> <!-- 覆殼皮甲 -->
+				<item id="420" min="1" max="1" chance="12" /> <!-- 覆殼脛甲 -->
+				<item id="441" min="1" max="1" chance="12" /> <!-- 惡魔外衣 -->
+				<item id="472" min="1" max="1" chance="12" /> <!-- 惡魔長襪 -->
+				<item id="517" min="1" max="1" chance="14" /> <!-- 合金頭盔 -->
+				<item id="951" min="1" max="1" chance="14" /> <!-- 武器強化卷軸-C級 -->
+				<item id="2435" min="1" max="1" chance="14" /> <!-- 惡魔長靴 -->
+				<item id="2459" min="1" max="1" chance="14" /> <!-- 惡魔手套 -->
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="140" />
+			<height normal="75" />
+		</collision>
+	</npc>
+	<npc id="12053" level="70" type="L2Teleporter" name="傳送晶體" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4021" level="1" /> <!-- 巨蟻女王 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="40" />
+			<height normal="80" />
+		</collision>
+	</npc>
+	<npc id="12054" level="50" type="L2Monster" name="死亡騎士" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="75" /> <!-- rhand: 卡里埔士劍 -->
+		<acquire sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13817" hpRegen="166" mp="747.8" mpRegen="2.1" />
+			<attack physical="410" magical="69" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="801" magical="293" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="27" />
+				<run ground="110" />
+			</speed>
+			<hitTime>710</hitTime>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="2100" clanHelpRange="2300">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" grown="14.5" />
+			<height normal="31" grown="36" />
+		</collision>
+	</npc>
+	<npc id="12055" level="55" type="L2Monster" name="死亡之刃" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DDMagic" id="4001" level="5" /> <!-- NPC Windstrike -->
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="1472" /> <!-- rhand: 死亡騎士吹箭 -->
+		<acquire sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="16012" hpRegen="185" mp="889.8" mpRegen="2.4" />
+			<attack physical="470" magical="715" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="895" magical="327" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="100" />
+				<run ground="230" />
+			</speed>
+			<hitTime>450</hitTime>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4001" level="5" /> <!-- NPC Windstrike -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1900" clanHelpRange="700">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" grown="25" />
+			<height normal="45" grown="52" />
+		</collision>
+	</npc>
+	<npc id="12056" level="47" type="L2Monster" name="迪克爾" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DeBuff" id="4035" level="4" /> <!-- Poison -->
+		</parameters>
+		<race>PLANT</race>
+		<sex>FEMALE</sex>
+		<acquire sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="12544" hpRegen="154" mp="665.0" mpRegen="2.1" />
+			<attack physical="354" magical="60" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="747" magical="273" />
+			<attribute>
+				<defence fire="-13" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>130</hitTime>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4035" level="4" /> <!-- 毒 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1300" clanHelpRange="800">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="25.5" />
+		</collision>
+	</npc>
+	<npc id="12057" level="46" type="L2Monster" name="瓦里達斯" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="12130" hpRegen="150" mp="637.8" mpRegen="2.1" />
+			<attack physical="337" magical="58" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="729" magical="267" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="110" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1500" clanHelpRange="1200">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="29" />
+		</collision>
+	</npc>
+	<npc id="12058" level="49" type="L2Monster" name="基座" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DDMagic" id="4001" level="4" /> <!-- NPC Windstrike -->
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13389" hpRegen="162" mp="720.0" mpRegen="2.1" />
+			<attack physical="391" magical="66" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="783" magical="286" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="27" />
+				<run ground="150" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4001" level="4" /> <!-- NPC Windstrike -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1700" clanHelpRange="1500">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" grown="25" />
+			<height normal="35" grown="41.5" />
+		</collision>
+	</npc>
+	<npc id="12059" level="48" type="L2Monster" name="匹黎姆" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DDMagic" id="4001" level="4" /> <!-- NPC Windstrike -->
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="12964" hpRegen="158" mp="692.4" mpRegen="2.1" />
+			<attack physical="372" magical="63" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="765" magical="280" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="20" />
+				<run ground="20" />
+			</speed>
+			<hitTime>410</hitTime>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4001" level="4" /> <!-- NPC Windstrike -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1500" clanHelpRange="800">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="18" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="12060" level="45" type="L2Monster" name="普勒摩" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="11721" hpRegen="146" mp="610.8" mpRegen="2.1" />
+			<attack physical="320" magical="55" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="711" magical="260" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="110" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1300" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="21" grown="25" />
+			<height normal="35" grown="43" />
+		</collision>
+	</npc>
+	<npc id="12061" level="22" type="L2Pet" name="魔法貓" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="387.02878" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
+			<attack physical="51.75278" magical="35.34044" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="92.65694" magical="67.80232" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="48" />
+				<run ground="140" />
+			</speed>
+			<hitTime>340</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="12062" level="27" type="L2Pet" name="魔法貓" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="515.17856" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74.99121" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="108.28767" magical="79.24022" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="48" />
+				<run ground="140" />
+			</speed>
+			<hitTime>340</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="12063" level="32" type="L2Pet" name="魔法貓" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="668.47132" hpRegen="4.5" mp="358.32" mpRegen="1.8" />
+			<attack physical="106.16525" magical="72.49711" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="125.57727" magical="91.89199" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="48" />
+				<run ground="140" />
+			</speed>
+			<hitTime>340</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="12064" level="22" type="L2Pet" name="戰鬥獨角獸" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="HealMagic" id="4025" level="2" /> <!-- Master Recharge -->
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="387.02878" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
+			<attack physical="51.75278" magical="35.34044" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="92.65694" magical="67.80232" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="27" />
+				<run ground="140" />
+			</speed>
+			<hitTime>710</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4025" level="2" /> <!-- 主人回復術 -->
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="11" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="12065" level="27" type="L2Pet" name="戰鬥獨角獸" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="HealMagic" id="4025" level="2" /> <!-- Master Recharge -->
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="515.17856" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74.99121" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="108.28767" magical="79.24022" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="27" />
+				<run ground="140" />
+			</speed>
+			<hitTime>710</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4025" level="3" /> <!-- 主人回復術 -->
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="11" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="12066" level="32" type="L2Pet" name="戰鬥獨角獸" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="HealMagic" id="4025" level="3" /> <!-- Master Recharge -->
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="668.47132" hpRegen="4.5" mp="358.32" mpRegen="1.8" />
+			<attack physical="106.16525" magical="72.49711" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="125.57727" magical="91.89199" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="27" />
+				<run ground="140" />
+			</speed>
+			<hitTime>710</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4025" level="4" /> <!-- 主人回復術 -->
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="11" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="12067" level="22" type="L2Pet" name="夢幻獨角獸" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="387.02878" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
+			<attack physical="51.75278" magical="35.34044" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="92.65694" magical="67.80232" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="27" />
+				<run ground="140" />
+			</speed>
+			<hitTime>690</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="13" />
+			<height normal="17" />
+		</collision>
+	</npc>
+	<npc id="12068" level="27" type="L2Pet" name="夢幻獨角獸" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="515.17856" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74.99121" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="108.28767" magical="79.24022" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="27" />
+				<run ground="140" />
+			</speed>
+			<hitTime>690</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="13" />
+			<height normal="17" />
+		</collision>
+	</npc>
+	<npc id="12069" level="32" type="L2Pet" name="夢幻獨角獸" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="668.47132" hpRegen="4.5" mp="358.32" mpRegen="1.8" />
+			<attack physical="106.16525" magical="72.49711" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="125.57727" magical="91.89199" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="27" />
+				<run ground="140" />
+			</speed>
+			<hitTime>690</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="13" />
+			<height normal="17" />
+		</collision>
+	</npc>
+	<npc id="12070" level="22" type="L2Pet" name="闇魔" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="387.02878" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
+			<attack physical="51.75278" magical="35.34044" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="92.65694" magical="67.80232" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="140" />
+			</speed>
+			<hitTime>540</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="10" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="12071" level="27" type="L2Pet" name="闇魔" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="515.17856" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74.99121" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="108.28767" magical="79.24022" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="140" />
+			</speed>
+			<hitTime>540</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="10" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="12072" level="32" type="L2Pet" name="闇魔" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="668.47132" hpRegen="4.5" mp="358.32" mpRegen="1.8" />
+			<attack physical="106.16525" magical="72.49711" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="125.57727" magical="91.89199" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="140" />
+			</speed>
+			<hitTime>540</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="10" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="12073" level="22" type="L2Pet" name="影魔" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="387.02878" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
+			<attack physical="51.75278" magical="35.34044" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="92.65694" magical="67.80232" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="140" />
+			</speed>
+			<hitTime>540</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="12074" level="27" type="L2Pet" name="影魔" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="515.17856" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74.99121" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="108.28767" magical="79.24022" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="140" />
+			</speed>
+			<hitTime>540</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="12075" level="32" type="L2Pet" name="影魔" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="668.47132" hpRegen="4.5" mp="358.32" mpRegen="1.8" />
+			<attack physical="106.16525" magical="72.49711" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="125.57727" magical="91.89199" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="140" />
+			</speed>
+			<hitTime>540</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="12077" level="15" type="L2Pet" name="狼" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="246.95422" hpRegen="2.5" mp="149.2" mpRegen="1.2" />
+			<attack physical="29.61691" magical="20.22451" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="73.55216" magical="53.82228" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="24" />
+				<run ground="125" />
+			</speed>
+			<hitTime>390</hitTime>
+		</stats>
+		<status undying="false" />
+		<corpseTime>86400</corpseTime>
+		<skillList>
+			<skill id="4121" level="1" /> <!-- 召喚術 魔法防禦 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<collision>
+			<radius normal="13" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	<npc id="12078" level="70" type="L2Teleporter" name="傳送晶體" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" />
+		<collision>
+			<radius normal="40" />
+			<height normal="80" />
+		</collision>
+	</npc>
+	<npc id="12079" level="60" type="L2Monster" name="血之女王" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DDMagic1" id="4039" level="6" /> <!-- NPC MP Drain -->
+			<skill name="DDMagic2" id="4002" level="6" /> <!-- NPC HP Drain -->
+			<skill name="DeBuff" id="4035" level="6" /> <!-- Poison -->
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.26" sp="394" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1933.24044" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
+			<attack physical="481.34551" magical="328.69659" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="247.65008" magical="150.021245531891" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="184" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="160" />
+			</speed>
+			<hitTime>500</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4002" level="6" /> <!-- NPC HP Drain -->
+			<skill id="4035" level="6" /> <!-- 毒 -->
+			<skill id="4039" level="6" /> <!-- NPC MP Drain -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="400">
+			<clanList>
+				<clan>CAVE_SERVANT</clan>
+				<ignoreNpcId>134</ignoreNpcId>
+				<ignoreNpcId>236</ignoreNpcId>
+				<ignoreNpcId>237</ignoreNpcId>
+				<ignoreNpcId>238</ignoreNpcId>
+				<ignoreNpcId>239</ignoreNpcId>
+				<ignoreNpcId>240</ignoreNpcId>
+				<ignoreNpcId>246</ignoreNpcId>
+				<ignoreNpcId>272</ignoreNpcId>
+				<ignoreNpcId>273</ignoreNpcId>
+				<ignoreNpcId>274</ignoreNpcId>
+				<ignoreNpcId>275</ignoreNpcId>
+				<ignoreNpcId>276</ignoreNpcId>
+				<ignoreNpcId>277</ignoreNpcId>
+				<ignoreNpcId>287</ignoreNpcId>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="765" max="1528" chance="70" /> <!-- 金幣 -->
+				<item id="1419" min="1" max="1" chance="20" /> <!-- 血之證 -->
+				<item id="1864" min="1" max="1" chance="17.8349" /> <!-- 樹枝 -->
+				<item id="1866" min="1" max="1" chance="5.945" /> <!-- 軟皮 -->
+				<item id="1878" min="1" max="1" chance="3.567" /> <!-- 絞線 -->
+				<item id="1885" min="1" max="1" chance="0.7432" /> <!-- 高級軟皮 -->
+				<item id="1889" min="1" max="1" chance="0.5945" /> <!-- 合成的絞線 -->
+				<item id="2397" min="1" max="1" chance="0.0012" /> <!-- 夏隆外衣 -->
+				<item id="2402" min="1" max="1" chance="0.0019" /> <!-- 夏隆長襪 -->
+				<item id="2406" min="1" max="1" chance="0.0008" /> <!-- 阿巴敦長袍 -->
+				<item id="4069" min="1" max="1" chance="0.2102" /> <!-- 夏隆外衣的布料 -->
+				<item id="4070" min="1" max="1" chance="0.3192" /> <!-- 夏隆長襪的布料 -->
+				<item id="4071" min="1" max="1" chance="0.1615" /> <!-- 阿巴敦長袍的布料 -->
+				<item id="4197" min="1" max="1" chance="0.0068" /> <!-- 製作卷軸(惡魔短劍) -->
+			</death>
+			<corpse>
+				<item id="1806" min="1" max="1" chance="1.0868" /> <!-- 製作卷軸(靈魂彈-B級) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="12080" level="60" type="L2Monster" name="血之女王" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DDMagic1" id="4039" level="6" /> <!-- NPC MP Drain -->
+			<skill name="DDMagic2" id="4002" level="6" /> <!-- NPC HP Drain -->
+			<skill name="DeBuff" id="4035" level="6" /> <!-- Poison -->
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.2" sp="375" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1933.2" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
+			<attack physical="529.48" magical="328.7" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="247.65" magical="150.021593197344" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="184" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="160" />
+			</speed>
+			<hitTime>500</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4002" level="6" /> <!-- NPC HP Drain -->
+			<skill id="4035" level="6" /> <!-- 毒 -->
+			<skill id="4039" level="6" /> <!-- NPC MP Drain -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>CAVE_SERVANT</clan>
+				<ignoreNpcId>134</ignoreNpcId>
+				<ignoreNpcId>236</ignoreNpcId>
+				<ignoreNpcId>237</ignoreNpcId>
+				<ignoreNpcId>238</ignoreNpcId>
+				<ignoreNpcId>239</ignoreNpcId>
+				<ignoreNpcId>240</ignoreNpcId>
+				<ignoreNpcId>246</ignoreNpcId>
+				<ignoreNpcId>272</ignoreNpcId>
+				<ignoreNpcId>273</ignoreNpcId>
+				<ignoreNpcId>274</ignoreNpcId>
+				<ignoreNpcId>275</ignoreNpcId>
+				<ignoreNpcId>276</ignoreNpcId>
+				<ignoreNpcId>277</ignoreNpcId>
+				<ignoreNpcId>287</ignoreNpcId>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="12082" level="1" type="L2Monster" name="尼比特狐狗" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="29.39" sp="2" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39.7" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<attack physical="4" magical="5.79" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44" magical="26.9214336743691" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="23" />
+				<run ground="110" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<dropLists>
+			<corpse>
+				<item id="1871" min="1" max="1" chance="0.9797" /> <!-- 木炭 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="9.5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="12083" level="50" type="L2Monster" name="芮克妮" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.2" sp="226" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1421.00103" hpRegen="5.5" mp="747.8" mpRegen="2.1" />
+			<attack physical="305.54906" magical="208.6504" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="200.23844" magical="146.5258" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="64" />
+				<run ground="120" />
+			</speed>
+			<hitTime>500</hitTime>
+		</stats>
+		<status attackable="false" undying="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL_ELEMENTAL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="26" />
+		</collision>
+	</npc>
+	<npc id="12084" level="80" type="L2FriendlyMob" name="血腥小精靈" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.2" sp="226" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>720</hitTime>
+		</stats>
+		<status attackable="false" undying="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ALL_ELEMENTAL2</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12085" level="80" type="L2Monster" name="黑暗之潘" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<equipment rhand="291" /> <!-- rhand: 三叉戟 -->
+		<acquire expRate="1.2" sp="226" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>580</hitTime>
+		</stats>
+		<status attackable="false" undying="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL_ELEMENTAL2</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<npc id="12086" level="80" type="L2Monster" name="潘" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<equipment rhand="291" /> <!-- rhand: 三叉戟 -->
+		<acquire expRate="1.2" sp="226" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>580</hitTime>
+		</stats>
+		<status attackable="false" undying="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL_ELEMENTAL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<npc id="12087" level="80" type="L2FriendlyMob" name="小精靈" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.2" sp="226" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>720</hitTime>
+		</stats>
+		<status attackable="false" undying="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL_ELEMENTAL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12088" level="80" type="L2Monster" name="紅色芮克妮" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.2" sp="226" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="64" />
+				<run ground="120" />
+			</speed>
+			<hitTime>500</hitTime>
+		</stats>
+		<status attackable="false" undying="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL_ELEMENTAL2</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="26" />
+		</collision>
+	</npc>
+	<npc id="12089" level="80" type="L2FriendlyMob" name="安特提米里藍" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.2" sp="226" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="12" />
+				<run ground="12" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status attackable="false" undying="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL_ELEMENTAL2</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+	</npc>
+	<npc id="12090" level="80" type="L2FriendlyMob" name="安特提米提藍" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.2" sp="226" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="12" />
+				<run ground="12" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status attackable="false" undying="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL_ELEMENTAL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+	</npc>
+	<npc id="12091" level="50" type="L2Npc" name="小精靈莫妮卡" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.2" sp="226" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1421.00103" hpRegen="5.5" mp="747.8" mpRegen="2.1" />
+			<attack physical="305.54906" magical="208.6504" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="200.23844" magical="146.5258" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>720</hitTime>
+		</stats>
+		<status attackable="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ALL_ELEMENTAL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12092" level="80" type="L2FriendlyMob" name="安特布麥特藍" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.2" sp="226" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="12" />
+				<run ground="12" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status attackable="false" undying="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL_ELEMENTAL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+	</npc>
+	<npc id="12093" level="83" type="L2Defender" name="亞席頓公爵" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="79" /> <!-- rhand: 大馬士革刀 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="38355.9060587002" hpRegen="8.5" mp="5332.2" mpRegen="3" />
+			<attack physical="3298.27085008098" magical="750.763809564873" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="353.86144" magical="258.94045" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DION_SIEGE</clan>
+				<clan>DOOR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="12094" level="81" type="L2Defender" name="伊瑪諾閣下" title="親衛隊長">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="142" /> <!-- rhand: 柯貝克劍 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="34617.7253215841" hpRegen="8.5" mp="5126.4" mpRegen="3" />
+			<attack physical="3036.96805390282" magical="691.285164307598" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DION_SIEGE</clan>
+				<clan>DOOR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12095" level="79" type="L2Defender" name="親衛隊騎士" title="狄恩">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="76" lhand="2497" /> <!-- rhand: 迷惑之劍 lhand: 全覆式盾 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3127.82459333517" hpRegen="8.5" mp="1641.0" mpRegen="3" />
+			<attack physical="929.930814318487" magical="635.022195830619" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="337.07008" magical="246.65326" shield="124" shieldRate="20" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DION_SIEGE</clan>
+				<clan>DOOR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12096" level="77" type="L2Defender" name="親衛隊魔法師" title="狄恩">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DDMagic" id="4026" level="1" /> <!-- Gludio Flame -->
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="325" /> <!-- rhand: 榮譽號角 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="22" int="41" dex="21" wit="20" con="27" men="20">
+			<vitals hp="2856.7687256316" hpRegen="8.5" mp="1574.0" mpRegen="3" />
+			<attack physical="856.44055895414" magical="584.837886935576" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="328.27073" magical="240.21427" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4026" level="1" /> <!-- 古魯丁火焰 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DION_SIEGE</clan>
+				<clan>DOOR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="12097" level="77" type="L2Defender" name="親衛隊牧師" title="狄恩">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="MagicHeal" id="4027" level="1" /> <!-- Gludio Heal -->
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="193" /> <!-- rhand: 信仰手杖 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="22" int="41" dex="21" wit="20" con="27" men="20">
+			<vitals hp="2856.7687256316" hpRegen="8.5" mp="1574.0" mpRegen="3" />
+			<attack physical="856.44055895414" magical="584.837886935576" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="328.27073" magical="240.21427" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4027" level="1" /> <!-- 古魯丁治癒 -->
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DION_SIEGE</clan>
+				<clan>DOOR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="12098" level="77" type="L2Defender" name="親衛隊" title="狄恩">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="94" /> <!-- rhand: 貝卡合金 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2856.7687256316" hpRegen="8.5" mp="1574.0" mpRegen="3" />
+			<attack physical="856.44055895414" magical="584.837886935576" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="328.27073" magical="240.21427" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DION_SIEGE</clan>
+				<clan>DOOR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="12099" level="75" type="L2Defender" name="警衛" title="狄恩">
+		<!-- Confirmed CT2.5 -->
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="0.1" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!-- 頭目弱化攻擊抵抗 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="1200" isAggressive="false">
+			<clanList>
+				<clan>DION_SIEGE</clan>
+				<clan>DOOR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+</list>

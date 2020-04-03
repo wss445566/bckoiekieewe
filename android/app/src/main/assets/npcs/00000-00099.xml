@@ -1,0 +1,4739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="1" level="1" type="L2Monster" name="葛林" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<acquire expRate="29.39" sp="2" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39.74519" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<attack physical="8.47458" magical="5.78704" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44444" magical="29.5916164000214" />
+			<attribute>
+				<defence fire="20" water="20" wind="53" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="20" />
+				<run ground="50" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="2" level="1" type="L2Monster" name="兔子" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="29.39" sp="2" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39.74519" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<attack physical="8.47458" magical="5.78704" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44444" magical="29.5916164000214" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="80" />
+			</speed>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="4.5" />
+		</collision>
+	</npc>
+	<npc id="3" level="5" type="L2Monster" name="哥布林" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="4" /> <!-- rhand: 木棒 -->
+		<acquire expRate="7.12656" sp="5" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="80.17319" hpRegen="2" mp="69.6" mpRegen="0.9" />
+			<attack physical="12.34006" magical="8.42666" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="51.60553" magical="34.3595464531323" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>320</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>GOBLIN</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="30" max="42" chance="70" /> <!-- 金幣 -->
+				<item id="112" min="1" max="1" chance="7.9637" /> <!-- 見習生耳環 -->
+				<item id="116" min="1" max="1" chance="11.8249" /> <!-- 魔法戒指 -->
+				<item id="118" min="1" max="1" chance="5.9125" /> <!-- 魔法項鍊 -->
+				<item id="1788" min="1" max="1" chance="0.7805" /> <!-- 製作卷軸(弓) -->
+				<item id="1864" min="1" max="1" chance="1.9512" /> <!-- 樹枝 -->
+				<item id="1865" min="1" max="1" chance="0.9756" /> <!-- 研磨劑 -->
+				<item id="1866" min="1" max="1" chance="0.6504" /> <!-- 軟皮 -->
+				<item id="1868" min="1" max="1" chance="1.9512" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="0.3903" /> <!-- 銀塊 -->
+			</death>
+			<corpse>
+				<item id="116" min="1" max="1" chance="34.3131" /> <!-- 魔法戒指 -->
+				<item id="1786" min="1" max="1" chance="4.5293" /> <!-- 製作卷軸(寬劍) -->
+				<item id="1871" min="1" max="1" chance="5.6617" /> <!-- 木炭 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="16.5" />
+		</collision>
+	</npc>
+	<npc id="4" level="6" type="L2Monster" name="安普" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<acquire expRate="5.9388" sp="6" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="93.54158" hpRegen="2" mp="77.2" mpRegen="0.9" />
+			<attack physical="13.52471" magical="9.23562" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="53.53373" magical="35.6433609604933" />
+			<attribute>
+				<defence fire="20" water="20" wind="31" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="80" />
+			</speed>
+			<hitTime>340</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DEMONIC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="41" max="58" chance="70" /> <!-- 金幣 -->
+				<item id="1119" min="1" max="1" chance="0.5045" /> <!-- 短皮手套 -->
+				<item id="1122" min="1" max="1" chance="0.5044" /> <!-- 棉質涼鞋 -->
+				<item id="1129" min="1" max="1" chance="0.5044" /> <!-- 粗糙皮鞋 -->
+				<item id="1666" min="1" max="1" chance="0.5104" /> <!-- 製作卷軸(木箭) -->
+				<item id="1866" min="1" max="1" chance="1.0206" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="1.5309" /> <!-- 木炭 -->
+			</death>
+			<corpse>
+				<item id="1866" min="1" max="1" chance="5.1827" /> <!-- 軟皮 -->
+				<item id="2005" min="1" max="1" chance="0.5553" /> <!-- 寬劍的劍身 -->
+				<item id="2006" min="1" max="1" chance="0.5553" /> <!-- 柳木魔杖的金屬塊 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="5" level="7" type="L2Monster" name="安普圖倫" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<acquire expRate="5.0904" sp="8" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="108.42254" hpRegen="2" mp="84.88" mpRegen="0.9" />
+			<attack physical="14.80956" magical="10.11301" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="55.51894" magical="36.965135694682" />
+			<attribute>
+				<defence fire="20" water="20" wind="31" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="80" />
+			</speed>
+			<hitTime>340</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DEMONIC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="17" min="10" max="30" chance="7.1865" /> <!-- 木箭 -->
+				<item id="19" min="1" max="1" chance="0.9012" /> <!-- 小盾牌 -->
+				<item id="42" min="1" max="1" chance="0.6311" /> <!-- 皮帽 -->
+				<item id="57" min="51" max="72" chance="70" /> <!-- 金幣 -->
+				<item id="1789" min="1" max="1" chance="0.2657" /> <!-- 製作卷軸(柏木魔杖) -->
+				<item id="1865" min="1" max="1" chance="1.4373" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="1.4373" /> <!-- 煤礦 -->
+			</death>
+			<corpse>
+				<item id="1060" min="1" max="1" chance="21.6259" /> <!-- 體力治癒藥水 -->
+				<item id="1666" min="1" max="1" chance="3.2439" /> <!-- 製作卷軸(木箭) -->
+				<item id="1866" min="1" max="1" chance="6.4878" /> <!-- 軟皮 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="6" level="8" type="L2Monster" name="獸人弓箭手" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="4.581481" sp="10" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="124.92828" hpRegen="2" mp="92.64" mpRegen="0.9" />
+			<attack physical="16.20165" magical="11.06363" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="57.56203" magical="38.3254529794081" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>800</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" dodge="15" isAggressive="false">
+			<clanList>
+				<clan>ORC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="14" min="1" max="1" chance="0.0607" /> <!-- 弓 -->
+				<item id="57" min="69" max="94" chance="70" /> <!-- 金幣 -->
+				<item id="1866" min="1" max="1" chance="1.6852" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="2.5278" /> <!-- 木炭 -->
+				<item id="2007" min="1" max="1" chance="0.2709" /> <!-- 弓的金屬塊 -->
+				<item id="2136" min="1" max="1" chance="0.7435" /> <!-- 製作卷軸(炭焦) -->
+			</death>
+			<corpse>
+				<item id="113" min="1" max="1" chance="3.1655" /> <!-- 法師耳環 -->
+				<item id="1060" min="1" max="1" chance="28.5245" /> <!-- 體力治癒藥水 -->
+				<item id="2006" min="1" max="1" chance="0.9169" /> <!-- 柳木魔杖的金屬塊 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="7" level="9" type="L2Monster" name="森林蘑菇" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.96324" sp="11" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="143.17564" hpRegen="2" mp="100.48" mpRegen="0.9" />
+			<attack physical="17.70841" magical="12.09255" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="59.66387" magical="39.7248769407655" />
+			<attribute>
+				<defence fire="-34" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="110" />
+			</speed>
+			<hitTime>410</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="22" min="1" max="1" chance="0.3619" /> <!-- 皮襯衫 -->
+				<item id="29" min="1" max="1" chance="0.5786" /> <!-- 皮質褲 -->
+				<item id="57" min="80" max="108" chance="70" /> <!-- 金幣 -->
+				<item id="1796" min="1" max="1" chance="3.6869" /> <!-- 製作卷軸(皮外套) -->
+				<item id="1864" min="1" max="1" chance="5.8621" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="2.9311" /> <!-- 鋼鐵礦 -->
+			</death>
+			<corpse>
+				<item id="1122" min="1" max="1" chance="4.9042" /> <!-- 棉質涼鞋 -->
+				<item id="1866" min="1" max="1" chance="9.9228" /> <!-- 軟皮 -->
+				<item id="1875" min="1" max="1" chance="0.9923" /> <!-- 純石 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="15" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="8" level="14" type="L2Monster" name="菲林蜥蜴人" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="1" /> <!-- rhand: 短劍 -->
+		<acquire expRate="2.5452" sp="19" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="230.38548" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
+			<attack physical="27.24646" magical="18.6058" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="71.08179" magical="47.3270583783809" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="43" />
+				<run ground="130" />
+			</speed>
+			<hitTime>480</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>LIZARDMAN</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="114" max="168" chance="70" /> <!-- 金幣 -->
+				<item id="255" min="1" max="1" chance="0.0244" /> <!-- 狐狸之爪 -->
+				<item id="1792" min="1" max="1" chance="0.3228" /> <!-- 製作卷軸(短矛) -->
+				<item id="1865" min="1" max="1" chance="4.3891" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="4.3891" /> <!-- 煤礦 -->
+				<item id="2371" min="1" max="1" chance="0.0517" /> <!-- 屠夫拳刃 -->
+			</death>
+			<corpse>
+				<item id="1793" min="1" max="1" chance="1.6388" /> <!-- 製作卷軸(反射劍) -->
+				<item id="1870" min="1" max="1" chance="22.2882" /> <!-- 煤礦 -->
+				<item id="1871" min="1" max="1" chance="22.2882" /> <!-- 木炭 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="9" level="14" type="L2Monster" name="普庫獸人" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="156" /> <!-- rhand: 手斧 -->
+		<acquire expRate="2.5452" sp="19" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="230.38548" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
+			<attack physical="27.24646" magical="18.6058" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="71.08179" magical="47.3270583783809" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>480</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ORC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="114" max="168" chance="70" /> <!-- 金幣 -->
+				<item id="255" min="1" max="1" chance="0.0244" /> <!-- 狐狸之爪 -->
+				<item id="736" min="1" max="1" chance="2.1946" /> <!-- 返回卷軸 -->
+				<item id="1866" min="1" max="1" chance="2.9261" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="4.3891" /> <!-- 木炭 -->
+				<item id="2371" min="1" max="1" chance="0.0517" /> <!-- 屠夫拳刃 -->
+			</death>
+			<corpse>
+				<item id="43" min="1" max="1" chance="1.12" /> <!-- 木頭盔 -->
+				<item id="1831" min="1" max="1" chance="59.4351" /> <!-- 解毒草 -->
+				<item id="1870" min="1" max="1" chance="22.2882" /> <!-- 煤礦 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="21" />
+		</collision>
+	</npc>
+	<npc id="10" level="15" type="L2Monster" name="菲林蜥蜴人巡守" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="2.37552" sp="22" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="246.95422" hpRegen="2.5" mp="149.2" mpRegen="1.2" />
+			<attack physical="29.61691" magical="20.22451" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="73.55216" magical="48.9718589929237" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="43" />
+				<run ground="130" />
+			</speed>
+			<hitTime>480</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>LIZARDMAN</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="116" max="177" chance="70" /> <!-- 金幣 -->
+				<item id="271" min="1" max="1" chance="0.0506" /> <!-- 獵人之弓 -->
+				<item id="1798" min="1" max="1" chance="4.4716" /> <!-- 製作卷軸(皮頭盔) -->
+				<item id="1866" min="1" max="1" chance="3.0407" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="4.561" /> <!-- 木炭 -->
+			</death>
+			<corpse>
+				<item id="1792" min="1" max="1" chance="1.703" /> <!-- 製作卷軸(短矛) -->
+				<item id="1833" min="1" max="1" chance="61.7635" /> <!-- 繃帶 -->
+				<item id="1896" min="1" max="1" chance="9.8141" /> <!-- 幻滅項鍊的鍊子 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="11" level="15" type="L2Monster" name="普庫獸人弓箭手" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="2.446786" sp="22" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="246.95422" hpRegen="2.5" mp="149.2" mpRegen="1.2" />
+			<attack physical="29.61691" magical="20.22451" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="73.55216" magical="48.9718589929237" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>800</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" dodge="15" isAggressive="false">
+			<clanList>
+				<clan>ORC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="120" max="182" chance="70" /> <!-- 金幣 -->
+				<item id="271" min="1" max="1" chance="0.0521" /> <!-- 獵人之弓 -->
+				<item id="1799" min="1" max="1" chance="6.9598" /> <!-- 製作卷軸(皮手套) -->
+				<item id="1867" min="1" max="1" chance="6.2638" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="6.2638" /> <!-- 動物的骨頭 -->
+			</death>
+			<corpse>
+				<item id="1792" min="1" max="1" chance="1.7541" /> <!-- 製作卷軸(短矛) -->
+				<item id="1867" min="1" max="1" chance="31.8082" /> <!-- 動物的皮 -->
+				<item id="1921" min="1" max="1" chance="15.3911" /> <!-- 皮鞋的材料 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="12" level="16" type="L2Monster" name="萊斯狼人" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.274682" sp="23" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="264.34345" hpRegen="2.5" mp="157.6" mpRegen="1.2" />
+			<attack physical="32.16396" magical="21.96382" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="76.08628" magical="50.6590964478128" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>WEREWOLF</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="120" max="187" chance="70" /> <!-- 金幣 -->
+				<item id="1101" min="1" max="1" chance="0.0706" /> <!-- 奉獻外衣 -->
+				<item id="1104" min="1" max="1" chance="0.1127" /> <!-- 奉獻長襪 -->
+				<item id="1800" min="1" max="1" chance="1.1255" /> <!-- 製作卷軸(骨片胸甲) -->
+				<item id="1865" min="1" max="1" chance="3.5789" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="3.5789" /> <!-- 煤礦 -->
+			</death>
+			<corpse>
+				<item id="734" min="1" max="1" chance="4.0386" /> <!-- 移動加速藥水 -->
+				<item id="1865" min="1" max="1" chance="24.2317" /> <!-- 研磨劑 -->
+				<item id="1897" min="1" max="1" chance="5.7694" /> <!-- 智慧項鍊的鍊子 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="26" />
+		</collision>
+	</npc>
+	<npc id="13" level="13" type="L2Monster" name="樹精" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="2.73912" sp="18" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="214.61578" hpRegen="2.5" mp="132.64" mpRegen="1.2" />
+			<attack physical="25.04271" magical="17.10092" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="68.67458" magical="45.7243124542497" />
+			<attribute>
+				<defence fire="-5" water="20" wind="53" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ELEMENTAL1</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="9" min="1" max="1" chance="0.0157" /> <!-- 柏木魔杖 -->
+				<item id="57" min="113" max="160" chance="70" /> <!-- 金幣 -->
+				<item id="154" min="1" max="1" chance="0.0157" /> <!-- 矮人釘錘 -->
+				<item id="1792" min="1" max="1" chance="0.3115" /> <!-- 製作卷軸(短矛) -->
+				<item id="1865" min="1" max="1" chance="4.2366" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="4.2366" /> <!-- 煤礦 -->
+				<item id="2008" min="1" max="1" chance="0.1649" /> <!-- 柏木魔杖的金屬塊 -->
+			</death>
+			<corpse>
+				<item id="1866" min="1" max="1" chance="14.3423" /> <!-- 軟皮 -->
+				<item id="1896" min="1" max="1" chance="9.1159" /> <!-- 幻滅項鍊的鍊子 -->
+				<item id="1922" min="1" max="1" chance="5.4881" /> <!-- 皮外衣的圖樣 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="9" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="14" level="17" type="L2Monster" name="菲林蜥蜴人戰士" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="2.09676" sp="25" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="282.57403" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
+			<attack physical="34.8979" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.68469" magical="52.3891528929827" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="52" />
+				<run ground="130" />
+			</speed>
+			<hitTime>590</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>LIZARDMAN</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="2" min="1" max="1" chance="0.0054" /> <!-- 長劍 -->
+				<item id="57" min="120" max="193" chance="70" /> <!-- 金幣 -->
+				<item id="120" min="1" max="1" chance="0.0054" /> <!-- 反射劍 -->
+				<item id="121" min="1" max="1" chance="0.0054" /> <!-- 水影劍 -->
+				<item id="1800" min="1" max="1" chance="1.5239" /> <!-- 製作卷軸(骨片胸甲) -->
+				<item id="1867" min="1" max="1" chance="6.4612" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="6.4612" /> <!-- 動物的骨頭 -->
+				<item id="2012" min="1" max="1" chance="0.0758" /> <!-- 反射劍的劍身 -->
+			</death>
+			<corpse>
+				<item id="1867" min="1" max="1" chance="32.8104" /> <!-- 動物的皮 -->
+				<item id="2254" min="1" max="1" chance="1.0085" /> <!-- 製作卷軸(合金弓) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="12" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="15" level="13" type="L2Monster" name="沼澤殭屍" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.873116" sp="26" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="214.61578" hpRegen="2.5" mp="132.64" mpRegen="1.2" />
+			<attack physical="25.04271" magical="17.10092" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="68.67458" magical="45.7243124542497" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="15" />
+				<run ground="15" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="9" min="1" max="1" chance="0.0177" /> <!-- 柏木魔杖 -->
+				<item id="57" min="127" max="180" chance="70" /> <!-- 金幣 -->
+				<item id="154" min="1" max="1" chance="0.0177" /> <!-- 矮人釘錘 -->
+				<item id="1798" min="1" max="1" chance="4.6693" /> <!-- 製作卷軸(皮頭盔) -->
+				<item id="1864" min="1" max="1" chance="9.5254" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="4.7627" /> <!-- 鋼鐵礦 -->
+				<item id="2008" min="1" max="1" chance="0.1853" /> <!-- 柏木魔杖的金屬塊 -->
+			</death>
+			<corpse>
+				<item id="1798" min="1" max="1" chance="23.7113" /> <!-- 製作卷軸(皮頭盔) -->
+				<item id="1864" min="1" max="1" chance="48.371" /> <!-- 樹枝 -->
+				<item id="1871" min="1" max="1" chance="24.1855" /> <!-- 木炭 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="13" />
+			<height normal="21" />
+		</collision>
+	</npc>
+	<npc id="16" level="13" type="L2Monster" name="岩石高崙" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.873116" sp="26" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="214.61578" hpRegen="2.5" mp="132.64" mpRegen="1.2" />
+			<attack physical="25.04271" magical="17.10092" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="68.67458" magical="45.7243124542497" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="23" />
+				<run ground="23" />
+			</speed>
+			<hitTime>410</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="127" max="180" chance="70" /> <!-- 金幣 -->
+				<item id="271" min="1" max="1" chance="0.0528" /> <!-- 獵人之弓 -->
+				<item id="736" min="1" max="1" chance="2.3814" /> <!-- 返回卷軸 -->
+				<item id="1866" min="1" max="1" chance="3.1752" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="4.7627" /> <!-- 木炭 -->
+			</death>
+			<corpse>
+				<item id="37" min="1" max="1" chance="1.8253" /> <!-- 皮鞋 -->
+				<item id="1833" min="1" max="1" chance="64.4946" /> <!-- 繃帶 -->
+				<item id="1865" min="1" max="1" chance="24.1855" /> <!-- 研磨劑 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="20" grown="25" />
+			<height normal="31" grown="37.5" />
+		</collision>
+	</npc>
+	<npc id="17" level="17" type="L2Monster" name="普庫獸人戰士" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="2.138695" sp="26" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="282.57403" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
+			<attack physical="34.8979" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.68469" magical="52.3891528929827" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ORC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="2" min="1" max="1" chance="0.0055" /> <!-- 長劍 -->
+				<item id="57" min="122" max="197" chance="70" /> <!-- 金幣 -->
+				<item id="120" min="1" max="1" chance="0.0055" /> <!-- 反射劍 -->
+				<item id="121" min="1" max="1" chance="0.0055" /> <!-- 水影劍 -->
+				<item id="1817" min="1" max="1" chance="0.7415" /> <!-- 製作卷軸(強化繩索) -->
+				<item id="1865" min="1" max="1" chance="3.7071" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="3.7071" /> <!-- 煤礦 -->
+				<item id="2012" min="1" max="1" chance="0.0773" /> <!-- 反射劍的劍身 -->
+			</death>
+			<corpse>
+				<item id="1870" min="1" max="1" chance="25.1" /> <!-- 煤礦 -->
+				<item id="1897" min="1" max="1" chance="5.9762" /> <!-- 智慧項鍊的鍊子 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="12" grown="14" />
+			<height normal="22" grown="26.4" />
+		</collision>
+	</npc>
+	<npc id="18" level="14" type="L2Monster" name="食人蘑菇" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.16342" sp="16" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="230.38548" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
+			<attack physical="27.24646" magical="18.6058" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="71.08179" magical="47.3270583783809" />
+			<attribute>
+				<defence fire="-34" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="110" />
+			</speed>
+			<hitTime>410</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="19" level="14" type="L2Monster" name="樹精利比" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="2.5452" sp="19" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="230.38548" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
+			<attack physical="27.24646" magical="18.6058" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="71.08179" magical="47.3270583783809" />
+			<attribute>
+				<defence fire="-5" water="20" wind="53" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ELEMENTAL1</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="114" max="168" chance="70" /> <!-- 金幣 -->
+				<item id="429" min="1" max="1" chance="0.0828" /> <!-- 皮外衣 -->
+				<item id="464" min="1" max="1" chance="0.1325" /> <!-- 皮長襪 -->
+				<item id="1793" min="1" max="1" chance="0.3228" /> <!-- 製作卷軸(反射劍) -->
+				<item id="1866" min="1" max="1" chance="2.9261" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="4.3891" /> <!-- 木炭 -->
+				<item id="1922" min="1" max="1" chance="0.8398" /> <!-- 皮外衣的圖樣 -->
+				<item id="1923" min="1" max="1" chance="1.3491" /> <!-- 皮長襪的圖樣 -->
+			</death>
+			<corpse>
+				<item id="1792" min="1" max="1" chance="1.6388" /> <!-- 製作卷軸(短矛) -->
+				<item id="1864" min="1" max="1" chance="44.5764" /> <!-- 樹枝 -->
+				<item id="1923" min="1" max="1" chance="9.1345" /> <!-- 皮長襪的圖樣 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="9" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="20" level="14" type="L2Monster" name="沼澤殭屍偵查員" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.598913" sp="27" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="230.38548" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
+			<attack physical="27.24646" magical="18.6058" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="71.08179" magical="47.3270583783809" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="15" />
+				<run ground="15" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="37" min="1" max="1" chance="0.3724" /> <!-- 皮鞋 -->
+				<item id="49" min="1" max="1" chance="0.3724" /> <!-- 手套 -->
+				<item id="57" min="128" max="189" chance="70" /> <!-- 金幣 -->
+				<item id="1794" min="1" max="1" chance="0.3628" /> <!-- 製作卷軸(森林弓) -->
+				<item id="1865" min="1" max="1" chance="4.9342" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="4.9342" /> <!-- 煤礦 -->
+				<item id="1921" min="1" max="1" chance="3.1834" /> <!-- 皮鞋的材料 -->
+			</death>
+			<corpse>
+				<item id="1799" min="1" max="1" chance="37.1205" /> <!-- 製作卷軸(皮手套) -->
+				<item id="1831" min="1" max="1" chance="66.817" /> <!-- 解毒草 -->
+				<item id="1896" min="1" max="1" chance="10.6171" /> <!-- 幻滅項鍊的鍊子 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="13" />
+			<height normal="21" />
+		</collision>
+	</npc>
+	<npc id="21" level="14" type="L2Monster" name="紅毛熊" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.5452" sp="19" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="230.38548" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
+			<attack physical="27.24646" magical="18.6058" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="71.08179" magical="47.3270583783809" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>340</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="9" min="1" max="1" chance="0.0163" /> <!-- 柏木魔杖 -->
+				<item id="57" min="114" max="168" chance="70" /> <!-- 金幣 -->
+				<item id="154" min="1" max="1" chance="0.0163" /> <!-- 矮人釘錘 -->
+				<item id="1060" min="1" max="1" chance="7.3151" /> <!-- 體力治癒藥水 -->
+				<item id="1798" min="1" max="1" chance="3.2273" /> <!-- 製作卷軸(皮頭盔) -->
+				<item id="1865" min="1" max="1" chance="3.2918" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="3.2918" /> <!-- 煤礦 -->
+				<item id="2008" min="1" max="1" chance="0.1708" /> <!-- 柏木魔杖的金屬塊 -->
+			</death>
+			<corpse>
+				<item id="1792" min="1" max="1" chance="1.6388" /> <!-- 製作卷軸(短矛) -->
+				<item id="1793" min="1" max="1" chance="1.6388" /> <!-- 製作卷軸(反射劍) -->
+				<item id="1921" min="1" max="1" chance="14.3795" /> <!-- 皮鞋的材料 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="21" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="22" level="14" type="L2Monster" name="戰慄搜尋者" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="946" lhand="945" /> <!-- rhand: 骷髏匕首 lhand: 骷髏小圓盾 -->
+		<acquire expRate="2.16342" sp="16" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="230.38548" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
+			<attack physical="27.24646" magical="18.6058" random="10" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="71.08179" magical="47.3270583783809" shield="36" shieldRate="20" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>SKELETON</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="20" min="1" max="1" chance="0.4026" /> <!-- 小圓盾 -->
+				<item id="43" min="1" max="1" chance="0.2813" /> <!-- 木頭盔 -->
+				<item id="57" min="97" max="143" chance="70" /> <!-- 金幣 -->
+				<item id="1799" min="1" max="1" chance="5.527" /> <!-- 製作卷軸(皮手套) -->
+				<item id="1864" min="1" max="1" chance="7.4615" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="3.7307" /> <!-- 鋼鐵礦 -->
+			</death>
+			<corpse>
+				<item id="1831" min="1" max="1" chance="50.5199" /> <!-- 解毒草 -->
+				<item id="1872" min="1" max="1" chance="25.2599" /> <!-- 動物的骨頭 -->
+				<item id="1921" min="1" max="1" chance="12.2225" /> <!-- 皮鞋的材料 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="25" grown="31" />
+		</collision>
+	</npc>
+	<npc id="23" level="15" type="L2Monster" name="黑豹" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.37552" sp="22" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="246.95422" hpRegen="2.5" mp="149.2" mpRegen="1.2" />
+			<attack physical="29.61691" magical="20.22451" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="73.55216" magical="48.9718589929237" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>240</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="116" max="177" chance="70" /> <!-- 金幣 -->
+				<item id="429" min="1" max="1" chance="0.086" /> <!-- 皮外衣 -->
+				<item id="464" min="1" max="1" chance="0.1377" /> <!-- 皮長襪 -->
+				<item id="735" min="1" max="1" chance="0.2851" /> <!-- 攻擊加速藥水 -->
+				<item id="1803" min="1" max="1" chance="2.8746" /> <!-- 製作卷軸(智慧項鍊) -->
+				<item id="1868" min="1" max="1" chance="6.8415" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="1.3683" /> <!-- 銀塊 -->
+				<item id="1922" min="1" max="1" chance="0.8727" /> <!-- 皮外衣的圖樣 -->
+				<item id="1923" min="1" max="1" chance="1.402" /> <!-- 皮長襪的圖樣 -->
+			</death>
+			<corpse>
+				<item id="1831" min="1" max="1" chance="61.7635" /> <!-- 解毒草 -->
+				<item id="1868" min="1" max="1" chance="46.3226" /> <!-- 線 -->
+				<item id="1922" min="1" max="1" chance="5.9085" /> <!-- 皮外衣的圖樣 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="14.5" grown="18" />
+		</collision>
+	</npc>
+	<npc id="24" level="17" type="L2Monster" name="朗克蜥蜴人戰士" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="2.138695" sp="26" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="282.57403" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
+			<attack physical="34.8979" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.68469" magical="52.3891528929827" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="52" />
+				<run ground="130" />
+			</speed>
+			<hitTime>590</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="2" min="1" max="1" chance="0.0055" /> <!-- 長劍 -->
+				<item id="57" min="122" max="197" chance="70" /> <!-- 金幣 -->
+				<item id="120" min="1" max="1" chance="0.0055" /> <!-- 反射劍 -->
+				<item id="121" min="1" max="1" chance="0.0055" /> <!-- 水影劍 -->
+				<item id="1801" min="1" max="1" chance="2.4901" /> <!-- 製作卷軸(骨片脛甲) -->
+				<item id="1864" min="1" max="1" chance="9.8856" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="4.9428" /> <!-- 鋼鐵礦 -->
+				<item id="2012" min="1" max="1" chance="0.0773" /> <!-- 反射劍的劍身 -->
+			</death>
+			<corpse>
+				<item id="734" min="1" max="1" chance="4.1833" /> <!-- 移動加速藥水 -->
+				<item id="1864" min="1" max="1" chance="50.1999" /> <!-- 樹枝 -->
+				<item id="1897" min="1" max="1" chance="5.9762" /> <!-- 智慧項鍊的鍊子 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="12" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="25" level="15" type="L2Monster" name="亞黑暗鐮刀" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.42303" sp="22" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="246.95422" hpRegen="2.5" mp="149.2" mpRegen="1.2" />
+			<attack physical="29.61691" magical="20.22451" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="73.55216" magical="48.9718589929237" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="100" />
+				<run ground="100" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="119" max="180" chance="70" /> <!-- 金幣 -->
+				<item id="429" min="1" max="1" chance="0.0877" /> <!-- 皮外衣 -->
+				<item id="464" min="1" max="1" chance="0.1405" /> <!-- 皮長襪 -->
+				<item id="736" min="1" max="1" chance="2.3262" /> <!-- 返回卷軸 -->
+				<item id="1866" min="1" max="1" chance="3.1015" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="4.6523" /> <!-- 木炭 -->
+				<item id="1922" min="1" max="1" chance="0.8902" /> <!-- 皮外衣的圖樣 -->
+				<item id="1923" min="1" max="1" chance="1.4301" /> <!-- 皮長襪的圖樣 -->
+			</death>
+			<corpse>
+				<item id="1799" min="1" max="1" chance="34.9993" /> <!-- 製作卷軸(皮手套) -->
+				<item id="1866" min="1" max="1" chance="15.7497" /> <!-- 軟皮 -->
+				<item id="1869" min="1" max="1" chance="23.6245" /> <!-- 鋼鐵礦 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="20" />
+			<height normal="35" grown="42" />
+		</collision>
+	</npc>
+	<npc id="26" level="15" type="L2Monster" name="廢墟殭屍" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.358985" sp="31" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="246.95422" hpRegen="2.5" mp="149.2" mpRegen="1.2" />
+			<attack physical="29.61691" magical="20.22451" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="73.55216" magical="48.9718589929237" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="15" />
+				<run ground="15" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="37" min="1" max="1" chance="0.387" /> <!-- 皮鞋 -->
+				<item id="49" min="1" max="1" chance="0.387" /> <!-- 手套 -->
+				<item id="57" min="131" max="199" chance="70" /> <!-- 金幣 -->
+				<item id="1792" min="1" max="1" chance="0.3771" /> <!-- 製作卷軸(短矛) -->
+				<item id="1865" min="1" max="1" chance="5.1275" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="5.1275" /> <!-- 煤礦 -->
+				<item id="1921" min="1" max="1" chance="3.3081" /> <!-- 皮鞋的材料 -->
+			</death>
+			<corpse>
+				<item id="1865" min="1" max="1" chance="26.038" /> <!-- 研磨劑 -->
+				<item id="1866" min="1" max="1" chance="17.3586" /> <!-- 軟皮 -->
+				<item id="1923" min="1" max="1" chance="10.6713" /> <!-- 皮長襪的圖樣 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="13" />
+			<height normal="21" />
+		</collision>
+	</npc>
+	<npc id="27" level="16" type="L2Monster" name="朗克蜥蜴人巡守" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="2.23008" sp="23" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="264.34345" hpRegen="2.5" mp="157.6" mpRegen="1.2" />
+			<attack physical="32.16396" magical="21.96382" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="76.08628" magical="50.6590964478128" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="43" />
+				<run ground="130" />
+			</speed>
+			<hitTime>480</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>LIZARDMAN</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="118" max="183" chance="70" /> <!-- 金幣 -->
+				<item id="176" min="1" max="1" chance="0.0103" /> <!-- 見習生魔杖 -->
+				<item id="1800" min="1" max="1" chance="1.1034" /> <!-- 製作卷軸(骨片胸甲) -->
+				<item id="1865" min="1" max="1" chance="3.5087" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="3.5087" /> <!-- 煤礦 -->
+				<item id="2501" min="1" max="1" chance="0.0103" /> <!-- 骨棒 -->
+			</death>
+			<corpse>
+				<item id="1800" min="1" max="1" chance="7.4706" /> <!-- 製作卷軸(骨片胸甲) -->
+				<item id="1801" min="1" max="1" chance="11.968" /> <!-- 製作卷軸(骨片脛甲) -->
+				<item id="1924" min="1" max="1" chance="7.6634" /> <!-- 皮頭盔的組件 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="28" level="16" type="L2Monster" name="路行蜘蛛" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.23008" sp="23" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="264.34345" hpRegen="2.5" mp="157.6" mpRegen="1.2" />
+			<attack physical="32.16396" magical="21.96382" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="76.08628" magical="50.6590964478128" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="72" />
+				<run ground="130" />
+			</speed>
+			<hitTime>260</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="118" max="183" chance="70" /> <!-- 金幣 -->
+				<item id="845" min="1" max="1" chance="0.079" /> <!-- 貓眼耳環 -->
+				<item id="877" min="1" max="1" chance="0.1186" /> <!-- 智慧戒指 -->
+				<item id="908" min="1" max="1" chance="0.059" /> <!-- 智慧項鍊 -->
+				<item id="1817" min="1" max="1" chance="0.9357" /> <!-- 製作卷軸(強化繩索) -->
+				<item id="1864" min="1" max="1" chance="9.3565" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="4.6783" /> <!-- 鋼鐵礦 -->
+				<item id="1897" min="1" max="1" chance="0.8354" /> <!-- 智慧項鍊的鍊子 -->
+			</death>
+			<corpse>
+				<item id="734" min="1" max="1" chance="3.9594" /> <!-- 移動加速藥水 -->
+				<item id="1801" min="1" max="1" chance="11.968" /> <!-- 製作卷軸(骨片脛甲) -->
+				<item id="1868" min="1" max="1" chance="47.5131" /> <!-- 線 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="26" />
+			<height normal="25.5" />
+		</collision>
+	</npc>
+	<npc id="29" level="16" type="L2Monster" name="廢墟殭屍頭目" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.153333" sp="33" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="264.34345" hpRegen="2.5" mp="157.6" mpRegen="1.2" />
+			<attack physical="32.16396" magical="21.96382" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="76.08628" magical="50.6590964478128" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="15" />
+				<run ground="15" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="15" min="1" max="1" chance="0.0117" /> <!-- 短矛 -->
+				<item id="57" min="132" max="206" chance="70" /> <!-- 金幣 -->
+				<item id="1865" min="1" max="1" chance="3.9445" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="3.9445" /> <!-- 煤礦 -->
+				<item id="2011" min="1" max="1" chance="0.18" /> <!-- 短矛刀身 -->
+				<item id="2139" min="1" max="1" chance="0.7889" /> <!-- 製作卷軸(鐵鑄模) -->
+			</death>
+			<corpse>
+				<item id="1864" min="1" max="1" chance="53.4142" /> <!-- 樹枝 -->
+				<item id="1897" min="1" max="1" chance="6.3588" /> <!-- 智慧項鍊的鍊子 -->
+				<item id="2013" min="1" max="1" chance="0.5764" /> <!-- 森林弓的柄 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="13" />
+			<height normal="21" />
+		</collision>
+	</npc>
+	<npc id="30" level="15" type="L2Monster" name="朗克蜥蜴人" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="1" /> <!-- rhand: 短劍 -->
+		<acquire expRate="2.37552" sp="22" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="246.95422" hpRegen="2.5" mp="149.2" mpRegen="1.2" />
+			<attack physical="29.61691" magical="20.22451" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="73.55216" magical="48.9718589929237" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="43" />
+				<run ground="130" />
+			</speed>
+			<hitTime>480</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>LIZARDMAN</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="116" max="177" chance="70" /> <!-- 金幣 -->
+				<item id="216" min="1" max="1" chance="0.0253" /> <!-- 短刀 -->
+				<item id="1793" min="1" max="1" chance="0.3354" /> <!-- 製作卷軸(反射劍) -->
+				<item id="1865" min="1" max="1" chance="4.5611" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="4.5611" /> <!-- 煤礦 -->
+				<item id="2009" min="1" max="1" chance="0.2427" /> <!-- 短刀的刀身 -->
+			</death>
+			<corpse>
+				<item id="1794" min="1" max="1" chance="1.703" /> <!-- 製作卷軸(森林弓) -->
+				<item id="1798" min="1" max="1" chance="22.7072" /> <!-- 製作卷軸(皮頭盔) -->
+				<item id="1831" min="1" max="1" chance="61.7635" /> <!-- 解毒草 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="31" level="17" type="L2Monster" name="瑪瑙獸" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.7473" sp="21" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="282.57403" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
+			<attack physical="34.8979" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.68469" magical="52.3891528929827" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>240</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="24" min="1" max="1" chance="0.0299" /> <!-- 骨胸甲 -->
+				<item id="31" min="1" max="1" chance="0.0478" /> <!-- 骨製脛甲 -->
+				<item id="57" min="100" max="161" chance="70" /> <!-- 金幣 -->
+				<item id="390" min="1" max="1" chance="0.0299" /> <!-- 緊身襯衫 -->
+				<item id="412" min="1" max="1" chance="0.0478" /> <!-- 緊身褲 -->
+				<item id="1865" min="1" max="1" chance="3.0287" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="3.0287" /> <!-- 煤礦 -->
+				<item id="2140" min="1" max="1" chance="0.6058" /> <!-- 製作卷軸(高級軟皮) -->
+			</death>
+			<corpse>
+				<item id="24" min="1" max="1" chance="0.202" /> <!-- 骨胸甲 -->
+				<item id="1865" min="1" max="1" chance="20.5065" /> <!-- 研磨劑 -->
+				<item id="1924" min="1" max="1" chance="6.615" /> <!-- 皮頭盔的組件 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="14.5" grown="18" />
+		</collision>
+	</npc>
+	<npc id="32" level="17" type="L2Monster" name="大蜘蛛" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.09676" sp="25" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="282.57403" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
+			<attack physical="34.8979" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.68469" magical="52.3891528929827" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="72" />
+				<run ground="130" />
+			</speed>
+			<hitTime>260</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="24" min="1" max="1" chance="0.0359" /> <!-- 骨胸甲 -->
+				<item id="31" min="1" max="1" chance="0.0573" /> <!-- 骨製脛甲 -->
+				<item id="57" min="120" max="193" chance="70" /> <!-- 金幣 -->
+				<item id="390" min="1" max="1" chance="0.0359" /> <!-- 緊身襯衫 -->
+				<item id="412" min="1" max="1" chance="0.0573" /> <!-- 緊身褲 -->
+				<item id="1865" min="1" max="1" chance="4.8459" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="4.8459" /> <!-- 煤礦 -->
+				<item id="2141" min="1" max="1" chance="0.9692" /> <!-- 製作卷軸(銀鑄模) -->
+			</death>
+			<corpse>
+				<item id="734" min="1" max="1" chance="4.1013" /> <!-- 移動加速藥水 -->
+				<item id="1800" min="1" max="1" chance="7.7383" /> <!-- 製作卷軸(骨片胸甲) -->
+				<item id="1868" min="1" max="1" chance="49.2156" /> <!-- 線 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="26" />
+			<height normal="25.5" />
+		</collision>
+	</npc>
+	<npc id="33" level="17" type="L2Monster" name="影之鐮刀" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DeBuff" id="4076" level="1" /> <!-- Decrease Speed -->
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.7473" sp="21" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="282.57403" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
+			<attack physical="34.8979" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.68469" magical="52.3891528929827" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="100" />
+				<run ground="100" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4076" level="1" /> <!-- 移動速度下降 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="100" max="161" chance="70" /> <!-- 金幣 -->
+				<item id="845" min="1" max="1" chance="0.0682" /> <!-- 貓眼耳環 -->
+				<item id="877" min="1" max="1" chance="0.1024" /> <!-- 智慧戒指 -->
+				<item id="908" min="1" max="1" chance="0.051" /> <!-- 智慧項鍊 -->
+				<item id="1865" min="1" max="1" chance="3.0287" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="3.0287" /> <!-- 煤礦 -->
+				<item id="1897" min="1" max="1" chance="0.7212" /> <!-- 智慧項鍊的鍊子 -->
+				<item id="2142" min="1" max="1" chance="0.6058" /> <!-- 製作卷軸(純化的研磨劑) -->
+			</death>
+			<corpse>
+				<item id="1924" min="1" max="1" chance="6.615" /> <!-- 皮頭盔的組件 -->
+				<item id="1925" min="1" max="1" chance="13.4469" /> <!-- 皮手套的材料 -->
+				<item id="2139" min="1" max="1" chance="4.1013" /> <!-- 製作卷軸(鐵鑄模) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="20" />
+			<height normal="35" grown="42" />
+		</collision>
+	</npc>
+	<npc id="34" level="17" type="L2Monster" name="蜘蛛攔截者" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.138695" sp="26" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="282.57403" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
+			<attack physical="34.8979" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.68469" magical="52.3891528929827" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="72" />
+				<run ground="130" />
+			</speed>
+			<hitTime>260</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="122" max="197" chance="70" /> <!-- 金幣 -->
+				<item id="256" min="1" max="1" chance="0.0218" /> <!-- 搏擊手套 -->
+				<item id="1868" min="1" max="1" chance="7.4142" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="1.4829" /> <!-- 銀塊 -->
+				<item id="2143" min="1" max="1" chance="0.7415" /> <!-- 製作卷軸(合成的炭焦) -->
+			</death>
+			<corpse>
+				<item id="1868" min="1" max="1" chance="50.1999" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="10.04" /> <!-- 銀塊 -->
+				<item id="2254" min="1" max="1" chance="1.0287" /> <!-- 製作卷軸(合金弓) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="26" />
+			<height normal="25.5" />
+		</collision>
+	</npc>
+	<npc id="35" level="17" type="L2Monster" name="骷髏搜查兵" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="946" lhand="945" /> <!-- rhand: 骷髏匕首 lhand: 骷髏小圓盾 -->
+		<acquire expRate="2.09676" sp="25" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="282.57403" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
+			<attack physical="34.8979" magical="23.83074" random="10" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="78.68469" magical="52.3891528929827" shield="39" shieldRate="20" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>SKELETON</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="38" min="1" max="1" chance="0.1432" /> <!-- 短靴 -->
+				<item id="50" min="1" max="1" chance="0.1432" /> <!-- 皮手套 -->
+				<item id="57" min="120" max="193" chance="70" /> <!-- 金幣 -->
+				<item id="1817" min="1" max="1" chance="0.7269" /> <!-- 製作卷軸(強化繩索) -->
+				<item id="1868" min="1" max="1" chance="7.2688" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="1.4538" /> <!-- 銀塊 -->
+				<item id="1925" min="1" max="1" chance="3.1776" /> <!-- 皮手套的材料 -->
+			</death>
+			<corpse>
+				<item id="1868" min="1" max="1" chance="49.2156" /> <!-- 線 -->
+				<item id="1925" min="1" max="1" chance="16.1363" /> <!-- 皮手套的材料 -->
+				<item id="2140" min="1" max="1" chance="4.9216" /> <!-- 製作卷軸(高級軟皮) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="25" grown="31" />
+		</collision>
+	</npc>
+	<npc id="36" level="18" type="L2Monster" name="風精" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DeBuff" id="4076" level="1" /> <!-- Decrease Speed -->
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="2.015071" sp="28" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="301.66622" hpRegen="2.5" mp="174.64" mpRegen="1.2" />
+			<attack physical="37.82932" magical="25.83252" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="81.34791" magical="54.1623558855199" />
+			<attribute>
+				<defence fire="20" water="20" wind="110" earth="-5" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="60" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4076" level="1" /> <!-- 移動速度下降 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ELEMENTAL2</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="124" max="204" chance="70" /> <!-- 金幣 -->
+				<item id="845" min="1" max="1" chance="0.0859" /> <!-- 貓眼耳環 -->
+				<item id="877" min="1" max="1" chance="0.1289" /> <!-- 智慧戒指 -->
+				<item id="908" min="1" max="1" chance="0.0642" /> <!-- 智慧項鍊 -->
+				<item id="1864" min="1" max="1" chance="7.6304" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="3.8152" /> <!-- 鋼鐵礦 -->
+				<item id="1878" min="1" max="1" chance="1.5261" /> <!-- 絞線 -->
+				<item id="1897" min="1" max="1" chance="0.9084" /> <!-- 智慧項鍊的鍊子 -->
+				<item id="2173" min="1" max="1" chance="1.034" /> <!-- 製作卷軸(硬皮襯衫) -->
+			</death>
+			<corpse>
+				<item id="735" min="1" max="1" chance="2.1527" /> <!-- 攻擊加速藥水 -->
+				<item id="1873" min="1" max="1" chance="10.3328" /> <!-- 銀塊 -->
+				<item id="2175" min="1" max="1" chance="21.0017" /> <!-- 製作卷軸(長靴) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<npc id="37" level="18" type="L2Monster" name="瑪那吸血鬼" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DDMagic" id="4039" level="1" /> <!-- NPC MP Drain -->
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.062118" sp="43" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="301.66622" hpRegen="2.5" mp="174.64" mpRegen="1.2" />
+			<attack physical="37.82932" magical="25.83252" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="81.34791" magical="54.1623558855199" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="90" />
+				<run ground="90" />
+			</speed>
+			<hitTime>390</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4039" level="1" /> <!-- NPC MP Drain -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="38" level="18" type="L2Monster" name="巨大毒蜘蛛" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DeBuff" id="4035" level="1" /> <!-- Poison -->
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.173116" sp="31" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="301.66622" hpRegen="2.5" mp="174.64" mpRegen="1.2" />
+			<attack physical="37.82932" magical="25.83252" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="81.34791" magical="54.1623558855199" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<hitTime>650</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4035" level="1" /> <!-- 毒 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="133" max="220" chance="70" /> <!-- 金幣 -->
+				<item id="217" min="1" max="1" chance="0.0121" /> <!-- 閃耀刀 -->
+				<item id="218" min="1" max="1" chance="0.0121" /> <!-- 投擲刀 -->
+				<item id="1831" min="1" max="1" chance="5.4859" /> <!-- 解毒草 -->
+				<item id="1867" min="1" max="1" chance="2.743" /> <!-- 動物的皮 -->
+				<item id="1869" min="1" max="1" chance="2.0573" /> <!-- 鋼鐵礦 -->
+				<item id="1870" min="1" max="1" chance="2.0573" /> <!-- 煤礦 -->
+				<item id="1871" min="1" max="1" chance="2.0573" /> <!-- 木炭 -->
+				<item id="1872" min="1" max="1" chance="2.743" /> <!-- 動物的骨頭 -->
+				<item id="2174" min="1" max="1" chance="0.8945" /> <!-- 製作卷軸(硬皮脛甲) -->
+			</death>
+			<corpse>
+				<item id="1868" min="1" max="1" chance="55.7163" /> <!-- 線 -->
+				<item id="2011" min="1" max="1" chance="0.6355" /> <!-- 短矛刀身 -->
+				<item id="2174" min="1" max="1" chance="12.1122" /> <!-- 製作卷軸(硬皮脛甲) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="27" />
+			<height normal="25.5" />
+		</collision>
+	</npc>
+	<npc id="39" level="18" type="L2Monster" name="食腐鼠人" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="12" /> <!-- rhand: 小刀 -->
+		<acquire expRate="1.97556" sp="28" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="301.66622" hpRegen="2.5" mp="174.64" mpRegen="1.2" />
+			<attack physical="37.82932" magical="25.83252" random="10" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="81.34791" magical="54.1623558855199" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>WERERAT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="44" min="1" max="1" chance="0.0734" /> <!-- 皮頭盔 -->
+				<item id="57" min="121" max="200" chance="70" /> <!-- 金幣 -->
+				<item id="102" min="1" max="1" chance="0.1053" /> <!-- 圓盾 -->
+				<item id="735" min="1" max="1" chance="0.1782" /> <!-- 攻擊加速藥水 -->
+				<item id="945" min="1" max="1" chance="0.2175" /> <!-- 骷髏小圓盾 -->
+				<item id="1864" min="1" max="1" chance="4.2748" /> <!-- 樹枝 -->
+				<item id="1865" min="1" max="1" chance="2.1374" /> <!-- 研磨劑 -->
+				<item id="1866" min="1" max="1" chance="1.425" /> <!-- 軟皮 -->
+				<item id="1868" min="1" max="1" chance="4.2748" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="0.855" /> <!-- 銀塊 -->
+				<item id="1924" min="1" max="1" chance="1.2066" /> <!-- 皮頭盔的組件 -->
+				<item id="2175" min="1" max="1" chance="1.7377" /> <!-- 製作卷軸(長靴) -->
+			</death>
+			<corpse>
+				<item id="1801" min="1" max="1" chance="12.7585" /> <!-- 製作卷軸(骨片脛甲) -->
+				<item id="1872" min="1" max="1" chance="33.7674" /> <!-- 動物的骨頭 -->
+				<item id="2011" min="1" max="1" chance="0.5777" /> <!-- 短矛刀身 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="40" level="18" type="L2Monster" name="斯卡鼠人" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="216" /> <!-- rhand: 短刀 -->
+		<acquire expRate="1.6463" sp="23" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="301.66622" hpRegen="2.5" mp="174.64" mpRegen="1.2" />
+			<attack physical="37.82932" magical="25.83252" random="10" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="81.34791" magical="54.1623558855199" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>WERERAT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="44" min="1" max="1" chance="0.0612" /> <!-- 皮頭盔 -->
+				<item id="57" min="101" max="167" chance="70" /> <!-- 金幣 -->
+				<item id="102" min="1" max="1" chance="0.0877" /> <!-- 圓盾 -->
+				<item id="945" min="1" max="1" chance="0.1813" /> <!-- 骷髏小圓盾 -->
+				<item id="1868" min="1" max="1" chance="6.234" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="1.2468" /> <!-- 銀塊 -->
+				<item id="1924" min="1" max="1" chance="1.0055" /> <!-- 皮頭盔的組件 -->
+				<item id="2252" min="1" max="1" chance="0.1278" /> <!-- 製作卷軸(鋼錘) -->
+			</death>
+			<corpse>
+				<item id="2012" min="1" max="1" chance="0.4397" /> <!-- 反射劍的劍身 -->
+				<item id="2140" min="1" max="1" chance="4.2209" /> <!-- 製作卷軸(高級軟皮) -->
+				<item id="2175" min="1" max="1" chance="17.1583" /> <!-- 製作卷軸(長靴) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="41" level="18" type="L2Monster" name="腐爛殭屍" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.327868" sp="33" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="301.66622" hpRegen="2.5" mp="174.64" mpRegen="1.2" />
+			<attack physical="37.82932" magical="25.83252" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="81.34791" magical="54.1623558855199" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="15" />
+				<run ground="15" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="114" max="187" chance="70" /> <!-- 金幣 -->
+				<item id="217" min="1" max="1" chance="0.0103" /> <!-- 閃耀刀 -->
+				<item id="218" min="1" max="1" chance="0.0103" /> <!-- 投擲刀 -->
+				<item id="1866" min="1" max="1" chance="3.1148" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="4.6722" /> <!-- 木炭 -->
+				<item id="2253" min="1" max="1" chance="0.1915" /> <!-- 製作卷軸(碎劍者) -->
+			</death>
+			<corpse>
+				<item id="1817" min="1" max="1" chance="4.7452" /> <!-- 製作卷軸(強化繩索) -->
+				<item id="1880" min="1" max="1" chance="2.3726" /> <!-- 鐵 -->
+				<item id="2012" min="1" max="1" chance="0.4943" /> <!-- 反射劍的劍身 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="13" />
+			<height normal="21" />
+		</collision>
+	</npc>
+	<npc id="42" level="18" type="L2Monster" name="骷髏搜查兵隊長" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="946" lhand="945" /> <!-- rhand: 骷髏匕首 lhand: 骷髏小圓盾 -->
+		<acquire expRate="2.015071" sp="28" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="301.66622" hpRegen="2.5" mp="174.64" mpRegen="1.2" />
+			<attack physical="37.82932" magical="25.83252" random="10" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="81.34791" magical="54.1623558855199" shield="41" shieldRate="20" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>SKELETON</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="124" max="204" chance="70" /> <!-- 金幣 -->
+				<item id="309" min="1" max="1" chance="0.0112" /> <!-- 伊娃之淚 -->
+				<item id="310" min="1" max="1" chance="0.0112" /> <!-- 聖者遺骨 -->
+				<item id="1867" min="1" max="1" chance="4.0696" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="4.0696" /> <!-- 動物的骨頭 -->
+				<item id="1882" min="1" max="1" chance="0.6783" /> <!-- 皮革 -->
+				<item id="2254" min="1" max="1" chance="0.1251" /> <!-- 製作卷軸(合金弓) -->
+			</death>
+			<corpse>
+				<item id="734" min="1" max="1" chance="4.3053" /> <!-- 移動加速藥水 -->
+				<item id="2013" min="1" max="1" chance="0.5575" /> <!-- 森林弓的柄 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="25" grown="31" />
+		</collision>
+	</npc>
+	<npc id="43" level="19" type="L2Monster" name="縛毒蜘蛛" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DeBuff" id="4035" level="1" /> <!-- Poison -->
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.107789" sp="34" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="321.63954" hpRegen="2.5" mp="183.28" mpRegen="1.2" />
+			<attack physical="40.96915" magical="27.97662" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="84.07638" magical="55.9790056860875" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<hitTime>650</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4035" level="1" /> <!-- 毒 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="2" min="1" max="1" chance="0.0064" /> <!-- 長劍 -->
+				<item id="57" min="137" max="234" chance="70" /> <!-- 金幣 -->
+				<item id="120" min="1" max="1" chance="0.0064" /> <!-- 反射劍 -->
+				<item id="121" min="1" max="1" chance="0.0064" /> <!-- 水影劍 -->
+				<item id="1831" min="1" max="1" chance="5.7707" /> <!-- 解毒草 -->
+				<item id="1864" min="1" max="1" chance="4.328" /> <!-- 樹枝 -->
+				<item id="1865" min="1" max="1" chance="2.164" /> <!-- 研磨劑 -->
+				<item id="1866" min="1" max="1" chance="1.4427" /> <!-- 軟皮 -->
+				<item id="1868" min="1" max="1" chance="4.328" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="0.8657" /> <!-- 銀塊 -->
+				<item id="2012" min="1" max="1" chance="0.0902" /> <!-- 反射劍的劍身 -->
+				<item id="2143" min="1" max="1" chance="0.4328" /> <!-- 製作卷軸(合成的炭焦) -->
+			</death>
+			<corpse>
+				<item id="1817" min="1" max="1" chance="5.8608" /> <!-- 製作卷軸(強化繩索) -->
+				<item id="1864" min="1" max="1" chance="58.6083" /> <!-- 樹枝 -->
+				<item id="1924" min="1" max="1" chance="9.4529" /> <!-- 皮頭盔的組件 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="27" />
+			<height normal="25.5" />
+		</collision>
+	</npc>
+	<npc id="44" level="19" type="L2Monster" name="風精圖倫" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.916172" sp="31" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="321.63954" hpRegen="2.5" mp="183.28" mpRegen="1.2" />
+			<attack physical="40.96915" magical="27.97662" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="84.07638" magical="55.9790056860875" />
+			<attribute>
+				<defence fire="20" water="20" wind="110" earth="-5" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="60" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ELEMENTAL1</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="125" max="213" chance="70" /> <!-- 金幣 -->
+				<item id="309" min="1" max="1" chance="0.0116" /> <!-- 伊娃之淚 -->
+				<item id="310" min="1" max="1" chance="0.0116" /> <!-- 聖者遺骨 -->
+				<item id="1867" min="1" max="1" chance="5.2461" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="5.2461" /> <!-- 動物的骨頭 -->
+				<item id="1881" min="1" max="1" chance="0.5246" /> <!-- 顆粒狀的骨粉 -->
+				<item id="2144" min="1" max="1" chance="0.787" /> <!-- 製作卷軸(合成的絞線) -->
+			</death>
+			<corpse>
+				<item id="1865" min="1" max="1" chance="26.6401" /> <!-- 研磨劑 -->
+				<item id="1872" min="1" max="1" chance="35.5202" /> <!-- 動物的骨頭 -->
+				<item id="2142" min="1" max="1" chance="5.328" /> <!-- 製作卷軸(純化的研磨劑) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<npc id="45" level="19" type="L2Monster" name="骷髏巡守" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="275" /> <!-- rhand: 長弓 -->
+		<acquire expRate="1.934958" sp="31" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="321.63954" hpRegen="2.5" mp="183.28" mpRegen="1.2" />
+			<attack physical="40.96915" magical="27.97662" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="84.07638" magical="55.9790056860875" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="140" />
+			</speed>
+			<hitTime>800</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" dodge="15" isAggressive="false">
+			<clanList>
+				<clan>SKELETON</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="126" max="215" chance="70" /> <!-- 金幣 -->
+				<item id="217" min="1" max="1" chance="0.0117" /> <!-- 閃耀刀 -->
+				<item id="218" min="1" max="1" chance="0.0117" /> <!-- 投擲刀 -->
+				<item id="1866" min="1" max="1" chance="2.6488" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="3.9732" /> <!-- 木炭 -->
+				<item id="2150" min="1" max="1" chance="1.8654" /> <!-- 製作卷軸(藍鑽項鍊) -->
+			</death>
+			<corpse>
+				<item id="734" min="1" max="1" chance="4.4835" /> <!-- 移動加速藥水 -->
+				<item id="1925" min="1" max="1" chance="17.6402" /> <!-- 皮手套的材料 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="46" level="19" type="L2Monster" name="惡臭殭屍" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.213617" sp="36" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="321.63954" hpRegen="2.5" mp="183.28" mpRegen="1.2" />
+			<attack physical="40.96915" magical="27.97662" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="84.07638" magical="55.9790056860875" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="15" />
+				<run ground="15" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="115" max="195" chance="70" /> <!-- 金幣 -->
+				<item id="845" min="1" max="1" chance="0.0813" /> <!-- 貓眼耳環 -->
+				<item id="877" min="1" max="1" chance="0.1221" /> <!-- 智慧戒指 -->
+				<item id="908" min="1" max="1" chance="0.0608" /> <!-- 智慧項鍊 -->
+				<item id="1867" min="1" max="1" chance="4.8184" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="4.8184" /> <!-- 動物的骨頭 -->
+				<item id="1882" min="1" max="1" chance="0.8031" /> <!-- 皮革 -->
+				<item id="1897" min="1" max="1" chance="0.8604" /> <!-- 智慧項鍊的鍊子 -->
+				<item id="2173" min="1" max="1" chance="0.9794" /> <!-- 製作卷軸(硬皮襯衫) -->
+			</death>
+			<corpse>
+				<item id="735" min="1" max="1" chance="2.039" /> <!-- 攻擊加速藥水 -->
+				<item id="1897" min="1" max="1" chance="5.8257" /> <!-- 智慧項鍊的鍊子 -->
+				<item id="2139" min="1" max="1" chance="4.8936" /> <!-- 製作卷軸(鐵鑄模) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="13" />
+			<height normal="21" />
+		</collision>
+	</npc>
+	<npc id="47" level="19" type="L2Monster" name="斯卡鼠人隊長" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="216" /> <!-- rhand: 短刀 -->
+		<acquire expRate="1.59681" sp="26" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="321.63954" hpRegen="2.5" mp="183.28" mpRegen="1.2" />
+			<attack physical="40.96915" magical="27.97662" random="10" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="84.07638" magical="55.9790056860875" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>WERERAT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="24" min="1" max="1" chance="0.0324" /> <!-- 骨胸甲 -->
+				<item id="31" min="1" max="1" chance="0.0517" /> <!-- 骨製脛甲 -->
+				<item id="57" min="104" max="177" chance="70" /> <!-- 金幣 -->
+				<item id="390" min="1" max="1" chance="0.0324" /> <!-- 緊身襯衫 -->
+				<item id="412" min="1" max="1" chance="0.0517" /> <!-- 緊身褲 -->
+				<item id="734" min="1" max="1" chance="0.3644" /> <!-- 移動加速藥水 -->
+				<item id="1864" min="1" max="1" chance="4.3717" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="2.1859" /> <!-- 鋼鐵礦 -->
+				<item id="1878" min="1" max="1" chance="0.8744" /> <!-- 絞線 -->
+				<item id="2174" min="1" max="1" chance="0.9504" /> <!-- 製作卷軸(硬皮脛甲) -->
+			</death>
+			<corpse>
+				<item id="38" min="1" max="1" chance="0.6558" /> <!-- 短靴 -->
+				<item id="1869" min="1" max="1" chance="22.2001" /> <!-- 鋼鐵礦 -->
+				<item id="2139" min="1" max="1" chance="4.44" /> <!-- 製作卷軸(鐵鑄模) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="48" level="20" type="L2Monster" name="小魅魔" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="SleepMagic" id="4046" level="2" /> <!-- Sleep -->
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.514394" sp="27" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="342.5127" hpRegen="2.5" mp="192.0" mpRegen="1.2" />
+			<attack physical="44.32863" magical="30.2707" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="86.87049" magical="57.8393570613084" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="184" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="100" />
+			</speed>
+			<hitTime>840</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4046" level="2" /> <!-- 催眠 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>DEMONIC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="106" max="184" chance="70" /> <!-- 金幣 -->
+				<item id="256" min="1" max="1" chance="0.02" /> <!-- 搏擊手套 -->
+				<item id="1868" min="1" max="1" chance="9.0461" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="1.8092" /> <!-- 銀塊 -->
+				<item id="2142" min="1" max="1" chance="0.9046" /> <!-- 製作卷軸(純化的研磨劑) -->
+			</death>
+			<corpse>
+				<item id="50" min="1" max="1" chance="0.6785" /> <!-- 皮手套 -->
+				<item id="1924" min="1" max="1" chance="7.4091" /> <!-- 皮頭盔的組件 -->
+				<item id="2144" min="1" max="1" chance="4.5937" /> <!-- 製作卷軸(合成的絞線) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="36" />
+		</collision>
+	</npc>
+	<npc id="49" level="20" type="L2Monster" name="獸化狼人" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.817273" sp="32" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="342.5127" hpRegen="2.5" mp="192.0" mpRegen="1.2" />
+			<attack physical="44.32863" magical="30.2707" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="86.87049" magical="57.8393570613084" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>WEREWOLF</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="127" max="221" chance="70" /> <!-- 金幣 -->
+				<item id="256" min="1" max="1" chance="0.0239" /> <!-- 搏擊手套 -->
+				<item id="1867" min="1" max="1" chance="4.3421" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="4.3421" /> <!-- 動物的骨頭 -->
+				<item id="1881" min="1" max="1" chance="0.4343" /> <!-- 顆粒狀的骨粉 -->
+				<item id="2143" min="1" max="1" chance="0.6514" /> <!-- 製作卷軸(合成的炭焦) -->
+			</death>
+			<corpse>
+				<item id="1882" min="1" max="1" chance="6.1249" /> <!-- 皮革 -->
+				<item id="1924" min="1" max="1" chance="8.891" /> <!-- 皮頭盔的組件 -->
+				<item id="2140" min="1" max="1" chance="5.5124" /> <!-- 製作卷軸(高級軟皮) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="26" />
+		</collision>
+	</npc>
+	<npc id="50" level="20" type="L2Monster" name="劇毒掠奪者" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DeBuff" id="4035" level="2" /> <!-- Poison -->
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.999" sp="35" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="342.5127" hpRegen="2.5" mp="192.0" mpRegen="1.2" />
+			<attack physical="44.32863" magical="30.2707" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="86.87049" magical="57.8393570613084" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<hitTime>650</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4035" level="2" /> <!-- 毒 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="15" min="1" max="1" chance="0.0132" /> <!-- 短矛 -->
+				<item id="57" min="140" max="243" chance="70" /> <!-- 金幣 -->
+				<item id="1831" min="1" max="1" chance="11.9407" /> <!-- 解毒草 -->
+				<item id="1866" min="1" max="1" chance="2.9852" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="4.4778" /> <!-- 木炭 -->
+				<item id="2011" min="1" max="1" chance="0.2044" /> <!-- 短矛刀身 -->
+				<item id="2144" min="1" max="1" chance="0.8956" /> <!-- 製作卷軸(合成的絞線) -->
+			</death>
+			<corpse>
+				<item id="735" min="1" max="1" chance="2.5265" /> <!-- 攻擊加速藥水 -->
+				<item id="1866" min="1" max="1" chance="20.2121" /> <!-- 軟皮 -->
+				<item id="1925" min="1" max="1" chance="19.8808" /> <!-- 皮手套的材料 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="27" />
+			<height normal="25.5" />
+		</collision>
+	</npc>
+	<npc id="51" level="20" type="L2Monster" name="骷髏射手" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="275" /> <!-- rhand: 長弓 -->
+		<acquire expRate="1.835089" sp="32" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="342.5127" hpRegen="2.5" mp="192.0" mpRegen="1.2" />
+			<attack physical="44.32863" magical="30.2707" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="86.87049" magical="57.8393570613084" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="140" />
+			</speed>
+			<hitTime>800</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" dodge="15" isAggressive="false">
+			<clanList>
+				<clan>SKELETON</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="129" max="223" chance="70" /> <!-- 金幣 -->
+				<item id="272" min="1" max="1" chance="0.0121" /> <!-- 森林弓 -->
+				<item id="1867" min="1" max="1" chance="4.3847" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="4.3847" /> <!-- 動物的骨頭 -->
+				<item id="1881" min="1" max="1" chance="0.4385" /> <!-- 顆粒狀的骨粉 -->
+				<item id="2013" min="1" max="1" chance="0.1775" /> <!-- 森林弓的柄 -->
+				<item id="2150" min="1" max="1" chance="1.5439" /> <!-- 製作卷軸(藍鑽項鍊) -->
+			</death>
+			<corpse>
+				<item id="1867" min="1" max="1" chance="37.1096" /> <!-- 動物的皮 -->
+				<item id="1925" min="1" max="1" chance="18.2506" /> <!-- 皮手套的材料 -->
+				<item id="2254" min="1" max="1" chance="1.1407" /> <!-- 製作卷軸(合金弓) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="52" level="21" type="L2Monster" name="小魅魔圖倫" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.7678232" sp="36" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="364.30351" hpRegen="3.5" mp="205.2" mpRegen="1.5" />
+			<attack physical="47.91924" magical="32.72263" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="89.73059" magical="59.7436374813816" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="184" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="100" />
+			</speed>
+			<hitTime>840</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>DEMONIC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="110" max="197" chance="70" /> <!-- 金幣 -->
+				<item id="219" min="1" max="1" chance="0.0059" /> <!-- 碎劍者 -->
+				<item id="1804" min="1" max="1" chance="0.1145" /> <!-- 製作卷軸(靈魂彈-D級) -->
+				<item id="1864" min="1" max="1" chance="5.7199" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="2.86" /> <!-- 鋼鐵礦 -->
+				<item id="1880" min="1" max="1" chance="0.286" /> <!-- 鐵 -->
+				<item id="2015" min="1" max="1" chance="0.0873" /> <!-- 碎劍者的劍身 -->
+			</death>
+			<corpse>
+				<item id="1866" min="1" max="1" chance="16.1368" /> <!-- 軟皮 -->
+				<item id="1868" min="1" max="1" chance="48.4105" /> <!-- 線 -->
+				<item id="1869" min="1" max="1" chance="24.2053" /> <!-- 鋼鐵礦 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="36" />
+		</collision>
+	</npc>
+	<npc id="53" level="21" type="L2Monster" name="豺狼巡邏員" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="2.142186" sp="43" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="364.30351" hpRegen="3.5" mp="205.2" mpRegen="1.5" />
+			<attack physical="47.91924" magical="32.72263" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="89.73059" magical="59.7436374813816" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>930</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" dodge="15" isAggressive="false">
+			<clanList>
+				<clan>OL_MAHUM</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="39" min="1" max="1" chance="0.094" /> <!-- 長靴 -->
+				<item id="51" min="1" max="1" chance="0.094" /> <!-- 腕甲 -->
+				<item id="57" min="134" max="238" chance="70" /> <!-- 金幣 -->
+				<item id="1864" min="1" max="1" chance="6.9312" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="3.4656" /> <!-- 鋼鐵礦 -->
+				<item id="1878" min="1" max="1" chance="1.3863" /> <!-- 絞線 -->
+				<item id="1930" min="1" max="1" chance="1.4811" /> <!-- 長靴的材料 -->
+				<item id="2151" min="1" max="1" chance="0.9654" /> <!-- 製作卷軸(奉獻項鍊) -->
+			</death>
+			<corpse>
+				<item id="1898" min="1" max="1" chance="3.013" /> <!-- 藍鑽項鍊的鍊子 -->
+				<item id="1926" min="1" max="1" chance="2.9627" /> <!-- 骨片胸甲的原料 -->
+				<item id="2015" min="1" max="1" chance="0.3577" /> <!-- 碎劍者的劍身 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="54" level="21" type="L2Monster" name="廢墟史巴托" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="73" /> <!-- rhand: 彎刀 -->
+		<acquire expRate="2.079792" sp="42" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="364.30351" hpRegen="3.5" mp="205.2" mpRegen="1.5" />
+			<attack physical="47.91924" magical="32.72263" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="89.73059" magical="59.7436374813816" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>SKELETON</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="39" min="1" max="1" chance="0.0912" /> <!-- 長靴 -->
+				<item id="51" min="1" max="1" chance="0.0912" /> <!-- 腕甲 -->
+				<item id="57" min="130" max="231" chance="70" /> <!-- 金幣 -->
+				<item id="1867" min="1" max="1" chance="4.4862" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="4.4862" /> <!-- 動物的骨頭 -->
+				<item id="1882" min="1" max="1" chance="0.7477" /> <!-- 皮革 -->
+				<item id="1930" min="1" max="1" chance="1.4379" /> <!-- 長靴的材料 -->
+				<item id="2176" min="1" max="1" chance="1.6099" /> <!-- 製作卷軸(皮靴) -->
+			</death>
+			<corpse>
+				<item id="1804" min="1" max="1" chance="1.1391" /> <!-- 製作卷軸(靈魂彈-D級) -->
+				<item id="1880" min="1" max="1" chance="2.8477" /> <!-- 鐵 -->
+				<item id="3032" min="1" max="1" chance="1.1391" /> <!-- 製作卷軸(魔靈彈 - D級) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="27" grown="34" />
+		</collision>
+	</npc>
+	<npc id="55" level="21" type="L2Monster" name="監視者" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.079792" sp="42" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="364.30351" hpRegen="3.5" mp="205.2" mpRegen="1.5" />
+			<attack physical="47.91924" magical="32.72263" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="89.73059" magical="59.7436374813816" />
+			<attribute>
+				<defence fire="20" water="20" wind="-5" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="90" />
+				<run ground="159" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="130" max="231" chance="70" /> <!-- 金幣 -->
+				<item id="219" min="1" max="1" chance="0.0069" /> <!-- 碎劍者 -->
+				<item id="735" min="1" max="1" chance="0.2804" /> <!-- 攻擊加速藥水 -->
+				<item id="1864" min="1" max="1" chance="6.7293" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="3.3647" /> <!-- 鋼鐵礦 -->
+				<item id="1880" min="1" max="1" chance="0.3365" /> <!-- 鐵 -->
+				<item id="2015" min="1" max="1" chance="0.1027" /> <!-- 碎劍者的劍身 -->
+				<item id="2177" min="1" max="1" chance="1.075" /> <!-- 製作卷軸(骨頭盔) -->
+			</death>
+			<corpse>
+				<item id="1926" min="1" max="1" chance="2.8764" /> <!-- 骨片胸甲的原料 -->
+				<item id="1928" min="1" max="1" chance="4.1481" /> <!-- 骨片脛甲的原料 -->
+				<item id="2176" min="1" max="1" chance="13.6253" /> <!-- 製作卷軸(皮靴) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="21" />
+			<height normal="43" />
+		</collision>
+	</npc>
+	<npc id="56" level="22" type="L2Monster" name="德雷巴奴破壞者" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DDMagic1" id="4001" level="2" /> <!-- NPC Windstrike -->
+			<skill name="DDMagic2" id="4002" level="2" /> <!-- NPC HP Drain -->
+			<skill name="DeBuff" id="4104" level="2" /> <!-- Flame -->
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.9038096" sp="43" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="387.02878" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
+			<attack physical="51.75278" magical="35.34044" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="92.65694" magical="61.6920289224665" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="184" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="80" />
+			</speed>
+			<hitTime>350</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4001" level="2" /> <!-- NPC Windstrike -->
+			<skill id="4002" level="2" /> <!-- NPC HP Drain -->
+			<skill id="4104" level="2" /> <!-- 火焰 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>DEMONIC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="27" min="1" max="1" chance="0.0226" /> <!-- 硬皮襯衫 -->
+				<item id="33" min="1" max="1" chance="0.0363" /> <!-- 硬皮脛甲 -->
+				<item id="57" min="128" max="230" chance="70" /> <!-- 金幣 -->
+				<item id="734" min="1" max="1" chance="0.6946" /> <!-- 移動加速藥水 -->
+				<item id="1868" min="1" max="1" chance="8.3345" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="1.6669" /> <!-- 銀塊 -->
+				<item id="1927" min="1" max="1" chance="0.3325" /> <!-- 硬皮襯衫的圖樣 -->
+				<item id="1929" min="1" max="1" chance="0.5378" /> <!-- 硬皮脛甲的材料 -->
+				<item id="2256" min="1" max="1" chance="0.1019" /> <!-- 製作卷軸(刺客刀) -->
+			</death>
+			<corpse>
+				<item id="1926" min="1" max="1" chance="2.8501" /> <!-- 骨片胸甲的原料 -->
+				<item id="2151" min="1" max="1" chance="7.8595" /> <!-- 製作卷軸(奉獻項鍊) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" />
+			<height normal="36" />
+		</collision>
+	</npc>
+	<npc id="57" level="22" type="L2Monster" name="小魅魔堤佛" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="HoldMagic" id="4047" level="2" /> <!-- Hold -->
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.730736" sp="40" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="387.02878" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
+			<attack physical="51.75278" magical="35.34044" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="92.65694" magical="61.6920289224665" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="184" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="100" />
+			</speed>
+			<hitTime>840</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4047" level="2" /> <!-- 束縛 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>DEMONIC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="116" max="209" chance="70" /> <!-- 金幣 -->
+				<item id="1102" min="1" max="1" chance="0.0411" /> <!-- 巫術外衣 -->
+				<item id="1105" min="1" max="1" chance="0.066" /> <!-- 巫術長襪 -->
+				<item id="1865" min="1" max="1" chance="3.7884" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="3.7884" /> <!-- 煤礦 -->
+				<item id="2257" min="1" max="1" chance="0.0927" /> <!-- 製作卷軸(三叉戟) -->
+			</death>
+			<corpse>
+				<item id="1927" min="1" max="1" chance="2.0463" /> <!-- 硬皮襯衫的圖樣 -->
+				<item id="2176" min="1" max="1" chance="12.273" /> <!-- 製作卷軸(皮靴) -->
+				<item id="2258" min="1" max="1" chance="0.6272" /> <!-- 製作卷軸(深淵誘惑) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="36" />
+		</collision>
+	</npc>
+	<npc id="58" level="22" type="L2Monster" name="豺狼警衛兵" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="2.03616" sp="47" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="387.02878" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
+			<attack physical="51.75278" magical="35.34044" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="92.65694" magical="61.6920289224665" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>OL_MAHUM</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="16" min="1" max="1" chance="0.0146" /> <!-- 長矛 -->
+				<item id="57" min="137" max="246" chance="70" /> <!-- 金幣 -->
+				<item id="1865" min="1" max="1" chance="4.457" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="4.457" /> <!-- 煤礦 -->
+				<item id="1879" min="1" max="1" chance="0.7429" /> <!-- 炭焦 -->
+				<item id="2258" min="1" max="1" chance="0.109" /> <!-- 製作卷軸(深淵誘惑) -->
+			</death>
+			<corpse>
+				<item id="1865" min="1" max="1" chance="30.1771" /> <!-- 研磨劑 -->
+				<item id="1873" min="1" max="1" chance="12.0708" /> <!-- 銀塊 -->
+				<item id="1926" min="1" max="1" chance="3.0482" /> <!-- 骨片胸甲的原料 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="59" level="22" type="L2Monster" name="巡邏者" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.03616" sp="47" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="387.02878" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
+			<attack physical="51.75278" magical="35.34044" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="92.65694" magical="61.6920289224665" />
+			<attribute>
+				<defence fire="20" water="20" wind="-5" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="90" />
+				<run ground="159" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="137" max="246" chance="70" /> <!-- 金幣 -->
+				<item id="625" min="1" max="1" chance="0.1383" /> <!-- 骨盾 -->
+				<item id="1148" min="1" max="1" chance="0.0969" /> <!-- 硬皮頭盔 -->
+				<item id="1865" min="1" max="1" chance="4.457" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="4.457" /> <!-- 煤礦 -->
+				<item id="3032" min="1" max="1" chance="0.1783" /> <!-- 製作卷軸(魔靈彈 - D級) -->
+			</death>
+			<corpse>
+				<item id="32" min="1" max="1" chance="0.3033" /> <!-- 骨片脛甲 -->
+				<item id="1879" min="1" max="1" chance="5.0295" /> <!-- 炭焦 -->
+				<item id="2177" min="1" max="1" chance="9.6413" /> <!-- 製作卷軸(骨頭盔) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="21" />
+			<height normal="43" />
+		</collision>
+	</npc>
+	<npc id="60" level="22" type="L2Monster" name="狂怒的史巴托" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="946" lhand="945" /> <!-- rhand: 骷髏匕首 lhand: 骷髏小圓盾 -->
+		<acquire expRate="2.0768832" sp="48" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="387.02878" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
+			<attack physical="51.75278" magical="35.34044" random="10" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="92.65694" magical="61.6920289224665" shield="46" shieldRate="20" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>SKELETON</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="140" max="251" chance="70" /> <!-- 金幣 -->
+				<item id="87" min="1" max="1" chance="0.0038" /> <!-- 鋼錘 -->
+				<item id="155" min="1" max="1" chance="0.0038" /> <!-- 魔錘 -->
+				<item id="177" min="1" max="1" chance="0.0038" /> <!-- 法師魔杖 -->
+				<item id="735" min="1" max="1" chance="0.3031" /> <!-- 攻擊加速藥水 -->
+				<item id="1865" min="1" max="1" chance="3.6369" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="3.6369" /> <!-- 煤礦 -->
+				<item id="2014" min="1" max="1" chance="0.0523" /> <!-- 鋼錘的金屬塊 -->
+				<item id="3953" min="1" max="1" chance="0.1455" /> <!-- 製作卷軸(祝福的魔靈彈-D級) -->
+			</death>
+			<corpse>
+				<item id="1869" min="1" max="1" chance="30.7807" /> <!-- 鋼鐵礦 -->
+				<item id="1928" min="1" max="1" chance="4.4837" /> <!-- 骨片脛甲的原料 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="27" grown="34" />
+		</collision>
+	</npc>
+	<npc id="61" level="23" type="L2Monster" name="豺狼殘存者" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="2.0323788" sp="52" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="410.70422" hpRegen="3.5" mp="231.96" mpRegen="1.5" />
+			<attack physical="55.84125" magical="38.13234" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="95.64976" magical="63.6846860642986" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>OL_MAHUM</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="147" max="260" chance="70" /> <!-- 金幣 -->
+				<item id="273" min="1" max="1" chance="0.0078" /> <!-- 合金弓 -->
+				<item id="1866" min="1" max="1" chance="2.5319" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="3.7978" /> <!-- 木炭 -->
+				<item id="2016" min="1" max="1" chance="0.1113" /> <!-- 合金弓的柄 -->
+				<item id="2257" min="1" max="1" chance="0.0929" /> <!-- 製作卷軸(三叉戟) -->
+			</death>
+			<corpse>
+				<item id="1880" min="1" max="1" chance="3.2142" /> <!-- 鐵 -->
+				<item id="1927" min="1" max="1" chance="2.5642" /> <!-- 硬皮襯衫的圖樣 -->
+				<item id="2176" min="1" max="1" chance="15.3791" /> <!-- 製作卷軸(皮靴) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="62" level="23" type="L2Monster" name="突倫食人妖" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<equipment rhand="156" /> <!-- rhand: 手斧 -->
+		<acquire expRate="1.992528" sp="50" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="410.70422" hpRegen="3.5" mp="231.96" mpRegen="1.5" />
+			<attack physical="55.84125" magical="38.13234" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="95.64976" magical="63.6846860642986" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="130" />
+			</speed>
+			<hitTime>280</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>BUGBEAR</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="144" max="255" chance="70" /> <!-- 金幣 -->
+				<item id="219" min="1" max="1" chance="0.0077" /> <!-- 碎劍者 -->
+				<item id="1867" min="1" max="1" chance="4.9644" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="4.9644" /> <!-- 動物的骨頭 -->
+				<item id="1881" min="1" max="1" chance="0.4965" /> <!-- 顆粒狀的骨粉 -->
+				<item id="2015" min="1" max="1" chance="0.1135" /> <!-- 碎劍者的劍身 -->
+				<item id="2258" min="1" max="1" chance="0.0911" /> <!-- 製作卷軸(深淵誘惑) -->
+			</death>
+			<corpse>
+				<item id="27" min="1" max="1" chance="0.1708" /> <!-- 硬皮襯衫 -->
+				<item id="1929" min="1" max="1" chance="4.0661" /> <!-- 硬皮脛甲的材料 -->
+				<item id="2257" min="1" max="1" chance="0.7705" /> <!-- 製作卷軸(三叉戟) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="17" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<npc id="63" level="24" type="L2Monster" name="豺狼射手" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="2.0073624" sp="56" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="435.34437" hpRegen="3.5" mp="245.52" mpRegen="1.5" />
+			<attack physical="60.19687" magical="41.10666" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="98.70919" magical="65.7216907961494" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>930</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" dodge="15" isAggressive="false">
+			<clanList>
+				<clan>OL_MAHUM</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="152" max="281" chance="70" /> <!-- 金幣 -->
+				<item id="273" min="1" max="1" chance="0.0084" /> <!-- 合金弓 -->
+				<item id="1804" min="1" max="1" chance="0.1621" /> <!-- 製作卷軸(靈魂彈-D級) -->
+				<item id="1867" min="1" max="1" chance="5.4006" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="5.4006" /> <!-- 動物的骨頭 -->
+				<item id="1882" min="1" max="1" chance="0.9001" /> <!-- 皮革 -->
+				<item id="2016" min="1" max="1" chance="0.1187" /> <!-- 合金弓的柄 -->
+			</death>
+			<corpse>
+				<item id="34" min="1" max="1" chance="0.2233" /> <!-- 青銅脛甲 -->
+				<item id="2176" min="1" max="1" chance="16.4023" /> <!-- 製作卷軸(皮靴) -->
+				<item id="2177" min="1" max="1" chance="10.9523" /> <!-- 製作卷軸(骨頭盔) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="64" level="24" type="L2Monster" name="突倫食人妖戰士" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<equipment rhand="88" /> <!-- rhand: 流星錘 -->
+		<acquire expRate="1.9878744" sp="56" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="435.34437" hpRegen="3.5" mp="245.52" mpRegen="1.5" />
+			<attack physical="60.19687" magical="41.10666" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="98.70919" magical="65.7216907961494" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="130" />
+			</speed>
+			<hitTime>280</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>BUGBEAR</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="27" min="1" max="1" chance="0.0272" /> <!-- 硬皮襯衫 -->
+				<item id="33" min="1" max="1" chance="0.0436" /> <!-- 硬皮脛甲 -->
+				<item id="57" min="151" max="278" chance="70" /> <!-- 金幣 -->
+				<item id="734" min="1" max="1" chance="0.6686" /> <!-- 移動加速藥水 -->
+				<item id="1866" min="1" max="1" chance="2.6741" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="4.0111" /> <!-- 木炭 -->
+				<item id="1927" min="1" max="1" chance="0.4" /> <!-- 硬皮襯衫的圖樣 -->
+				<item id="1929" min="1" max="1" chance="0.647" /> <!-- 硬皮脛甲的材料 -->
+				<item id="2179" min="1" max="1" chance="1.9192" /> <!-- 製作卷軸(高級皮手套) -->
+			</death>
+			<corpse>
+				<item id="1873" min="1" max="1" chance="13.5792" /> <!-- 銀塊 -->
+				<item id="1926" min="1" max="1" chance="3.4291" /> <!-- 骨片胸甲的原料 -->
+				<item id="1930" min="1" max="1" chance="8.7046" /> <!-- 長靴的材料 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="17" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<npc id="65" level="25" type="L2Monster" name="豺狼巡守" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="1.58772" sp="49" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="460.96247" hpRegen="3.5" mp="259.2" mpRegen="1.5" />
+			<attack physical="64.83203" magical="44.27187" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="101.83533" magical="67.8031159084826" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>OL_MAHUM</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="66" level="25" type="L2Monster" name="豺狼軍官" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+			<skill name="Buff" id="4031" level="2" /> <!-- NPC Clan Aegis -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="69" /> <!-- rhand: 重劍 -->
+		<acquire expRate="2.0211036" sp="64" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="460.96247" hpRegen="3.5" mp="259.2" mpRegen="1.5" />
+			<attack physical="64.83203" magical="44.27187" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="101.83533" magical="67.8031159084826" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>630</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4031" level="2" /> <!-- 防禦力上升 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>OL_MAHUM</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="163" max="306" chance="70" /> <!-- 金幣 -->
+				<item id="347" min="1" max="1" chance="0.025" /> <!-- 環形胸甲 -->
+				<item id="376" min="1" max="1" chance="0.0399" /> <!-- 鋼鐵脛甲 -->
+				<item id="1868" min="1" max="1" chance="10.411" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="2.0822" /> <!-- 銀塊 -->
+				<item id="2178" min="1" max="1" chance="0.8329" /> <!-- 製作卷軸(黑暗長襪) -->
+			</death>
+			<corpse>
+				<item id="347" min="1" max="1" chance="0.0889" /> <!-- 環形胸甲 -->
+				<item id="1865" min="1" max="1" chance="37.1004" /> <!-- 研磨劑 -->
+				<item id="1873" min="1" max="1" chance="14.8401" /> <!-- 銀塊 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" grown="16" />
+			<height normal="27" grown="32" />
+		</collision>
+	</npc>
+	<npc id="67" level="25" type="L2Monster" name="觀察者" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DeBuff" id="4076" level="2" /> <!-- Decrease Speed -->
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.905264" sp="60" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="460.96247" hpRegen="3.5" mp="259.2" mpRegen="1.5" />
+			<attack physical="64.83203" magical="44.27187" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="101.83533" magical="67.8031159084826" />
+			<attribute>
+				<defence fire="20" water="20" wind="-5" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="90" />
+				<run ground="159" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4076" level="2" /> <!-- 移動速度下降 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="154" max="288" chance="70" /> <!-- 金幣 -->
+				<item id="847" min="1" max="1" chance="0.0365" /> <!-- 紅新月耳環 -->
+				<item id="890" min="1" max="1" chance="0.0546" /> <!-- 奉獻戒指 -->
+				<item id="910" min="1" max="1" chance="0.0274" /> <!-- 奉獻項鍊 -->
+				<item id="1864" min="1" max="1" chance="9.8143" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="4.9072" /> <!-- 鋼鐵礦 -->
+				<item id="1878" min="1" max="1" chance="1.9629" /> <!-- 絞線 -->
+				<item id="1899" min="1" max="1" chance="0.7668" /> <!-- 奉獻項鍊的鍊子 -->
+				<item id="2180" min="1" max="1" chance="0.369" /> <!-- 製作卷軸(鱗甲) -->
+			</death>
+			<corpse>
+				<item id="1869" min="1" max="1" chance="34.9739" /> <!-- 鋼鐵礦 -->
+				<item id="2020" min="1" max="1" chance="0.6122" /> <!-- 深淵誘惑的書頁 -->
+				<item id="2180" min="1" max="1" chance="2.6296" /> <!-- 製作卷軸(鱗甲) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="21" />
+			<height normal="43" />
+		</collision>
+	</npc>
+	<npc id="68" level="26" type="L2Monster" name="搜索者" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="DeBuff" id="4076" level="2" /> <!-- Decrease Speed -->
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.9137" sp="65" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="487.5704" hpRegen="3.5" mp="273.0" mpRegen="1.5" />
+			<attack physical="69.75926" magical="47.63653" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="105.02818" magical="69.9289432036824" />
+			<attribute>
+				<defence fire="20" water="20" wind="-5" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="90" />
+				<run ground="159" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4076" level="2" /> <!-- 移動速度下降 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="163" max="312" chance="70" /> <!-- 金幣 -->
+				<item id="101" min="1" max="1" chance="0.0021" /> <!-- 智慧卷軸 -->
+				<item id="312" min="1" max="1" chance="0.0021" /> <!-- 生命樹枝 -->
+				<item id="313" min="1" max="1" chance="0.0021" /> <!-- 深淵誘惑 -->
+				<item id="314" min="1" max="1" chance="0.0021" /> <!-- 復仇的證據 -->
+				<item id="1864" min="1" max="1" chance="10.5445" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="5.2723" /> <!-- 鋼鐵礦 -->
+				<item id="1878" min="1" max="1" chance="2.1089" /> <!-- 絞線 -->
+				<item id="2020" min="1" max="1" chance="0.0739" /> <!-- 深淵誘惑的書頁 -->
+				<item id="2262" min="1" max="1" chance="0.0819" /> <!-- 製作卷軸(精靈弓) -->
+			</death>
+			<corpse>
+				<item id="391" min="1" max="1" chance="0.1201" /> <!-- 水晶獅皮襯衫 -->
+				<item id="1899" min="1" max="1" chance="5.8713" /> <!-- 奉獻項鍊的鍊子 -->
+				<item id="2261" min="1" max="1" chance="0.5835" /> <!-- 製作卷軸(法咒魔杖) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="21" />
+			<height normal="43" />
+		</collision>
+	</npc>
+	<npc id="69" level="26" type="L2Monster" name="西魯蜥蜴人巡守" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="1.56348" sp="53" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="487.5704" hpRegen="3.5" mp="273.0" mpRegen="1.5" />
+			<attack physical="69.75926" magical="47.63653" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="105.02818" magical="69.9289432036824" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="43" />
+				<run ground="130" />
+			</speed>
+			<hitTime>480</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>LIZARDMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="70" level="27" type="L2Monster" name="邪惡蜥蜴" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.850688" sp="70" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="515.17856" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74.99121" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="108.28767" magical="72.0991544841329" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="35" />
+				<run ground="131" />
+			</speed>
+			<hitTime>390</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<item id="40" min="1" max="1" chance="0.0522" /> <!-- 皮靴 -->
+				<item id="57" min="168" max="323" chance="70" /> <!-- 金幣 -->
+				<item id="604" min="1" max="1" chance="0.0522" /> <!-- 高級皮手套 -->
+				<item id="1867" min="1" max="1" chance="5.8137" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="5.8137" /> <!-- 動物的骨頭 -->
+				<item id="1875" min="1" max="1" chance="0.2907" /> <!-- 純石 -->
+				<item id="1881" min="1" max="1" chance="0.5814" /> <!-- 顆粒狀的骨粉 -->
+				<item id="1931" min="1" max="1" chance="0.7125" /> <!-- 皮靴的材料 -->
+				<item id="1934" min="1" max="1" chance="0.7125" /> <!-- 高級皮手套的材料 -->
+				<item id="2263" min="1" max="1" chance="0.0678" /> <!-- 製作卷軸(矮人三叉戟) -->
+			</death>
+			<corpse>
+				<item id="1872" min="1" max="1" chance="51.7936" /> <!-- 動物的骨頭 -->
+				<item id="2152" min="1" max="1" chance="6.8389" /> <!-- 製作卷軸(魔力項鍊) -->
+				<item id="2182" min="1" max="1" chance="4.6633" /> <!-- 製作卷軸(鱗脛甲) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="34" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="71" level="27" type="L2Monster" name="西魯蜥蜴人戰士" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> <!-- rhand: 長矛 -->
+		<acquire expRate="1.5576624" sp="58" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="515.17856" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74.99121" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="108.28767" magical="72.0991544841329" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="52" />
+				<run ground="130" />
+			</speed>
+			<hitTime>590</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>LIZARDMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="72" level="28" type="L2Monster" name="劇毒邪惡蜥蜴" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.821312" sp="74" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="543.79576" hpRegen="3.5" mp="300.96" mpRegen="1.5" />
+			<attack physical="80.54056" magical="54.99876" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="111.61368" magical="74.3136496629463" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="35" />
+				<run ground="131" />
+			</speed>
+			<hitTime>390</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<item id="45" min="1" max="1" chance="0.0489" /> <!-- 骨頭盔 -->
+				<item id="57" min="175" max="343" chance="70" /> <!-- 金幣 -->
+				<item id="626" min="1" max="1" chance="0.0698" /> <!-- 青銅盾 -->
+				<item id="1866" min="1" max="1" chance="2.1825" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="3.2738" /> <!-- 木炭 -->
+				<item id="1885" min="1" max="1" chance="0.2729" /> <!-- 高級軟皮 -->
+				<item id="1932" min="1" max="1" chance="1.2126" /> <!-- 骨頭盔的組件 -->
+				<item id="2262" min="1" max="1" chance="0.0509" /> <!-- 製作卷軸(精靈弓) -->
+			</death>
+			<corpse>
+				<item id="1931" min="1" max="1" chance="5.3375" /> <!-- 皮靴的材料 -->
+				<item id="2263" min="1" max="1" chance="0.634" /> <!-- 製作卷軸(矮人三叉戟) -->
+				<item id="3953" min="1" max="1" chance="1.6333" /> <!-- 製作卷軸(祝福的魔靈彈-D級) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="34" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="73" level="28" type="L2Monster" name="豺狼軍團兵" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="1.50288" sp="62" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="543.79576" hpRegen="3.5" mp="300.96" mpRegen="1.5" />
+			<attack physical="80.54056" magical="54.99876" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="111.61368" magical="74.3136496629463" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>OL_MAHUM</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="74" level="29" type="L2Monster" name="毒蠍" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.774368" sp="80" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="573.42917" hpRegen="3.5" mp="315.12" mpRegen="1.5" />
+			<attack physical="86.42002" magical="59.01367" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="115.00598" magical="76.5722740603874" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>240</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>SCROPIO</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="179" max="355" chance="70" /> <!-- 金幣 -->
+				<item id="605" min="1" max="1" chance="0.0695" /> <!-- 長皮手套 -->
+				<item id="737" min="1" max="1" chance="0.3855" /> <!-- 復活卷軸 -->
+				<item id="1123" min="1" max="1" chance="0.0695" /> <!-- 藍鹿皮靴 -->
+				<item id="1864" min="1" max="1" chance="7.708" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="3.854" /> <!-- 鋼鐵礦 -->
+				<item id="1880" min="1" max="1" chance="0.3855" /> <!-- 鐵 -->
+			</death>
+			<corpse>
+				<item id="1061" min="1" max="1" chance="25.6459" /> <!-- 強力體力治癒藥水 -->
+				<item id="1869" min="1" max="1" chance="42.3158" /> <!-- 鋼鐵礦 -->
+				<item id="1900" min="1" max="1" chance="4.6297" /> <!-- 魔力項鍊的鍊子 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="14.5" grown="18" />
+		</collision>
+	</npc>
+	<npc id="75" level="29" type="L2Monster" name="幼蟻" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DeBuff" id="4035" level="2" /> <!-- Poison -->
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.626504" sp="73" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="573.42917" hpRegen="3.5" mp="315.12" mpRegen="1.5" />
+			<attack physical="86.42002" magical="59.01367" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="115.00598" magical="76.5722740603874" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="60" />
+			</speed>
+			<hitTime>350</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4035" level="2" /> <!-- 毒 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="164" max="326" chance="70" /> <!-- 金幣 -->
+				<item id="848" min="1" max="1" chance="0.0249" /> <!-- 魔力耳環 -->
+				<item id="879" min="1" max="1" chance="0.0374" /> <!-- 魔力戒指 -->
+				<item id="911" min="1" max="1" chance="0.0187" /> <!-- 魔力項鍊 -->
+				<item id="955" min="1" max="1" chance="0.0142" /> <!-- 武器強化卷軸-D級 -->
+				<item id="1831" min="1" max="1" chance="9.4209" /> <!-- 解毒草 -->
+				<item id="1866" min="1" max="1" chance="2.3553" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="3.5329" /> <!-- 木炭 -->
+				<item id="1877" min="1" max="1" chance="0.1414" /> <!-- 金剛石塊 -->
+				<item id="1900" min="1" max="1" chance="0.5798" /> <!-- 魔力項鍊的鍊子 -->
+				<item id="2193" min="1" max="1" chance="0.473" /> <!-- 製作卷軸(力量靴) -->
+			</death>
+			<corpse>
+				<item id="348" min="1" max="1" chance="0.0583" /> <!-- 鱗甲 -->
+				<item id="1061" min="1" max="1" chance="23.5088" /> <!-- 強力體力治癒藥水 -->
+				<item id="2153" min="1" max="1" chance="6.0326" /> <!-- 製作卷軸(虎眼耳環) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="12" />
+			<height normal="8" />
+		</collision>
+	</npc>
+	<npc id="76" level="29" type="L2Monster" name="豺狼指揮官" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+			<skill name="Buff" id="4030" level="2" /> <!-- NPC Clan Might -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="69" /> <!-- rhand: 重劍 -->
+		<acquire expRate="1.8822492" sp="85" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="573.42917" hpRegen="3.5" mp="315.12" mpRegen="1.5" />
+			<attack physical="86.42002" magical="59.01367" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="115.00598" magical="76.5722740603874" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<hitTime>630</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4030" level="2" /> <!-- 攻擊力上升 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>OL_MAHUM</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="190" max="377" chance="70" /> <!-- 金幣 -->
+				<item id="605" min="1" max="1" chance="0.0737" /> <!-- 長皮手套 -->
+				<item id="956" min="1" max="1" chance="0.1363" /> <!-- 防具強化卷軸-D級 -->
+				<item id="1123" min="1" max="1" chance="0.0737" /> <!-- 藍鹿皮靴 -->
+				<item id="1864" min="1" max="1" chance="8.1767" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="4.0884" /> <!-- 鋼鐵礦 -->
+				<item id="1880" min="1" max="1" chance="0.4089" /> <!-- 鐵 -->
+				<item id="2274" min="1" max="1" chance="0.0292" /> <!-- 製作卷軸(頭顱破壞者) -->
+			</death>
+			<corpse>
+				<item id="1880" min="1" max="1" chance="4.4889" /> <!-- 鐵 -->
+				<item id="1900" min="1" max="1" chance="4.9112" /> <!-- 魔力項鍊的鍊子 -->
+				<item id="2250" min="1" max="1" chance="11.2222" /> <!-- 製作卷軸(骨箭) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" grown="16" />
+			<height normal="27" grown="32" />
+		</collision>
+	</npc>
+	<npc id="77" level="30" type="L2Monster" name="狩獵毒蠍" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.74528" sp="86" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="604.08419" hpRegen="3.5" mp="329.4" mpRegen="1.5" />
+			<attack physical="92.64226" magical="63.26266" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="118.46427" magical="78.8748547991048" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>240</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>SCROPIO</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="46" min="1" max="1" chance="0.0484" /> <!-- 青銅頭盔 -->
+				<item id="57" min="187" max="373" chance="70" /> <!-- 金幣 -->
+				<item id="627" min="1" max="1" chance="0.0691" /> <!-- 鼓盾 -->
+				<item id="955" min="1" max="1" chance="0.0242" /> <!-- 武器強化卷軸-D級 -->
+				<item id="1865" min="1" max="1" chance="6.045" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="6.045" /> <!-- 煤礦 -->
+				<item id="1874" min="1" max="1" chance="0.4031" /> <!-- 奧里哈魯根原石 -->
+			</death>
+			<corpse>
+				<item id="1933" min="1" max="1" chance="5.2057" /> <!-- 黑暗長襪的布料 -->
+				<item id="2153" min="1" max="1" chance="6.8815" /> <!-- 製作卷軸(虎眼耳環) -->
+				<item id="2183" min="1" max="1" chance="2.9111" /> <!-- 製作卷軸(米索莉板甲) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="14.5" grown="18" />
+		</collision>
+	</npc>
+	<npc id="78" level="30" type="L2Monster" name="風之細語" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+			<skill name="SleepMagic" id="4046" level="3" /> <!-- Sleep -->
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="1.74528" sp="86" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="604.08419" hpRegen="3.5" mp="329.4" mpRegen="1.5" />
+			<attack physical="92.64226" magical="63.26266" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="118.46427" magical="78.8748547991048" />
+			<attribute>
+				<defence fire="20" water="20" wind="110" earth="-5" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="60" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4046" level="3" /> <!-- 催眠 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ELEMENTAL2</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="187" max="373" chance="70" /> <!-- 金幣 -->
+				<item id="433" min="1" max="1" chance="0.0061" /> <!-- 精靈外衣 -->
+				<item id="434" min="1" max="1" chance="0.0061" /> <!-- 純白外衣 -->
+				<item id="435" min="1" max="1" chance="0.0061" /> <!-- 法師外衣 -->
+				<item id="466" min="1" max="1" chance="0.0097" /> <!-- 精靈長襪 -->
+				<item id="467" min="1" max="1" chance="0.0097" /> <!-- 黑暗長襪 -->
+				<item id="468" min="1" max="1" chance="0.0097" /> <!-- 法師長襪 -->
+				<item id="736" min="1" max="1" chance="2.418" /> <!-- 返回卷軸 -->
+				<item id="1868" min="1" max="1" chance="9.672" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="1.9344" /> <!-- 銀塊 -->
+				<item id="1889" min="1" max="1" chance="0.3224" /> <!-- 合成的絞線 -->
+				<item id="1933" min="1" max="1" chance="0.3556" /> <!-- 黑暗長襪的布料 -->
+				<item id="1936" min="1" max="1" chance="0.2474" /> <!-- 純白外衣的圖樣 -->
+			</death>
+			<corpse>
+				<item id="1900" min="1" max="1" chance="4.8411" /> <!-- 魔力項鍊的鍊子 -->
+				<item id="2023" min="1" max="1" chance="0.5483" /> <!-- 法咒魔杖的金屬塊 -->
+				<item id="2024" min="1" max="1" chance="0.6303" /> <!-- 精靈弓的柄 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="20" />
+			<height normal="70" />
+		</collision>
+	</npc>
+	<npc id="79" level="30" type="L2Monster" name="工蟻" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.74528" sp="86" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="604.08419" hpRegen="3.5" mp="329.4" mpRegen="1.5" />
+			<attack physical="92.64226" magical="63.26266" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="118.46427" magical="78.8748547991048" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="130" />
+			</speed>
+			<hitTime>260</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="187" max="373" chance="70" /> <!-- 金幣 -->
+				<item id="848" min="1" max="1" chance="0.0284" /> <!-- 魔力耳環 -->
+				<item id="879" min="1" max="1" chance="0.0426" /> <!-- 魔力戒指 -->
+				<item id="911" min="1" max="1" chance="0.0213" /> <!-- 魔力項鍊 -->
+				<item id="1061" min="1" max="1" chance="2.0935" /> <!-- 強力體力治癒藥水 -->
+				<item id="1867" min="1" max="1" chance="4.6058" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="4.6058" /> <!-- 動物的骨頭 -->
+				<item id="1875" min="1" max="1" chance="0.2303" /> <!-- 純石 -->
+				<item id="1881" min="1" max="1" chance="0.4606" /> <!-- 顆粒狀的骨粉 -->
+				<item id="1900" min="1" max="1" chance="0.6614" /> <!-- 魔力項鍊的鍊子 -->
+				<item id="2183" min="1" max="1" chance="0.2273" /> <!-- 製作卷軸(米索莉板甲) -->
+				<item id="2278" min="1" max="1" chance="0.0247" /> <!-- 製作卷軸(強化長弓) -->
+			</death>
+			<corpse>
+				<item id="1866" min="1" max="1" chance="29.4987" /> <!-- 軟皮 -->
+				<item id="1881" min="1" max="1" chance="5.8997" /> <!-- 顆粒狀的骨粉 -->
+				<item id="2266" min="1" max="1" chance="0.4576" /> <!-- 製作卷軸(森林神之刀) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="26" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="80" level="31" type="L2Monster" name="工蟻隊長" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.7801856" sp="95" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="635.76437" hpRegen="4.5" mp="343.8" mpRegen="1.8" />
+			<attack physical="99.21986" magical="67.7543" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="121.98819" magical="81.2211098160515" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="130" />
+			</speed>
+			<hitTime>260</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="203" max="404" chance="70" /> <!-- 金幣 -->
+				<item id="259" min="1" max="1" chance="0.0081" /> <!-- 單刃刀 -->
+				<item id="737" min="1" max="1" chance="0.4367" /> <!-- 復活卷軸 -->
+				<item id="1864" min="1" max="1" chance="8.7335" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="4.3668" /> <!-- 鋼鐵礦 -->
+				<item id="1878" min="1" max="1" chance="1.7467" /> <!-- 絞線 -->
+				<item id="1884" min="1" max="1" chance="2.6873" /> <!-- 強化繩索 -->
+			</death>
+			<corpse>
+				<item id="1878" min="1" max="1" chance="19.1782" /> <!-- 絞線 -->
+				<item id="2021" min="1" max="1" chance="0.6054" /> <!-- 椎骨之劍的劍身 -->
+				<item id="2268" min="1" max="1" chance="0.4958" /> <!-- 製作卷軸(染血卷冊) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="26" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="81" level="32" type="L2Monster" name="工蟻監督者" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="Buff" id="4030" level="2" /> <!-- NPC Clan Might -->
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.8133916" sp="162" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="668.47132" hpRegen="4.5" mp="358.32" mpRegen="1.8" />
+			<attack physical="106.16525" magical="72.49711" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="125.57727" magical="83.6107570481808" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="130" />
+			</speed>
+			<hitTime>260</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4030" level="2" /> <!-- 攻擊力上升 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="338" max="678" chance="70" /> <!-- 金幣 -->
+				<item id="848" min="1" max="1" chance="0.0515" /> <!-- 魔力耳環 -->
+				<item id="879" min="1" max="1" chance="0.0772" /> <!-- 魔力戒指 -->
+				<item id="911" min="1" max="1" chance="0.0386" /> <!-- 魔力項鍊 -->
+				<item id="1874" min="1" max="1" chance="0.4175" /> <!-- 奧里哈魯根原石 -->
+				<item id="1878" min="1" max="1" chance="2.5049" /> <!-- 絞線 -->
+				<item id="1884" min="1" max="1" chance="3.8537" /> <!-- 強化繩索 -->
+				<item id="1889" min="1" max="1" chance="0.4175" /> <!-- 合成的絞線 -->
+				<item id="1900" min="1" max="1" chance="1.199" /> <!-- 魔力項鍊的鍊子 -->
+				<item id="2267" min="1" max="1" chance="0.0648" /> <!-- 製作卷軸(腰弩) -->
+				<item id="2274" min="1" max="1" chance="0.0448" /> <!-- 製作卷軸(頭顱破壞者) -->
+			</death>
+			<corpse>
+				<item id="1061" min="1" max="1" chance="48.6166" /> <!-- 強力體力治癒藥水 -->
+				<item id="1933" min="1" max="1" chance="9.4373" /> <!-- 黑暗長襪的布料 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="26" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="82" level="33" type="L2Monster" name="兵蟻新兵" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DeBuff" id="4035" level="3" /> <!-- Poison -->
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.59984" sp="100" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="702.20463" hpRegen="4.5" mp="372.96" mpRegen="1.8" />
+			<attack physical="113.49065" magical="77.49941" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="129.23095" magical="86.043423444366" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="130" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4035" level="3" /> <!-- 毒 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="204" max="409" chance="70" /> <!-- 金幣 -->
+				<item id="63" min="1" max="1" chance="0.0145" /> <!-- 長手套 -->
+				<item id="553" min="1" max="1" chance="0.0145" /> <!-- 鋼鐵靴 -->
+				<item id="1832" min="1" max="1" chance="3.573" /> <!-- 濃縮解毒藥 -->
+				<item id="1875" min="1" max="1" chance="0.2144" /> <!-- 純石 -->
+				<item id="1879" min="1" max="1" chance="0.536" /> <!-- 炭焦 -->
+				<item id="1885" min="1" max="1" chance="0.268" /> <!-- 高級軟皮 -->
+				<item id="1940" min="1" max="1" chance="0.5485" /> <!-- 鋼鐵靴的組件 -->
+				<item id="2154" min="1" max="1" chance="0.3443" /> <!-- 製作卷軸(精靈耳環) -->
+				<item id="2190" min="1" max="1" chance="0.2297" /> <!-- 製作卷軸(米索莉長襪) -->
+				<item id="2422" min="1" max="1" chance="0.0145" /> <!-- 強化皮靴 -->
+				<item id="2423" min="1" max="1" chance="0.0145" /> <!-- 知識長靴 -->
+				<item id="2446" min="1" max="1" chance="0.0145" /> <!-- 強化皮手套 -->
+				<item id="2447" min="1" max="1" chance="0.0145" /> <!-- 知識手套 -->
+			</death>
+			<corpse>
+				<item id="1884" min="1" max="1" chance="29.7748" /> <!-- 強化繩索 -->
+				<item id="1901" min="1" max="1" chance="6.6829" /> <!-- 虎眼耳環的石頭 -->
+				<item id="2275" min="1" max="1" chance="0.3456" /> <!-- 製作卷軸(巨大骨棒) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="35" grown="42" />
+			<height normal="17" grown="21" />
+		</collision>
+	</npc>
+	<npc id="83" level="33" type="L2Monster" name="花崗石高崙" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.4678264" sp="155" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="702.20463" hpRegen="4.5" mp="372.96" mpRegen="1.8" />
+			<attack physical="113.49065" magical="77.49941" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="129.23095" magical="86.043423444366" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="23" />
+				<run ground="23" />
+			</speed>
+			<hitTime>410</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="251" max="501" chance="70" /> <!-- 金幣 -->
+				<item id="393" min="1" max="1" chance="0.007" /> <!-- 米索莉板甲 -->
+				<item id="394" min="1" max="1" chance="0.007" /> <!-- 強化皮襯衫 -->
+				<item id="415" min="1" max="1" chance="0.0111" /> <!-- 米索莉板脛甲 -->
+				<item id="416" min="1" max="1" chance="0.0111" /> <!-- 強化皮脛甲 -->
+				<item id="1874" min="1" max="1" chance="0.263" /> <!-- 奧里哈魯根原石 -->
+				<item id="1878" min="1" max="1" chance="1.5775" /> <!-- 絞線 -->
+				<item id="1884" min="1" max="1" chance="2.4269" /> <!-- 強化繩索 -->
+				<item id="1889" min="1" max="1" chance="0.263" /> <!-- 合成的絞線 -->
+				<item id="1938" min="1" max="1" chance="0.3536" /> <!-- 米索莉板甲的原料 -->
+				<item id="1939" min="1" max="1" chance="0.4619" /> <!-- 米索莉板脛甲的原料 -->
+				<item id="2155" min="1" max="1" chance="0.6331" /> <!-- 製作卷軸(精靈戒指) -->
+				<item id="2286" min="1" max="1" chance="0.022" /> <!-- 製作卷軸(碎骨者) -->
+				<item id="2985" min="1" max="1" chance="0.4033" /> <!-- 製作卷軸(金屬靴) -->
+			</death>
+			<corpse>
+				<item id="2154" min="1" max="1" chance="6.3531" /> <!-- 製作卷軸(精靈耳環) -->
+				<item id="2975" min="1" max="1" chance="5.2981" /> <!-- 製作卷軸(鎖子頭盔) -->
+				<item id="2987" min="1" max="1" chance="5.761" /> <!-- 製作卷軸(金屬盾) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="20" grown="25" />
+			<height normal="31" grown="37.5" />
+		</collision>
+	</npc>
+	<npc id="84" level="34" type="L2Monster" name="兵蟻斥候" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4067" level="3" /> <!-- NPC Mortal Blow -->
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.730736" sp="116" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="736.96177" hpRegen="4.5" mp="387.72" mpRegen="1.8" />
+			<attack physical="121.20802" magical="82.76936" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="132.9486" magical="88.5186722618248" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="130" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4067" level="3" /> <!-- NPC Mortal Blow -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="47" min="1" max="1" chance="0.0386" /> <!-- 頭盔 -->
+				<item id="57" min="233" max="465" chance="70" /> <!-- 金幣 -->
+				<item id="628" min="1" max="1" chance="0.0551" /> <!-- 圓木盾 -->
+				<item id="1341" min="10" max="30" chance="12.2305" /> <!-- 骨箭 -->
+				<item id="1876" min="1" max="1" chance="0.7339" /> <!-- 米索莉原石 -->
+				<item id="1877" min="1" max="1" chance="0.1468" /> <!-- 金剛石塊 -->
+				<item id="1880" min="1" max="1" chance="0.367" /> <!-- 鐵 -->
+				<item id="1881" min="1" max="1" chance="0.4893" /> <!-- 顆粒狀的骨粉 -->
+				<item id="1882" min="1" max="1" chance="0.8154" /> <!-- 皮革 -->
+				<item id="2269" min="1" max="1" chance="0.0263" /> <!-- 製作卷軸(流星錘) -->
+				<item id="2971" min="1" max="1" chance="0.1963" /> <!-- 製作卷軸(米索莉鱗脛甲) -->
+			</death>
+			<corpse>
+				<item id="1885" min="1" max="1" chance="4.6006" /> <!-- 高級軟皮 -->
+				<item id="1938" min="1" max="1" chance="3.7114" /> <!-- 米索莉板甲的原料 -->
+				<item id="2978" min="1" max="1" chance="7.3905" /> <!-- 製作卷軸(精靈米索莉靴) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="35" grown="42" />
+			<height normal="17" grown="21" />
+		</collision>
+	</npc>
+	<npc id="85" level="34" type="L2Monster" name="破壞者" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.5171824" sp="170" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="736.96177" hpRegen="4.5" mp="387.72" mpRegen="1.8" />
+			<attack physical="121.20802" magical="82.76936" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="132.9486" magical="88.5186722618248" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="23" />
+				<run ground="23" />
+			</speed>
+			<hitTime>410</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="270" max="538" chance="70" /> <!-- 金幣 -->
+				<item id="63" min="1" max="1" chance="0.0191" /> <!-- 長手套 -->
+				<item id="553" min="1" max="1" chance="0.0191" /> <!-- 鋼鐵靴 -->
+				<item id="1865" min="1" max="1" chance="5.657" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="5.657" /> <!-- 煤礦 -->
+				<item id="1874" min="1" max="1" chance="0.3772" /> <!-- 奧里哈魯根原石 -->
+				<item id="1940" min="1" max="1" chance="0.7237" /> <!-- 鋼鐵靴的組件 -->
+				<item id="2270" min="1" max="1" chance="0.0405" /> <!-- 製作卷軸(山羊頭之杖) -->
+				<item id="2293" min="1" max="1" chance="0.0315" /> <!-- 製作卷軸(闊矛 ) -->
+				<item id="2422" min="1" max="1" chance="0.0191" /> <!-- 強化皮靴 -->
+				<item id="2423" min="1" max="1" chance="0.0191" /> <!-- 知識長靴 -->
+				<item id="2446" min="1" max="1" chance="0.0191" /> <!-- 強化皮手套 -->
+				<item id="2447" min="1" max="1" chance="0.0191" /> <!-- 知識手套 -->
+				<item id="2986" min="1" max="1" chance="0.5785" /> <!-- 製作卷軸(賢者的舊手套) -->
+			</death>
+			<corpse>
+				<item id="2155" min="1" max="1" chance="10.2468" /> <!-- 製作卷軸(精靈戒指) -->
+				<item id="2278" min="1" max="1" chance="0.456" /> <!-- 製作卷軸(強化長弓) -->
+				<item id="2422" min="1" max="1" chance="0.2513" /> <!-- 強化皮靴 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="20" grown="25" />
+			<height normal="31" grown="37.5" />
+		</collision>
+	</npc>
+	<npc id="86" level="35" type="L2Monster" name="兵蟻警衛" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.4544" sp="106" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="772.73802" hpRegen="4.5" mp="402.6" mpRegen="1.8" />
+			<attack physical="129.32896" magical="88.31491" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="136.72948" magical="91.0360303625432" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="174" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="207" max="413" chance="70" /> <!-- 金幣 -->
+				<item id="436" min="1" max="1" chance="0.0172" /> <!-- 知識外衣 -->
+				<item id="469" min="1" max="1" chance="0.0274" /> <!-- 知識長襪 -->
+				<item id="1874" min="1" max="1" chance="0.2896" /> <!-- 奧里哈魯根原石 -->
+				<item id="1878" min="1" max="1" chance="1.7376" /> <!-- 絞線 -->
+				<item id="1884" min="1" max="1" chance="2.6732" /> <!-- 強化繩索 -->
+				<item id="1889" min="1" max="1" chance="0.2896" /> <!-- 合成的絞線 -->
+				<item id="2972" min="1" max="1" chance="0.2323" /> <!-- 製作卷軸(鎖脛甲) -->
+			</death>
+			<corpse>
+				<item id="469" min="1" max="1" chance="0.103" /> <!-- 知識長襪 -->
+				<item id="1868" min="1" max="3" chance="49.0187" /> <!-- 線 -->
+				<item id="1939" min="1" max="1" chance="4.3055" /> <!-- 米索莉板脛甲的原料 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="35" grown="42" />
+			<height normal="17" grown="21" />
+		</collision>
+	</npc>
+	<npc id="87" level="35" type="L2Monster" name="兵蟻" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DeBuff" id="4035" level="3" /> <!-- Poison -->
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.4891644" sp="253" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="772.73802" hpRegen="4.5" mp="402.6" mpRegen="1.8" />
+			<attack physical="129.32896" magical="88.31491" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="136.72948" magical="91.0360303625432" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="174" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4035" level="3" /> <!-- 毒 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="497" max="991" chance="70" /> <!-- 金幣 -->
+				<item id="393" min="1" max="1" chance="0.0138" /> <!-- 米索莉板甲 -->
+				<item id="394" min="1" max="1" chance="0.0138" /> <!-- 強化皮襯衫 -->
+				<item id="415" min="1" max="1" chance="0.0219" /> <!-- 米索莉板脛甲 -->
+				<item id="416" min="1" max="1" chance="0.0219" /> <!-- 強化皮脛甲 -->
+				<item id="1832" min="1" max="1" chance="8.6842" /> <!-- 濃縮解毒藥 -->
+				<item id="1866" min="1" max="1" chance="5.2105" /> <!-- 軟皮 -->
+				<item id="1871" min="1" max="1" chance="7.8158" /> <!-- 木炭 -->
+				<item id="1877" min="1" max="1" chance="0.3127" /> <!-- 金剛石塊 -->
+				<item id="1938" min="1" max="1" chance="0.7007" /> <!-- 米索莉板甲的原料 -->
+				<item id="1939" min="1" max="1" chance="0.9154" /> <!-- 米索莉板脛甲的原料 -->
+				<item id="2975" min="1" max="1" chance="0.6979" /> <!-- 製作卷軸(鎖子頭盔) -->
+				<item id="2980" min="1" max="1" chance="1.0463" /> <!-- 製作卷軸(鎖子甲長手套) -->
+				<item id="2984" min="1" max="1" chance="0.7992" /> <!-- 製作卷軸(火蜥蜴皮靴) -->
+				<item id="3020" min="1" max="1" chance="0.0435" /> <!-- 製作卷軸(精靈長劍) -->
+			</death>
+			<corpse>
+				<item id="1866" min="1" max="1" chance="78.3985" /> <!-- 軟皮 -->
+				<item id="1940" min="1" max="1" chance="17.5519" /> <!-- 鋼鐵靴的組件 -->
+				<item id="2191" min="1" max="1" chance="15.7427" /> <!-- 製作卷軸(安魂長手套) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="35" grown="42" />
+			<height normal="17" grown="21" />
+		</collision>
+	</npc>
+	<npc id="88" level="36" type="L2Monster" name="兵蟻隊長" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="Buff" id="4074" level="2" /> <!-- NPC Haste -->
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.6753708" sp="288" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="809.52639" hpRegen="4.5" mp="417.6" mpRegen="1.8" />
+			<attack physical="137.86467" magical="94.1437" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="140.57278" magical="93.5949427192352" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="174" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4074" level="2" /> <!-- Npc 速度激發 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="551" max="1105" chance="70" /> <!-- 金幣 -->
+				<item id="293" min="1" max="1" chance="0.0072" /> <!-- 戰錘 -->
+				<item id="296" min="1" max="1" chance="0.0072" /> <!-- 矮人之矛 -->
+				<item id="1867" min="1" max="1" chance="15.4529" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="15.4529" /> <!-- 動物的骨頭 -->
+				<item id="1875" min="1" max="1" chance="0.7727" /> <!-- 純石 -->
+				<item id="1881" min="1" max="1" chance="1.5454" /> <!-- 顆粒狀的骨粉 -->
+				<item id="2270" min="1" max="1" chance="0.0828" /> <!-- 製作卷軸(山羊頭之杖) -->
+				<item id="2288" min="1" max="1" chance="0.0644" /> <!-- 製作卷軸(魂靈魔杖) -->
+			</death>
+			<corpse>
+				<item id="1875" min="1" max="1" chance="8.7191" /> <!-- 純石 -->
+				<item id="1895" min="1" max="1" chance="37.3675" /> <!-- 金屬纖維 -->
+				<item id="2149" min="1" max="1" chance="9.3419" /> <!-- 製作卷軸(金屬纖維) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="35" grown="42" />
+			<height normal="17" grown="21" />
+		</collision>
+	</npc>
+	<npc id="89" level="37" type="L2Monster" name="雄蟻" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="1.4544" sp="122" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="847.31754" hpRegen="4.5" mp="432.72" mpRegen="1.8" />
+			<attack physical="146.82587" magical="100.26304" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="144.47758" magical="96.1948088105753" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="174" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="230" max="460" chance="70" /> <!-- 金幣 -->
+				<item id="395" min="1" max="1" chance="0.0063" /> <!-- 刺尾獅皮襯衫 -->
+				<item id="417" min="1" max="1" chance="0.0101" /> <!-- 刺尾獅皮脛甲 -->
+				<item id="1825" min="1" max="1" chance="0.2515" /> <!-- 製作卷軸(奧里哈魯根) -->
+				<item id="1875" min="1" max="1" chance="0.2348" /> <!-- 純石 -->
+				<item id="1879" min="1" max="1" chance="0.5869" /> <!-- 炭焦 -->
+				<item id="1885" min="1" max="1" chance="0.2935" /> <!-- 高級軟皮 -->
+				<item id="1942" min="1" max="1" chance="0.3592" /> <!-- 刺尾獅皮襯衫的材料 -->
+				<item id="1943" min="1" max="1" chance="0.5593" /> <!-- 刺尾獅皮脛甲的組件 -->
+				<item id="2205" min="1" max="1" chance="0.1115" /> <!-- 製作卷軸(鏈脛甲) -->
+				<item id="2989" min="1" max="1" chance="0.1863" /> <!-- 製作卷軸(鏈頭巾) -->
+			</death>
+			<corpse>
+				<item id="1884" min="1" max="1" chance="33.532" /> <!-- 強化繩索 -->
+				<item id="1902" min="1" max="1" chance="5.5207" /> <!-- 精靈耳環的珠子 -->
+				<item id="2159" min="1" max="1" chance="3.3635" /> <!-- 製作卷軸(黑暗項鍊) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="20" grown="24" />
+			<height normal="48" grown="57" />
+		</collision>
+	</npc>
+	<npc id="90" level="38" type="L2Monster" name="雄蟻隊長" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="3" /> <!-- NPC Strike -->
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.0411504" sp="274" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="886.09975" hpRegen="4.5" mp="447.96" mpRegen="1.8" />
+			<attack physical="156.22273" magical="106.67987" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="148.44287" magical="98.8349371271581" />
+			<attribute>
+				<defence fire="-5" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="174" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="3" /> <!-- NPC Strike -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="507" max="1012" chance="70" /> <!-- 金幣 -->
+				<item id="352" min="1" max="1" chance="0.007" /> <!-- 鎖子甲 -->
+				<item id="1341" min="10" max="30" chance="25.8214" /> <!-- 骨箭 -->
+				<item id="1876" min="1" max="1" chance="1.5493" /> <!-- 米索莉原石 -->
+				<item id="1877" min="1" max="1" chance="0.3099" /> <!-- 金剛石塊 -->
+				<item id="1880" min="1" max="1" chance="0.7747" /> <!-- 鐵 -->
+				<item id="1881" min="1" max="1" chance="1.0329" /> <!-- 顆粒狀的骨粉 -->
+				<item id="1882" min="1" max="1" chance="1.7215" /> <!-- 皮革 -->
+				<item id="1941" min="1" max="1" chance="0.4108" /> <!-- 鎖子甲的原料 -->
+				<item id="2158" min="1" max="1" chance="0.9588" /> <!-- 製作卷軸(米索莉戒指) -->
+				<item id="2377" min="1" max="1" chance="0.0111" /> <!-- 米索莉鱗脛甲 -->
+				<item id="2378" min="1" max="1" chance="0.0111" /> <!-- 鎖脛甲 -->
+				<item id="2918" min="1" max="1" chance="0.6128" /> <!-- 米索莉鱗脛甲材料 -->
+				<item id="2919" min="1" max="1" chance="0.6128" /> <!-- 鎖脛甲材料 -->
+			</death>
+			<corpse>
+				<item id="1825" min="1" max="1" chance="8.5633" /> <!-- 製作卷軸(奧里哈魯根) -->
+				<item id="1868" min="1" max="5" chance="79.9241" /> <!-- 線 -->
+				<item id="2197" min="1" max="1" chance="2.5133" /> <!-- 製作卷軸(火蜥蜴皮甲) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="20" grown="24" />
+			<height normal="48" grown="57" />
+		</collision>
+	</npc>
+	<npc id="91" level="1" type="L2Monster" name="幼狐狸" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="29.39" sp="2" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39.74519" hpRegen="2" mp="40.0" mpRegen="0.9" />
+			<attack physical="8.47458" magical="5.78704" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44444" magical="29.5916164000214" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="23" />
+				<run ground="110" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="9.5" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="92" level="10" type="L2Monster" name="眼怪" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.94" sp="10" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="163.28607" hpRegen="2" mp="108.4" mpRegen="0.9" />
+			<attack physical="19.33758" magical="13.20506" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="61.82527" magical="41.16396260604" />
+			<attribute>
+				<defence fire="20" water="20" wind="-5" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="90" />
+				<run ground="134" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<dropLists>
+			<death>
+				<item id="57" min="79" max="107" chance="70" /> <!-- 金幣 -->
+				<item id="113" min="1" max="1" chance="0.7148" /> <!-- 法師耳環 -->
+				<item id="875" min="1" max="1" chance="1.0735" /> <!-- 知識戒指 -->
+				<item id="906" min="1" max="1" chance="0.5368" /> <!-- 知識項鍊 -->
+				<item id="1867" min="1" max="1" chance="1.9323" /> <!-- 動物的皮 -->
+				<item id="1869" min="1" max="1" chance="1.4493" /> <!-- 鋼鐵礦 -->
+				<item id="1870" min="1" max="1" chance="1.4493" /> <!-- 煤礦 -->
+				<item id="1871" min="1" max="1" chance="1.4493" /> <!-- 木炭 -->
+				<item id="1872" min="1" max="1" chance="1.9323" /> <!-- 動物的骨頭 -->
+				<item id="2137" min="1" max="1" chance="0.4263" /> <!-- 製作卷軸(鐵) -->
+			</death>
+			<corpse>
+				<item id="1666" min="1" max="1" chance="4.9062" /> <!-- 製作卷軸(木箭) -->
+				<item id="1866" min="1" max="1" chance="9.8124" /> <!-- 軟皮 -->
+				<item id="2005" min="1" max="1" chance="1.0513" /> <!-- 寬劍的劍身 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="21" />
+			<height normal="43" />
+		</collision>
+	</npc>
+	<npc id="93" level="10" type="L2Monster" name="獸人鬥士" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="1" /> <!-- rhand: 短劍 -->
+		<acquire expRate="3.634546" sp="12" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="163.28607" hpRegen="2" mp="108.4" mpRegen="0.9" />
+			<attack physical="19.33758" magical="13.20506" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="61.82527" magical="41.16396260604" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ORC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="3" min="1" max="1" chance="0.086" /> <!-- 寬劍 -->
+				<item id="57" min="98" max="132" chance="70" /> <!-- 金幣 -->
+				<item id="1060" min="1" max="1" chance="5.972" /> <!-- 體力治癒藥水 -->
+				<item id="1867" min="1" max="1" chance="3.5832" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="3.5832" /> <!-- 動物的骨頭 -->
+				<item id="2005" min="1" max="1" chance="0.384" /> <!-- 寬劍的劍身 -->
+				<item id="2138" min="1" max="1" chance="0.7905" /> <!-- 製作卷軸(顆粒狀的骨粉) -->
+			</death>
+			<corpse>
+				<item id="1666" min="1" max="1" chance="6.0652" /> <!-- 製作卷軸(木箭) -->
+				<item id="1867" min="1" max="1" chance="24.2609" /> <!-- 動物的皮 -->
+				<item id="2007" min="1" max="1" chance="1.2997" /> <!-- 弓的金屬塊 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="12" grown="14" />
+			<height normal="22" grown="26.4" />
+		</collision>
+	</npc>
+	<npc id="94" level="10" type="L2Monster" name="獸人射手" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> <!-- rhand: 弓 -->
+		<acquire expRate="3.058482" sp="10" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="163.28607" hpRegen="2" mp="108.4" mpRegen="0.9" />
+			<attack physical="19.33758" magical="13.20506" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="61.82527" magical="41.16396260604" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>800</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" dodge="15" isAggressive="false">
+			<clanList>
+				<clan>ORC</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="95" level="10" type="L2Monster" name="吸血蝙蝠" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.9694" sp="10" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="163.28607" hpRegen="2" mp="108.4" mpRegen="0.9" />
+			<attack physical="19.33758" magical="13.20506" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="61.82527" magical="41.16396260604" />
+			<attribute>
+				<defence fire="20" water="20" wind="-5" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="80" />
+			</speed>
+			<hitTime>500</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="80" max="108" chance="70" /> <!-- 金幣 -->
+				<item id="428" min="1" max="1" chance="0.1808" /> <!-- 佩里奧堤外衣 -->
+				<item id="463" min="1" max="1" chance="0.2889" /> <!-- 佩里奧堤長襪 -->
+				<item id="1100" min="1" max="1" chance="0.1808" /> <!-- 棉質外衣 -->
+				<item id="1103" min="1" max="1" chance="0.2889" /> <!-- 棉質長襪 -->
+				<item id="1789" min="1" max="1" chance="0.5412" /> <!-- 製作卷軸(柏木魔杖) -->
+				<item id="1864" min="1" max="1" chance="5.8548" /> <!-- 樹枝 -->
+				<item id="1869" min="1" max="1" chance="2.9274" /> <!-- 鋼鐵礦 -->
+			</death>
+			<corpse>
+				<item id="1864" min="1" max="1" chance="29.7315" /> <!-- 樹枝 -->
+				<item id="2006" min="1" max="1" chance="1.0618" /> <!-- 柳木魔杖的金屬塊 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="96" level="11" type="L2Monster" name="獸人鬥士副隊長" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="3.23604" sp="15" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="185.38552" hpRegen="2.5" mp="116.4" mpRegen="1.2" />
+			<attack physical="21.0973" magical="14.40672" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="64.04702" magical="42.6432286072855" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ORC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="37" min="1" max="1" chance="0.2996" /> <!-- 皮鞋 -->
+				<item id="49" min="1" max="1" chance="0.2996" /> <!-- 手套 -->
+				<item id="57" min="109" max="147" chance="70" /> <!-- 金幣 -->
+				<item id="736" min="1" max="1" chance="0.9924" /> <!-- 返回卷軸 -->
+				<item id="1867" min="1" max="1" chance="2.6464" /> <!-- 動物的皮 -->
+				<item id="1869" min="1" max="1" chance="1.9848" /> <!-- 鋼鐵礦 -->
+				<item id="1870" min="1" max="1" chance="1.9848" /> <!-- 煤礦 -->
+				<item id="1871" min="1" max="1" chance="1.9848" /> <!-- 木炭 -->
+				<item id="1872" min="1" max="1" chance="2.6464" /> <!-- 動物的骨頭 -->
+				<item id="1921" min="1" max="1" chance="2.5611" /> <!-- 皮鞋的材料 -->
+			</death>
+			<corpse>
+				<item id="1792" min="1" max="1" chance="1.4822" /> <!-- 製作卷軸(短矛) -->
+				<item id="1799" min="1" max="1" chance="29.8635" /> <!-- 製作卷軸(皮手套) -->
+				<item id="1921" min="1" max="1" chance="13.0051" /> <!-- 皮鞋的材料 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="12" grown="14" />
+			<height normal="22" grown="26.4" />
+		</collision>
+	</npc>
+	<npc id="97" level="11" type="L2Monster" name="長齒蝙蝠" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.6967" sp="12" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="185.38552" hpRegen="2.5" mp="116.4" mpRegen="1.2" />
+			<attack physical="21.0973" magical="14.40672" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="64.04702" magical="42.6432286072855" />
+			<attribute>
+				<defence fire="20" water="20" wind="-5" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="80" />
+			</speed>
+			<hitTime>500</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="23" min="1" max="1" chance="0.0832" /> <!-- 木胸甲 -->
+				<item id="30" min="1" max="1" chance="0.1331" /> <!-- 硬皮褲 -->
+				<item id="57" min="91" max="122" chance="70" /> <!-- 金幣 -->
+				<item id="1792" min="1" max="1" chance="0.2433" /> <!-- 製作卷軸(短矛) -->
+				<item id="1867" min="1" max="1" chance="4.4106" /> <!-- 動物的皮 -->
+				<item id="1872" min="1" max="1" chance="4.4106" /> <!-- 動物的骨頭 -->
+				<item id="2386" min="1" max="1" chance="0.1331" /> <!-- 木製脛甲 -->
+			</death>
+			<corpse>
+				<item id="1793" min="1" max="1" chance="1.2352" /> <!-- 製作卷軸(反射劍) -->
+				<item id="1864" min="1" max="1" chance="33.5964" /> <!-- 樹枝 -->
+				<item id="1872" min="1" max="1" chance="22.3976" /> <!-- 動物的骨頭 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="98" level="12" type="L2Monster" name="獸人鬥士隊長" title="">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="Buff" id="4028" level="1" /> <!-- NPC Might -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> <!-- rhand: 長劍 -->
+		<acquire expRate="3.110565" sp="17" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="199.62322" hpRegen="2.5" mp="124.48" mpRegen="1.2" />
+			<attack physical="22.99606" magical="15.70333" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="66.32989" magical="44.163184477748" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4028" level="1" /> <!-- 攻擊力上升 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>ORC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="117" max="161" chance="70" /> <!-- 金幣 -->
+				<item id="66" min="1" max="1" chance="0.016" /> <!-- 羅馬劍 -->
+				<item id="1333" min="1" max="1" chance="0.016" /> <!-- 刺擊刀 -->
+				<item id="1793" min="1" max="1" chance="0.3172" /> <!-- 製作卷軸(反射劍) -->
+				<item id="1865" min="1" max="1" chance="4.3134" /> <!-- 研磨劑 -->
+				<item id="1870" min="1" max="1" chance="4.3134" /> <!-- 煤礦 -->
+				<item id="2010" min="1" max="1" chance="0.1679" /> <!-- 刺擊刀的刀身 -->
+			</death>
+			<corpse>
+				<item id="1867" min="1" max="1" chance="29.2048" /> <!-- 動物的皮 -->
+				<item id="1870" min="1" max="1" chance="21.9036" /> <!-- 煤礦 -->
+				<item id="1896" min="1" max="1" chance="9.2812" /> <!-- 幻滅項鍊的鍊子 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="12" grown="14" />
+			<height normal="22" grown="26.4" />
+		</collision>
+	</npc>
+	<npc id="99" level="12" type="L2Monster" name="骷髏" title="">
+		<!-- Confirmed CT2.5 -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="946" lhand="945" /> <!-- rhand: 骷髏匕首 lhand: 骷髏小圓盾 -->
+		<acquire expRate="2.52399" sp="13" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="199.62322" hpRegen="2.5" mp="124.48" mpRegen="1.2" />
+			<attack physical="22.99606" magical="15.70333" random="10" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="66.32989" magical="44.163184477748" shield="33" shieldRate="20" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<hitTime>300</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>SKELETON</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="57" min="95" max="131" chance="70" /> <!-- 金幣 -->
+				<item id="66" min="1" max="1" chance="0.013" /> <!-- 羅馬劍 -->
+				<item id="1333" min="1" max="1" chance="0.013" /> <!-- 刺擊刀 -->
+				<item id="1794" min="1" max="1" chance="0.1287" /> <!-- 製作卷軸(森林弓) -->
+				<item id="1864" min="1" max="1" chance="3.5" /> <!-- 樹枝 -->
+				<item id="1865" min="1" max="1" chance="1.75" /> <!-- 研磨劑 -->
+				<item id="1866" min="1" max="1" chance="1.1667" /> <!-- 軟皮 -->
+				<item id="1868" min="1" max="1" chance="3.5" /> <!-- 線 -->
+				<item id="1873" min="1" max="1" chance="0.7" /> <!-- 銀塊 -->
+				<item id="2010" min="1" max="1" chance="0.1363" /> <!-- 刺擊刀的刀身 -->
+			</death>
+			<corpse>
+				<item id="1831" min="1" max="1" chance="47.3949" /> <!-- 解毒草 -->
+				<item id="1896" min="1" max="1" chance="7.531" /> <!-- 幻滅項鍊的鍊子 -->
+				<item id="2009" min="1" max="1" chance="0.6303" /> <!-- 短刀的刀身 -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="25" grown="31" />
+		</collision>
+	</npc>
+</list>

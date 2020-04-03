@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="4200" type="EtcItem" name="魔法書 - 生命治癒">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="3850" />
+	</item>
+	<item id="4201" type="EtcItem" name="魔法書 - 抵抗衝擊">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="3200" />
+	</item>
+	<item id="4202" type="Weapon" name="克魯諾齊塔納">
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="1" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="4203" type="EtcItem" name="魔法書 - 生命吸取">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="3200" />
+	</item>
+	<item id="4204" type="EtcItem" name="護身符 - 帕格立歐迅捷">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="3200" />
+	</item>
+	<item id="4205" type="EtcItem" name="護身符 - 帕格立歐憤怒">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="3850" />
+	</item>
+	<item id="4206" type="EtcItem" name="魔法書 - 痛苦轉移">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="3200" />
+	</item>
+	<item id="4207" type="EtcItem" name="魔法書 - 魔力再生">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="3200" />
+	</item>
+	<item id="4208" type="EtcItem" name="魔法書 - 暗影詛咒">
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="120" />
+		<set name="price" val="3850" />
+	</item>
+	<item id="4209" type="EtcItem" name="L2day - 紅心碎片1">
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4210" type="EtcItem" name="L2day - 紅心碎片2">
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4211" type="EtcItem" name="L2day - 紅心碎片3">
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4212" type="EtcItem" name="L2day - 紅心碎片4">
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4213" type="EtcItem" name="L2day - 紅心碎片5">
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4214" type="EtcItem" name="L2day - 紅心碎片6">
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4215" type="EtcItem" name="L2day - 紅心碎片7">
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4216" type="EtcItem" name="L2day - 紅心碎片8">
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4217" type="EtcItem" name="L2day - 紅心碎片9">
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4218" type="EtcItem" name="L2day - 魔力再生卷軸">
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2064-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="4219" type="Weapon" name="夢之劍">
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="1530" />
+		<set name="price" val="244000" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set stat="pAtk" val="31" />
+			<set stat="mAtk" val="21" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="4220" type="Weapon" name="夢之刀">
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="1110" />
+		<set name="price" val="244000" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set stat="pAtk" val="27" />
+			<set stat="mAtk" val="21" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="4221" type="Weapon" name="泛在斧">
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="1850" />
+		<set name="price" val="244000" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set stat="pAtk" val="31" />
+			<set stat="mAtk" val="21" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="4222" type="Armor" name="夢之盾">
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="1380" />
+		<set name="price" val="9900" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="90" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="4223" type="Armor" name="泛在盾">
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="1380" />
+		<set name="price" val="9900" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="90" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="4224" type="Armor" name="夢之盔甲">
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="8920" />
+		<set name="price" val="37820" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="68" />
+		</for>
+	</item>
+	<item id="4225" type="Armor" name="夢之長襪">
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="3960" />
+		<set name="price" val="23600" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="43" />
+		</for>
+	</item>
+	<item id="4226" type="Armor" name="夢之手套">
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="650" />
+		<set name="price" val="9500" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="17" />
+		</for>
+	</item>
+	<item id="4227" type="Armor" name="夢之靴">
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="1310" />
+		<set name="price" val="9500" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="17" />
+		</for>
+	</item>
+	<item id="4228" type="Armor" name="泛在盔甲">
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="8920" />
+		<set name="price" val="37820" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="68" />
+		</for>
+	</item>
+	<item id="4229" type="Armor" name="泛在長襪">
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="3960" />
+		<set name="price" val="23600" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="43" />
+		</for>
+	</item>
+	<item id="4230" type="Armor" name="泛在手套">
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="650" />
+		<set name="price" val="9500" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="17" />
+		</for>
+	</item>
+	<item id="4231" type="Armor" name="泛在靴">
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="1310" />
+		<set name="price" val="9500" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="17" />
+		</for>
+	</item>
+</list>

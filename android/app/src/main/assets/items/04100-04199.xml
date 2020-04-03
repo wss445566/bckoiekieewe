@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="4100" type="EtcItem" name="夏隆長手套的碎片">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="3843" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4101" type="EtcItem" name="夏隆盾的碎片">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="3450" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4102" type="EtcItem" name="夏隆頭盔的組件">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="4453" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4103" type="EtcItem" name="帕塔拳刃的刀身">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="32950" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4104" type="EtcItem" name="巨劍的刀身">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="34950" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4105" type="EtcItem" name="巨大戰斧的金屬塊">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="34950" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4106" type="EtcItem" name="精靈魔杖的金屬塊">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="35533" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4107" type="EtcItem" name="柯貝克劍的劍身">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="35500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4108" type="EtcItem" name="聖堂之劍的刀身">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="35500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4109" type="EtcItem" name="波形刃的刀身">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="35500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4110" type="EtcItem" name="地獄刀的刀身">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="35500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4111" type="EtcItem" name="阿斯拉爪的刀身">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="34950" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4112" type="EtcItem" name="黑暗精靈長弓的柄">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="35325" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4113" type="EtcItem" name="巨斧的金屬塊">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="38867" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4114" type="EtcItem" name="大馬士革刀的劍身">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="45692" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4115" type="EtcItem" name="長槍的刀身">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="45846" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4116" type="EtcItem" name="亡者榮譽的石材">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="45769" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4117" type="EtcItem" name="工藝戰斧的刀身">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="45769" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4118" type="EtcItem" name="邪靈魔杖的金屬塊">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="48308" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4119" type="EtcItem" name="惡魔短劍的刀身">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="45692" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4120" type="EtcItem" name="博利恩拳套的刃部">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="45769" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4121" type="EtcItem" name="冒險弓的柄">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="60" />
+		<set name="price" val="45923" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4122" type="EtcItem" name="製作卷軸(巨匠骨架)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="4500" />
+		<set name="recipe_id" val="474" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4123" type="EtcItem" name="製作卷軸(巨匠砧鎖)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="4500" />
+		<set name="recipe_id" val="475" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4124" type="EtcItem" name="製作卷軸(刀匠鑄模)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="4500" />
+		<set name="recipe_id" val="476" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4125" type="EtcItem" name="製作卷軸(巨匠模具)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="4500" />
+		<set name="recipe_id" val="477" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4126" type="EtcItem" name="製作卷軸(金剛石耳環)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="12120" />
+		<set name="recipe_id" val="329" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4127" type="EtcItem" name="製作卷軸(金剛石戒指)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="8080" />
+		<set name="recipe_id" val="331" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4128" type="EtcItem" name="製作卷軸(金剛石項鍊)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16160" />
+		<set name="recipe_id" val="333" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4129" type="EtcItem" name="製作卷軸(黑光耳環)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="18480" />
+		<set name="recipe_id" val="335" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4130" type="EtcItem" name="製作卷軸(黑光戒指)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="12320" />
+		<set name="recipe_id" val="337" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4131" type="EtcItem" name="製作卷軸(黑光項鍊)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="24600" />
+		<set name="recipe_id" val="339" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4132" type="EtcItem" name="製作卷軸(合金盾)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="5160" />
+		<set name="recipe_id" val="340" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4133" type="EtcItem" name="製作卷軸(夏隆胸甲)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="41600" />
+		<set name="recipe_id" val="342" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4134" type="EtcItem" name="製作卷軸(夏隆脛甲)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="26000" />
+		<set name="recipe_id" val="344" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4135" type="EtcItem" name="製作卷軸(毀滅靴)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="346" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4136" type="EtcItem" name="製作卷軸(寧靜靴)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="10380" />
+		<set name="recipe_id" val="348" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4137" type="EtcItem" name="製作卷軸(守護神靴)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="10380" />
+		<set name="recipe_id" val="350" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4138" type="EtcItem" name="製作卷軸(佩勒迪亞靴)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="352" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4139" type="EtcItem" name="製作卷軸(元素靴)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="354" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4140" type="EtcItem" name="製作卷軸(恩寵靴)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="356" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4141" type="EtcItem" name="製作卷軸(阿巴敦胸甲)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="41600" />
+		<set name="recipe_id" val="358" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4142" type="EtcItem" name="製作卷軸(阿巴敦脛甲)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="26000" />
+		<set name="recipe_id" val="360" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4143" type="EtcItem" name="製作卷軸(夏隆皮衫)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="31200" />
+		<set name="recipe_id" val="362" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4144" type="EtcItem" name="製作卷軸(夏隆皮脛甲)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="19460" />
+		<set name="recipe_id" val="364" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4145" type="EtcItem" name="製作卷軸(阿巴敦皮甲)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="45600" />
+		<set name="recipe_id" val="366" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4146" type="EtcItem" name="製作卷軸(夏隆外衣)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="31200" />
+		<set name="recipe_id" val="368" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4147" type="EtcItem" name="製作卷軸(夏隆長襪)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="19460" />
+		<set name="recipe_id" val="370" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4148" type="EtcItem" name="製作卷軸(阿巴敦長袍)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="45600" />
+		<set name="recipe_id" val="372" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4149" type="EtcItem" name="製作卷軸(阿巴敦頭箍)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="15560" />
+		<set name="recipe_id" val="374" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4150" type="EtcItem" name="製作卷軸(阿巴敦手套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="10380" />
+		<set name="recipe_id" val="376" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4151" type="EtcItem" name="製作卷軸(寧靜鏈手套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="10380" />
+		<set name="recipe_id" val="378" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4152" type="EtcItem" name="製作卷軸(守護神手套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="10380" />
+		<set name="recipe_id" val="380" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4153" type="EtcItem" name="製作卷軸(祝福手套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="10380" />
+		<set name="recipe_id" val="382" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4154" type="EtcItem" name="製作卷軸(末日盾)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16900" />
+		<set name="recipe_id" val="384" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4155" type="EtcItem" name="製作卷軸(青狼胸甲)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="64400" />
+		<set name="recipe_id" val="386" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4156" type="EtcItem" name="製作卷軸(祝福靴)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="10380" />
+		<set name="recipe_id" val="388" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4157" type="EtcItem" name="製作卷軸(青狼脛甲)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="40200" />
+		<set name="recipe_id" val="390" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4158" type="EtcItem" name="製作卷軸(末日金屬盔甲)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="94200" />
+		<set name="recipe_id" val="392" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4159" type="EtcItem" name="製作卷軸(青狼皮甲)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="70600" />
+		<set name="recipe_id" val="394" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4160" type="EtcItem" name="製作卷軸(末日皮甲)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="70600" />
+		<set name="recipe_id" val="396" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4161" type="EtcItem" name="製作卷軸(青狼外衣)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="48200" />
+		<set name="recipe_id" val="398" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4162" type="EtcItem" name="製作卷軸(末日外衣)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="48200" />
+		<set name="recipe_id" val="400" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4163" type="EtcItem" name="製作卷軸(青狼長襪)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="30200" />
+		<set name="recipe_id" val="402" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4164" type="EtcItem" name="製作卷軸(末日長襪)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="30200" />
+		<set name="recipe_id" val="404" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4165" type="EtcItem" name="製作卷軸(青狼頭盔)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="24200" />
+		<set name="recipe_id" val="406" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4166" type="EtcItem" name="製作卷軸(末日頭盔)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="24200" />
+		<set name="recipe_id" val="408" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4167" type="EtcItem" name="製作卷軸(青狼長靴)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="410" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4168" type="EtcItem" name="製作卷軸(末日手套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="412" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4169" type="EtcItem" name="製作卷軸(完美手套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="414" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4170" type="EtcItem" name="製作卷軸(恩寵手套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="416" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4171" type="EtcItem" name="製作卷軸(毀滅長手套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="418" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4172" type="EtcItem" name="製作卷軸(佩勒迪亞手套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="420" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4173" type="EtcItem" name="製作卷軸(青狼手套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="422" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4174" type="EtcItem" name="製作卷軸(夏隆靴)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="10380" />
+		<set name="recipe_id" val="424" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4175" type="EtcItem" name="製作卷軸(阿巴敦靴)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="10380" />
+		<set name="recipe_id" val="426" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4176" type="EtcItem" name="製作卷軸(末日靴)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="16080" />
+		<set name="recipe_id" val="428" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4177" type="EtcItem" name="製作卷軸(夏隆長手套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="10380" />
+		<set name="recipe_id" val="430" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4178" type="EtcItem" name="製作卷軸(夏隆盾)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="10900" />
+		<set name="recipe_id" val="432" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4179" type="EtcItem" name="製作卷軸(夏隆頭盔)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="15560" />
+		<set name="recipe_id" val="434" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4180" type="EtcItem" name="製作卷軸(銀箭)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="1800" />
+		<set name="recipe_id" val="435" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4181" type="EtcItem" name="製作卷軸(帕塔拳刃)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="156600" />
+		<set name="recipe_id" val="437" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4182" type="EtcItem" name="製作卷軸(巨劍)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="173600" />
+		<set name="recipe_id" val="439" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4183" type="EtcItem" name="製作卷軸(巨大戰斧)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="173600" />
+		<set name="recipe_id" val="441" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4184" type="EtcItem" name="製作卷軸(精靈魔杖)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="173600" />
+		<set name="recipe_id" val="443" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4185" type="EtcItem" name="製作卷軸(柯貝克劍)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="173600" />
+		<set name="recipe_id" val="445" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4186" type="EtcItem" name="製作卷軸(聖堂之劍)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="173600" />
+		<set name="recipe_id" val="447" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4187" type="EtcItem" name="製作卷軸(波形刃)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="173600" />
+		<set name="recipe_id" val="449" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4188" type="EtcItem" name="製作卷軸(地獄刀)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="173600" />
+		<set name="recipe_id" val="451" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4189" type="EtcItem" name="製作卷軸(阿斯拉爪)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="173600" />
+		<set name="recipe_id" val="453" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4190" type="EtcItem" name="製作卷軸(黑暗精靈長弓)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="173600" />
+		<set name="recipe_id" val="455" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4191" type="EtcItem" name="製作卷軸(巨斧)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="173600" />
+		<set name="recipe_id" val="457" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4192" type="EtcItem" name="製作卷軸(大馬士革刀)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="262000" />
+		<set name="recipe_id" val="459" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4193" type="EtcItem" name="製作卷軸(長槍)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="262000" />
+		<set name="recipe_id" val="461" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4194" type="EtcItem" name="製作卷軸(亡者榮譽)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="262000" />
+		<set name="recipe_id" val="463" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4195" type="EtcItem" name="製作卷軸(工藝戰斧)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="262000" />
+		<set name="recipe_id" val="465" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4196" type="EtcItem" name="製作卷軸(邪靈魔杖)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="262000" />
+		<set name="recipe_id" val="467" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4197" type="EtcItem" name="製作卷軸(惡魔短劍)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="262000" />
+		<set name="recipe_id" val="469" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4198" type="EtcItem" name="製作卷軸(博利恩拳套)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="262000" />
+		<set name="recipe_id" val="471" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4199" type="EtcItem" name="製作卷軸(冒險弓)">
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="price" val="262000" />
+		<set name="recipe_id" val="473" />
+		<set name="handler" val="Recipes" />
+	</item>
+</list>
