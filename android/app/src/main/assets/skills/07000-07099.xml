@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="7001" levels="1" name="Dispell Buff">
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="900" />
+		<set name="magicLvl" val="99" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="DispelByCategory">
+				<param slot="BUFF" rate="100" max="20" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="7002" levels="1" name="Dispell Debuff">
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="900" />
+		<set name="magicLvl" val="99" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="DispelByCategory">
+				<param slot="DEBUFF" rate="100" max="20" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="7003" levels="1" name="Dispell All">
+		<!-- Confirmed CT2.5 -->
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="900" />
+		<set name="magicLvl" val="99" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="DispelByCategory">
+				<param slot="BUFF" rate="100" max="20" />
+			</effect>
+			<effect name="DispelByCategory">
+				<param slot="DEBUFF" rate="100" max="20" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="7008" levels="1" name="不使用">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7009" levels="1" name="不使用">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7010" levels="1" name="不使用">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7011" levels="1" name="不使用">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7012" levels="1" name="不使用">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7013" levels="1" name="不使用">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7014" levels="1" name="不使用">
+		<set name="abnormalVisualEffect" val="NONE" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="T" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7015" levels="1" name="不使用">
+		<set name="abnormalVisualEffect" val="NONE" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="T" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7016" levels="1" name="不使用">
+		<set name="abnormalVisualEffect" val="NONE" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="T" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7017" levels="1" name="不使用">
+		<set name="abnormalVisualEffect" val="NONE" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="T" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7018" levels="1" name="不使用">
+		<set name="abnormalVisualEffect" val="NONE" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="T" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7019" levels="1" name="不使用">
+		<set name="abnormalVisualEffect" val="NONE" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="T" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7020" levels="1" name="不使用">
+		<set name="abnormalVisualEffect" val="NONE" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="T" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7021" levels="1" name="不使用">
+		<set name="abnormalVisualEffect" val="NONE" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="T" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7022" levels="1" name="不使用">
+		<set name="affectLimit" val="6-12" />
+		<set name="hitTime" val="1000" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7023" levels="1" name="不使用">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7024" levels="1" name="不使用">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7025" levels="1" name="不使用">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7026" levels="1" name="不使用">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7027" levels="1" name="不使用">
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="7028" levels="1" name="不使用">
+		<!-- TODO: Implement me! -->
+		<set name="magicLvl" val="99" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param DERANGEMENT="100" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="7029" levels="3" name="超級加速">
+		<!-- GM Skill -->
+		<table name="#amount"> 1 1 1 </table>
+		<table name="#mAtkSpd"> 2 3 3 </table>
+		<table name="#maxMp"> 0 0 0 </table>
+		<table name="#pAtk"> 1 1 10000 </table>
+		<table name="#pAtkSpd"> 2 3 3 </table>
+		<table name="#reuse"> 0.01 0.01 0.01 </table>
+		<table name="#runSpd"> 2 3 3 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="1200" />
+		<set name="abnormalType" val="ATTACK_TIME_DOWN" />
+		<set name="effectPoint" val="1" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="MaxMp">
+				<param power="#maxMp" />
+				<param type="PER" />
+			</effect>
+			<effect name="Buff">
+				<mul stat="pAtkSpd" val="#pAtkSpd" />
+				<mul stat="runSpd" val="#runSpd" />
+				<mul stat="mAtkSpd" val="#mAtkSpd" />
+				<mul stat="pAtk" val="#pAtk" />
+				<mul stat="pReuse" val="#reuse" />
+				<mul stat="mReuse" val="#reuse" />
+				<mul stat="regHp" val="#amount" />
+				<mul stat="regMp" val="#amount" />
+				<mul stat="weightLimit" val="#amount" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="7030" levels="1" name="召喚食人妖王">
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="itemConsumeCount" val="8" />
+		<set name="itemConsumeId" val="1458" />
+		<set name="magicLvl" val="1" />
+		<set name="mpConsume2" val="3" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="4000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canSummon="true" />
+		</cond>
+		<effects>
+			<effect name="Summon">
+				<param npcId="150" />
+				<param lifeTime="1200" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="7031" levels="1" name="召喚骷髏RG">
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="itemConsumeCount" val="8" />
+		<set name="itemConsumeId" val="1458" />
+		<set name="magicLvl" val="1" />
+		<set name="mpConsume2" val="3" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="4000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canSummon="true" />
+		</cond>
+		<effects>
+			<effect name="Summon">
+				<param npcId="169" />
+				<param lifeTime="1200" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="7032" levels="1" name="召喚狩獵翼魔">
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="itemConsumeCount" val="8" />
+		<set name="itemConsumeId" val="1458" />
+		<set name="magicLvl" val="1" />
+		<set name="mpConsume2" val="3" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="4000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canSummon="true" />
+		</cond>
+		<effects>
+			<effect name="Summon">
+				<param npcId="241" />
+				<param lifeTime="1200" />
+			</effect>
+		</effects>
+	</skill>
+</list>

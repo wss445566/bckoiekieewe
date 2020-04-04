@@ -20,7 +20,6 @@ import {
   Picker,
 } from 'react-native';
 
-
 let RNFS = require('react-native-fs');
 let select = require('xpath.js'), DOMParser = require('xmldom').DOMParser
 
@@ -38,7 +37,6 @@ function SearchXML() {
 		})
 		.catch((err)=>{
 			setText("no data:"+selectedValue+":"+id);
-			//console.log(id, ' not found?')
 		});
 	}
 	const onFocus = function(){
@@ -49,37 +47,40 @@ function SearchXML() {
 	}
 	return (
 		<>
-		<Picker
-			selectedValue={selectedValue}
-			onValueChange={(itemValue, itemIndex)=>setSelectedValue(itemValue)}
-		>
-			<Picker.Item label="items" value="item" />
-			<Picker.Item label="npcs" value="npc" />
-		</Picker>
-		<TextInput
-			style={{height:40}}
-			onChangeText={id => {setID(id);check()}}
-			//defaultValue={id}
-			value={id}
-			autoFocus={true}
-			keyboardType="number-pad"
-			maxLength={5}
-			onBlur={()=>check()}
-			onEndEditing={()=>check()}
-			textAlign='center'
-			onFocus={()=>onFocus()}
-		/>
-		<Button title='check' onPress={check} />
-		<ScrollView
+      <Picker
+        selectedValue={selectedValue}
+        onValueChange={(itemValue, itemIndex)=>setSelectedValue(itemValue)}
+      >
+        <Picker.Item label="items" value="item" />
+        <Picker.Item label="npcs" value="npc" />
+        <Picker.Item label="skills" value="skill" />
+      </Picker>
+      <TextInput
+        style={{height:40}}
+        onChangeText={id => setID(id)}
+        //defaultValue={id}
+        value={id}
+        autoFocus={true}
+        keyboardType="number-pad"
+        maxLength={5}
+        onBlur={()=>check()}
+        onEndEditing={()=>check()}
+        textAlign='center'
+        onFocus={()=>onFocus()}
+      />
+      <Button title='check' onPress={check} />
+      <ScrollView
+        contentInsetAdjustmentBehavior="automatic"
+        style={styles.scrollView}
+      >
+        <ScrollView
+          horizontal={true}
           contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-			<ScrollView
-			horizontal={true}
-			  contentInsetAdjustmentBehavior="automatic"
-			  style={styles.scrollView}>
-				<Text style={{backgroundColor: "beige"}}>{text}</Text>
-			</ScrollView>
+          style={styles.scrollView}
+        >
+          <Text style={{backgroundColor: "beige"}}>{text}</Text>
         </ScrollView>
+      </ScrollView>
 		</>
 	)
 }
@@ -89,7 +90,7 @@ const App: () => React$Node = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{flex:1,}}>
-		  <SearchXML />
+        <SearchXML />
       </SafeAreaView>
     </>
   );

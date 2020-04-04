@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="2001" levels="1" name="紅色藥水">
+		<!-- High Five Confirmed -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="15" />
+		<set name="abnormalType" val="HP_RECOVER" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2002" levels="1" name="體力治癒輔助藥水">
+		<!-- High Five Confirmed -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="20" />
+		<set name="abnormalType" val="HP_RECOVER" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2005" levels="1" name="神酒">
+		<!-- Confirmed CT2.5 -->
+		<!-- Summer Squash Event Skill -->
+		<set name="castRange" val="200" />
+		<set name="effectPoint" val="-150" />
+		<set name="effectRange" val="300" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="6391" /> <!-- Nectar -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="1000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" /> <!-- FIXME: This should be OTHERS -->
+	</skill>
+	<skill id="2006" levels="1" name="武器強化卷軸-A級">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2007" levels="1" name="防具強化卷軸-A級">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2008" levels="1" name="Item - Beast Spirit Shot">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2009" levels="1" name="Item - Blessed Beast Spirit Shot">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2010" levels="1" name="奮鬥藥水">
+		<!-- High Five Confirmed -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="HIT_UP" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2011" levels="1" name="移動加速藥水">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="1200" />
+		<set name="abnormalType" val="SPEED_UP" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<add stat="runSpd" val="20" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2012" levels="1" name="攻擊加速藥水">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="1200" />
+		<set name="abnormalType" val="ATTACK_TIME_DOWN" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pAtkSpd" val="1.15" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2013" levels="1" name="返回卷軸">
+		<!-- Confirmed CT2.5 -->
+		<set name="hitTime" val="20000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="736" /> <!-- Scroll of Escape -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player canEscape="true" />
+				<not>
+					<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+				</not>
+			</and>
+		</cond>
+		<effects>
+			<effect name="Escape">
+				<param escapeType="TOWN" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2014" levels="1" name="復活卷軸">
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="1" />
+		<set name="effectRange" val="600" />
+		<set name="hitTime" val="15000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="737" /> <!-- Scroll of Resurrection -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="PC_BODY" />
+		<cond>
+			<player canResurrect="true" />
+		</cond>
+		<effects>
+			<effect name="Resurrection" />
+		</effects>
+	</skill>
+	<skill id="2015" levels="1" name="武器強化卷軸-B級">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2016" levels="1" name="防具強化卷軸-B級">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2017" levels="1" name="武器強化卷軸-C級">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2018" levels="1" name="防具強化卷軸-C級">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2019" levels="1" name="武器強化卷軸-D級">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2020" levels="1" name="防具強化卷軸-D級">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2021" levels="1" name="武器強化卷軸-S級">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2022" levels="1" name="防具強化卷軸-S級">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2023" levels="1" name="妖精之炎">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="6403" /> <!-- Star Shard -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2024" levels="1" name="煙火">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="6406" /> <!-- Firework -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="1000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2025" levels="1" name="大煙火">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="6407" /> <!-- Large Firework -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="3000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2026" levels="1" name="祝福的武器強化卷軸-S級">
+		<!-- Blessed Enchant -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2027" levels="1" name="祝福的武器強化卷軸-A級">
+		<!-- Blessed Enchant -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2028" levels="1" name="祝福的武器強化卷軸-B級">
+		<!-- Blessed Enchant -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2029" levels="1" name="祝福的武器強化卷軸-C級">
+		<!-- Blessed Enchant -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2030" levels="1" name="祝福的武器強化卷軸-D級">
+		<!-- Blessed Enchant -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2031" levels="1" name="治癒藥水">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="15" />
+		<set name="abnormalType" val="HP_RECOVER" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="10000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="TickHp">
+				<param power="8" />
+				<param ticks="3" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2032" levels="1" name="強力體力治癒藥水">
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalTime" val="15" />
+		<set name="abnormalType" val="HP_RECOVER" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="10000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="TickHp">
+				<param power="24" />
+				<param ticks="3" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2033" levels="1" name="Item - Beast Soul Shot">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2034" levels="1" name="強力移動加速藥水">
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalTime" val="1200" />
+		<set name="abnormalType" val="SPEED_UP" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<add stat="runSpd" val="33" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2035" levels="1" name="強力攻擊加速藥水">
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalTime" val="1200" />
+		<set name="abnormalType" val="ATTACK_TIME_DOWN" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pAtkSpd" val="1.33" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2036" levels="1" name="祝福的返回卷軸">
+		<!-- Confirmed CT2.5 -->
+		<table name="#itemConsumeId"> 1538 </table>
+		<set name="hitTime" val="200" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player canEscape="true" />
+				<not>
+					<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+				</not>
+			</and>
+		</cond>
+		<effects>
+			<effect name="Escape">
+				<param escapeType="TOWN" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2037" levels="1" name="終極治癒藥水">
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalTime" val="15" />
+		<set name="abnormalType" val="HP_RECOVER" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="10000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="TickHp">
+				<param power="50" />
+				<param ticks="3" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2038" levels="1" name="瞬間體力治癒劑">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Hp">
+				<param amount="435" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2039" levels="1" name="靈魂彈失效">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2040" levels="1" name="根據地返回卷軸">
+		<!-- Confirmed CT2.5 -->
+		<set name="hitTime" val="20000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="1829" /> <!-- Scroll of Escape: Clan Hall -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player canEscape="true" />
+				<not>
+					<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+				</not>
+			</and>
+		</cond>
+		<effects>
+			<effect name="Escape">
+				<param escapeType="CLANHALL" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2041" levels="1" name="城堡返回卷軸">
+		<!-- Confirmed CT2.5 -->
+		<set name="hitTime" val="20000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="1830" /> <!-- Scroll of Escape: Castle -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player canEscape="true" />
+				<not>
+					<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+				</not>
+			</and>
+		</cond>
+		<effects>
+			<effect name="Escape">
+				<param escapeType="CASTLE" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2042" levels="1" name="解毒草">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DispelBySlot">
+				<param dispel="POISON,3" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2043" levels="1" name="濃縮解毒藥">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DispelBySlot">
+				<param dispel="POISON,7" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2044" levels="1" name="繃帶">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DispelBySlot">
+				<param dispel="BLEEDING,3" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2045" levels="1" name="強力繃帶">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DispelBySlot">
+				<param dispel="BLEEDING,7" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2046" levels="1" name="狼喉輪">
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="SummonPet" />
+		</effects>
+	</skill>
+	<skill id="2047" levels="1" name="魔靈彈失效">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2048" levels="1" name="狼食">
+		<!-- High Five Confirmed -->
+		<set name="affectScope" val="SINGLE" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="FoodForPet">
+				<param normal="100" />
+				<param ride="100" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2049" levels="1" name="祝福的復活卷軸">
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="1" />
+		<set name="effectRange" val="600" />
+		<set name="hitTime" val="3000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3936" /> <!-- Blessed Scroll of Resurrection -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="PC_BODY" />
+		<cond>
+			<player canResurrect="true" />
+		</cond>
+		<effects>
+			<effect name="Resurrection">
+				<param power="100" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2050" levels="1" name="導引卷軸">
+		<set name="abnormalLvl" val="4" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="HIT_UP" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3926" /> <!-- L2Day - Guidance Scroll -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<add stat="accCombat" val="4" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2051" levels="1" name="死之呢喃卷軸">
+		<set name="abnormalLvl" val="4" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="CRITICAL_DMG_UP" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3927" /> <!-- L2Day - Death Whisper Scroll -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="critDmg" val="1.35" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2052" levels="1" name="弱點偵測卷軸">
+		<set name="abnormalLvl" val="4" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="CRITICAL_PROB_UP" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3928" /> <!-- L2Day - Focus Scroll -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="critRate" val="1.3" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2053" levels="1" name="終極靈活思緒卷軸">
+		<set name="abnormalLvl" val="4" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="CASTING_TIME_DOWN" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3929" /> <!-- L2Day - Greater Acumen Scroll -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="mAtkSpd" val="1.3" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2054" levels="1" name="速度激發卷軸">
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="ATTACK_TIME_DOWN" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3930" /> <!-- L2Day - Haste Scroll -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pAtkSpd" val="1.33" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2055" levels="1" name="敏捷術卷軸">
+		<set name="abnormalLvl" val="4" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="AVOID_UP" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3931" /> <!-- L2Day - Agility Scroll -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<add stat="rEvas" val="4" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2056" levels="1" name="魔力催化卷軸">
+		<set name="abnormalLvl" val="4" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="MA_UP" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3932" /> <!-- L2Day - Mystic Empower Scroll -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="mAtk" val="1.75" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2057" levels="1" name="力量強化卷軸">
+		<set name="abnormalLvl" val="4" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="PA_UP" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3933" /> <!-- L2Day - Might Scroll -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pAtk" val="1.15" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2058" levels="1" name="風之疾走卷軸">
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="SPEED_UP" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3934" /> <!-- L2Day - Windwalk Scroll -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<add stat="runSpd" val="33" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2059" levels="1" name="保護盾卷軸">
+		<set name="abnormalLvl" val="4" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="PD_UP" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3935" /> <!-- L2Day - Shield Scroll -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pDef" val="1.15" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2060" levels="1" name="體力恢復藥">
+		<!-- Confirmed CT2.5 -->
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DispelBySlot">
+				<param dispel="FATAL_POISON,1" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2061" levels="1" name="受祝福的魔靈彈失效">
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="2062" levels="1" name="祝福的復活卷軸">
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="1" />
+		<set name="effectRange" val="600" />
+		<set name="hitTime" val="3000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="3959" /> <!-- Blessed Scroll of Resurrection -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="PC_BODY" />
+		<cond>
+			<player canResurrect="true" />
+		</cond>
+		<effects>
+			<effect name="Resurrection">
+				<param power="100" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2063" levels="1" name="幼龍飼料">
+		<!-- High Five Confirmed -->
+		<set name="affectScope" val="SINGLE" />
+		<set name="isMagic" val="2" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="FoodForPet">
+				<param normal="150" />
+				<param ride="150" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="2064" levels="1" name="魔力再生卷軸">
+		<set name="abnormalLvl" val="4" />
+		<set name="abnormalTime" val="3600" />
+		<set name="abnormalType" val="MP_REGEN_UP" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="4218" /> <!-- L2 Day - Scroll of Mana Regeneration -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<add stat="regMp" val="1.82" />
+			</effect>
+		</effects>
+	</skill>
+</list>

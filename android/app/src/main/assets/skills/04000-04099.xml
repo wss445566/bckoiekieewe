@@ -1,0 +1,1974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="4001" levels="8" name="NPC Windstrike">
+		<!-- Freya retail confirmed -->
+		<table name="#hitTime"> 4000 4000 4000 4000 4000 4000 4000 1000 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 </table>
+		<table name="#mpConsume2"> 13 20 27 35 45 55 65 69 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 110 </table>
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="attributeType" val="WIND" />
+		<set name="attributePower" val="20" />
+		<set name="hitTime" val="#hitTime" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4002" levels="7" name="NPC HP Drain">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 17 28 38 49 63 78 92 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 </table>
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="attributeType" val="DARK" />
+		<set name="attributePower" val="20" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="HpDrain">
+				<param power="#power" />
+				<param drain="0.2" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4003" levels="1" name="高崙之體">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param BOW="70" />
+				<param DAGGER="30" />
+				<param BLUNT="-10" />
+				<param DUALDAGGER="30" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4004" levels="1" name="柔軟的骸骨">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param BLUNT="-10" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4005" levels="1" name="飄移的目標">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<sub stat="windRes" val="15" />
+			</effect>
+			<effect name="DefenceTrait">
+				<param BOW="-10" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4006" levels="1" name="燃燒的木彫">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<sub stat="fireRes" val="15" />
+			</effect>
+			<effect name="DefenceTrait">
+				<param POISON="50" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4007" levels="1" name="不死">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<add stat="holyRes" val="20" />
+				<sub stat="darkPower" val="20" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4008" levels="1" name="昆蟲甲殼">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<sub stat="fireRes" val="15" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4009" levels="1" name="火屬性抵抗">
+		<!-- Confirmed CT2.5 -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="4010" levels="1" name="水屬性抵抗">
+		<!-- Confirmed CT2.5 -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="4011" levels="1" name="風屬性抵抗">
+		<!-- Confirmed CT2.5 -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="4012" levels="1" name="地屬性抵抗">
+		<!-- Confirmed CT2.5 -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="4013" levels="1" name="抗火畏水">
+		<!-- Confirmed CT2.5 -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="4014" levels="1" name="抗水畏火">
+		<!-- Confirmed CT2.5 -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="4015" levels="1" name="抗風畏地">
+		<!-- Confirmed CT2.5 -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="4016" levels="1" name="抗地畏風">
+		<!-- Confirmed CT2.5 -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="4017" levels="1" name="巨蟻女王的揮舞">
+		<!-- Confirmed CT2.5 -->
+		<!-- Queen Ant Skills -->
+		<set name="affectRange" val="250" />
+		<set name="coolTime" val="500" />
+		<set name="effectPoint" val="-100" />
+		<set name="hitTime" val="1300" />
+		<set name="magicLvl" val="40" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="AURA" />
+		<effects>
+			<effect name="PhysicalAttack">
+				<param power="271" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4018" levels="1" name="移動速度下降">
+		<!-- Confirmed CT2.5 -->
+		<!-- Queen Ant Skills -->
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalTime" val="60" />
+		<set name="abnormalType" val="SPEED_DOWN" />
+		<set name="activateRate" val="70" />
+		<set name="basicProperty" val="MEN" />
+		<set name="castRange" val="500" />
+		<set name="coolTime" val="500" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1000" />
+		<set name="hitTime" val="2200" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlBonusRate" val="3" />
+		<set name="magicLvl" val="40" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="PhysicalAttack">
+				<param power="542" />
+			</effect>
+			<effect name="Debuff">
+				<mul stat="runSpd" val="0.7" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4019" levels="1" name="移動速度下降">
+		<!-- Confirmed CT2.5 -->
+		<!-- Queen Ant Skills -->
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalTime" val="60" />
+		<set name="abnormalType" val="SPEED_DOWN" />
+		<set name="activateRate" val="40" />
+		<set name="affectRange" val="200" />
+		<set name="basicProperty" val="MEN" />
+		<set name="castRange" val="1000" />
+		<set name="coolTime" val="500" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1500" />
+		<set name="hitTime" val="1700" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlBonusRate" val="3" />
+		<set name="magicLvl" val="40" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="AREA" />
+		<effects>
+			<effect name="TickHp">
+				<param power="-30" />
+				<param ticks="3" />
+				<mul stat="runSpd" val="0.7" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4020" levels="1" name="巨蟻女王治癒1">
+		<!-- Confirmed CT2.5 -->
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="3000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="35" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Heal">
+				<param power="10846" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4021" levels="1" name="巨蟻女王">
+		<!-- Confirmed CT2.5 -->
+		<!-- Queen Ant Skills -->
+		<set name="magicLvl" val="40" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param BOW="80" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4022" levels="1" name="護衛螞蟻之體">
+		<!-- Confirmer CT2.5 -->
+		<!-- This Skill Is Only For Description In The Client -->
+		<set name="magicLvl" val="35" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="4023" levels="1" name="螞蟻侍衛之體">
+		<!-- Confirmer CT2.5 -->
+		<!-- This Skill Is Only For Description In The Client -->
+		<set name="magicLvl" val="35" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="4024" levels="1" name="巨蟻女王治癒 2">
+		<!-- Confirmed CT2.5 -->
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="3000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="35" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Heal">
+				<param power="10846" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4025" levels="7" name="主人回復術">
+		<!-- Freya retail confirmed -->
+		<table name="#amount"> 23 38 52 70 90 110 129 </table>
+		<table name="#effectPoints"> 138 204 285 379 477 566 635 </table>
+		<table name="#magicLvl"> 17 27 37 47 57 67 77 </table>
+		<table name="#mpConsume2"> 24 39 53 70 90 110 130 </table>
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="#effectPoints" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="2500" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="OWNER_PET" />
+		<effects>
+			<effect name="ManaHealByLevel">
+				<param power="#amount" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4026" levels="1" name="古魯丁火焰">
+		<!-- Freya retail confirmed -->
+		<set name="affectRange" val="200" />
+		<set name="castRange" val="900" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1400" />
+		<set name="attributeType" val="FIRE" />
+		<set name="attributePower" val="20" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="60" />
+		<set name="mpConsume2" val="28" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="15000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="AREA" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="43" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4027" levels="1" name="古魯丁治癒">
+		<!-- Freya retail confirmed -->
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="60" />
+		<set name="mpConsume2" val="98" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="10000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Heal">
+				<param power="628" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4028" levels="3" name="攻擊力上升">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<table name="#magicLvl"> 20 40 70 </table>
+		<table name="#mpConsume2"> 10 18 33 </table>
+		<table name="#pAtk"> 1.08 1.12 1.15 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="PA_UP" />
+		<set name="abnormalVisualEffect" val="BIG_BODY" />
+		<set name="effectPoint" val="100" />
+		<set name="hitTime" val="1800" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Grow">
+				<mul stat="pAtk" val="#pAtk" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4029" levels="3" name="防禦力上升">
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<table name="#magicLvl"> 20 40 70 </table>
+		<table name="#mpConsume2"> 10 18 33 </table>
+		<table name="#pDef"> 1.08 1.12 1.15 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="PD_UP" />
+		<set name="effectPoint" val="100" />
+		<set name="hitTime" val="1800" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pDef" val="#pDef" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4030" levels="3" name="攻擊力上升">
+		<!-- High Five Confirmed -->
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<table name="#magicLvl"> 20 40 70 </table>
+		<table name="#mpConsume1"> 2 4 7 </table>
+		<table name="#mpConsume2"> 8 14 26 </table>
+		<table name="#pAtk"> 1.08 1.12 1.15 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="PA_UP" />
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="2500" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume1" val="#mpConsume1" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pAtk" val="#pAtk" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4031" levels="3" name="防禦力上升">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<table name="#magicLvl"> 20 40 70 </table>
+		<table name="#mpConsume2"> 10 18 33 </table>
+		<table name="#pDef"> 1.08 1.12 1.15 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="PD_UP" />
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="2500" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="CLAN" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pDef" val="#pDef" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4032" levels="7" name="NPC Strike">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 28 38 50 61 71 </table>
+		<table name="#power"> 46 105 219 417 722 1136 1626 </table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="800" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="200" />
+		<set name="hitTime" val="1000" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="6000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="PhysicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4033" levels="7" name="NPC Burn">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 18 29 40 53 68 83 98 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 </table>
+		<set name="affectRange" val="200" />
+		<set name="effectPoint" val="-100" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="AURA" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4034" levels="7" name="緩速">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 27 35 45 55 65 </table>
+		<table name="#power"> 11 16 23 31 41 51 61 </table>
+		<set name="abnormalLvl" val="2" />
+		<set name="abnormalTime" val="60" />
+		<set name="abnormalType" val="SPEED_DOWN" />
+		<set name="activateRate" val="60" />
+		<set name="basicProperty" val="MEN" />
+		<set name="castRange" val="600" />
+		<set name="coolTime" val="200" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="3100" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="#power" />
+			</effect>
+			<effect name="Debuff">
+				<mul stat="runSpd" val="0.8" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4035" levels="7" name="毒">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 2 3 4 5 6 7 8 </table>
+		<table name="#dmg"> -16 -24 -32 -41 -50 -58 -63 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 27 35 45 55 65 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="30" />
+		<set name="abnormalType" val="POISON" />
+		<set name="abnormalVisualEffect" val="DOT_POISON" />
+		<set name="activateRate" val="70" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="basicProperty" val="CON" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="2000" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ENEMY_ONLY" />
+		<set name="trait" val="POISON" />
+		<effects>
+			<effect name="TickHp">
+				<param power="#dmg" />
+				<param ticks="3" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4036" levels="7" name="毒">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 2 3 4 5 6 7 8 </table>
+		<table name="#dmg"> -16 -24 -32 -41 -50 -58 -63 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 18 29 40 53 68 83 98 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="30" />
+		<set name="abnormalType" val="POISON" />
+		<set name="abnormalVisualEffect" val="DOT_POISON" />
+		<set name="activateRate" val="35" />
+		<set name="affectRange" val="200" />
+		<set name="basicProperty" val="CON" />
+		<set name="castRange" val="500" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1000" />
+		<set name="hitTime" val="2000" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="AREA" />
+		<set name="trait" val="POISON" />
+		<effects>
+			<effect name="TickHp">
+				<param power="#dmg" />
+				<param ticks="3" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4037" levels="2" name="攻擊力下降">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 1 2 </table>
+		<table name="#magicLvl"> 20 40 </table>
+		<table name="#mpConsume2"> 20 35 </table>
+		<table name="#pAtk"> 0.83 0.8 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="30" />
+		<set name="abnormalType" val="PA_DOWN" />
+		<set name="activateRate" val="70" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="basicProperty" val="MEN" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="1500" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ENEMY_ONLY" />
+		<effects>
+			<effect name="Debuff">
+				<mul stat="pAtk" val="#pAtk" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4038" levels="5" name="攻擊速度下降">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 1 2 2 3 3 </table>
+		<table name="#magicLvl"> 10 20 30 50 70 </table>
+		<table name="#mpConsume2"> 13 20 27 45 65 </table>
+		<table name="#pAtkSpd"> 0.83 0.8 0.8 0.77 0.77 </table>
+		<table name="#time"> 5 10 10 15 15 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="30" />
+		<set name="abnormalType" val="ATTACK_TIME_UP" />
+		<set name="activateRate" val="80" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="basicProperty" val="MEN" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="1500" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ENEMY_ONLY" />
+		<effects>
+			<effect name="Debuff">
+				<mul stat="pAtkSpd" val="#pAtkSpd" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4039" levels="7" name="NPC MP Drain">
+		<!-- Freya retail confirmed -->
+		<table name="#amount"> -34 -57 -78 -105 -134 -165 -194 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 27 35 45 55 65 </table>
+		<set name="affectScope" val="SINGLE" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ENEMY_ONLY" />
+		<effects>
+			<effect name="Mp">
+				<param amount="#amount" />
+ 			</effect>
+		</effects>
+	</skill>
+	<skill id="4040" levels="7" name="NPC Bow Attack">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 25 40 56 76 99 121 142 </table>
+		<table name="#power"> 122 279 584 1110 1920 3030 4336 </table>
+		<set name="castRange" val="700" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1200" />
+		<set name="hitTime" val="4000" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="17000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="PhysicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4041" levels="2" name="克魯瑪之火">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 45 50 </table>
+		<table name="#mpConsume2"> 40 45 </table>
+		<table name="#power"> 60 68 </table>
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="attributeType" val="FIRE" />
+		<set name="attributePower" val="20" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4042" levels="1" name="奴爾卡之火">
+		<!-- Freya retail confirmed -->
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="attributeType" val="FIRE" />
+		<set name="attributePower" val="20" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="45" />
+		<set name="mpConsume2" val="40" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="60" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4043" levels="1" name="帕提森火焰">
+		<!-- Freya retail confirmed -->
+		<set name="affectRange" val="200" />
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="900" />
+		<set name="attributeType" val="FIRE" />
+		<set name="attributePower" val="20" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="45" />
+		<set name="mpConsume2" val="60" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="15000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="AREA" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="30" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4044" levels="1" name="帕提森治癒">
+		<!-- Freya retail confirmed -->
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="45" />
+		<set name="mpConsume2" val="70" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="10000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Heal">
+				<param power="427" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4045" levels="1" name="頭目弱化攻擊抵抗">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="50" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param HOLD="100" />
+				<param SLEEP="100" />
+				<param DERANGEMENT="100" />
+				<param PARALYZE="100" />
+				<param SHOCK="100" />
+				<param BOSS="100" />
+				<param PHYSICAL_BLOCKADE="100" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4046" levels="7" name="催眠">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 27 35 45 55 65 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="30" />
+		<set name="abnormalType" val="SLEEP" />
+		<set name="abnormalVisualEffect" val="SLEEP" />
+		<set name="activateRate" val="80" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="basicProperty" val="MEN" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="2500" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ENEMY_ONLY" />
+		<set name="trait" val="SLEEP" />
+		<effects>
+			<effect name="Sleep" />
+		</effects>
+	</skill>
+	<skill id="4047" levels="7" name="束縛">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 10 16 21 28 36 44 52 </table>
+		<table name="#mpConsume1"> 3 4 6 7 9 11 13 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="30" />
+		<set name="abnormalType" val="ROOT_MAGICALLY" />
+		<set name="abnormalVisualEffect" val="ROOT" />
+		<set name="activateRate" val="80" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="basicProperty" val="MEN" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="2500" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="mpConsume1" val="#mpConsume1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ENEMY_ONLY" />
+		<set name="trait" val="HOLD" />
+		<effects>
+			<effect name="Root" />
+		</effects>
+	</skill>
+	<skill id="4048" levels="3" name="Npc衝刺">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 10 10 </table>
+		<table name="#runSpd"> 1.5 1.8 2 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="20" />
+		<set name="abnormalType" val="SPEED_UP_SPECIAL" />
+		<set name="effectPoint" val="-1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="12" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="runSpd" val="#runSpd" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4049" levels="3" name="晶體DD">
+		<!-- Cubic Skill -->
+		<!-- Confirmed CT2.5 -->
+		<table name="#effectPoints"> -379 -438 -495 </table>
+		<table name="#magicLvl"> 40 46 52 </table>
+		<table name="#power"> 436 645 936 </table>
+		<set name="effectPoint" val="#effectPoints" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4050" levels="3" name="晶體吸收">
+		<!-- Cubic Skill -->
+		<!-- Confirmed CT2.5 -->
+		<table name="#effectPoints"> -408 -467 -523 </table>
+		<table name="#magicLvl"> 43 49 55 </table>
+		<table name="#power"> 543 760 1084 </table>
+		<set name="effectPoint" val="#effectPoints" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="HpDrain">
+				<param power="#power" />
+				<param drain="0.4" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4051" levels="3" name="晶體治療">
+		<!-- Cubic Skill -->
+		<!-- Confirmed CT2.5 -->
+		<!-- Levels 17, 18 and 19 doesn't exist in client. -->
+		<table name="#amount"> 201 241 281 </table>
+		<table name="#effectPoints"> 408 467 523 </table>
+		<table name="#magicLvl"> 43 49 55 </table>
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="#effectPoints" />
+		<set name="effectRange" val="1100" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Heal">
+				<param power="#amount" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4052" levels="2" name="毒">
+		<!-- Cubic Skill -->
+		<!-- Confirmed CT2.5 -->
+		<table name="#abnormalLvls"> 5 6 </table>
+		<table name="#dot"> -41 -50 </table>
+		<table name="#effectPoints"> -467 -523 </table>
+		<table name="#magicLvl"> 49 55 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="30" />
+		<set name="abnormalType" val="POISON" />
+		<set name="abnormalVisualEffect" val="DOT_POISON" />
+		<set name="activateRate" val="70" />
+		<set name="basicProperty" val="CON" />
+		<set name="effectPoint" val="#effectPoints" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="TickHp">
+				<param power="#dot" />
+				<param ticks="3" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4053" levels="3" name="攻擊力下降">
+		<!-- Cubic Skill -->
+		<!-- Confirmed CT2.5 -->
+		<table name="#effectPoints"> -379 -438 -495 </table>
+		<table name="#magicLvl"> 40 46 52 </table>
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalTime" val="120" />
+		<set name="abnormalType" val="PA_DOWN" />
+		<set name="activateRate" val="80" />
+		<set name="basicProperty" val="MEN" />
+		<set name="effectPoint" val="#effectPoints" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Debuff">
+				<mul stat="pAtk" val="0.77" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4054" levels="3" name="攻擊力下降">
+		<!-- Cubic Skill -->
+		<!-- Confirmed CT2.5 -->
+		<table name="#effectPoints"> -379 -438 -495 </table>
+		<table name="#magicLvl"> 40 46 52 </table>
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalTime" val="120" />
+		<set name="abnormalType" val="PD_DOWN" />
+		<set name="activateRate" val="80" />
+		<set name="basicProperty" val="MEN" />
+		<set name="effectPoint" val="#effectPoints" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Debuff">
+				<mul stat="pDef" val="0.77" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4055" levels="3" name="攻擊速度下降">
+		<!-- Cubic Skill -->
+		<!-- Confirmed CT2.5 -->
+		<table name="#effectPoints"> -379 -438 -495 </table>
+		<table name="#magicLvl"> 40 46 52 </table>
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalTime" val="120" />
+		<set name="abnormalType" val="ATTACK_TIME_UP" />
+		<set name="activateRate" val="80" />
+		<set name="basicProperty" val="MEN" />
+		<set name="effectPoint" val="#effectPoints" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Debuff">
+				<mul stat="pAtkSpd" val="0.77" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4056" levels="1" name="不死生物攻擊">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+	</skill>
+	<skill id="4057" levels="1" name="蟲子弱點">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param BUG_WEAKNESS="-15" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4058" levels="1" name="動物弱點">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param ANIMAL_WEAKNESS="-15" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4059" levels="1" name="植物弱點">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param PLANT_WEAKNESS="-15" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4060" levels="1" name="怪獸弱點">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param BEAST_WEAKNESS="-15" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4061" levels="1" name="龍族弱點">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param DRAGON_WEAKNESS="-15" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4062" levels="1" name="奧爾芬">
+		<!-- Confirmed CT2.5 -->
+		<!-- Orfen Skills -->
+		<set name="magicLvl" val="50" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param BOW="80" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4063" levels="1" name="麻痺">
+		<!-- Confirmed CT2.5 -->
+		<!-- Orfen Skills -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="120" />
+		<set name="abnormalType" val="PARALYZE" />
+		<set name="abnormalVisualEffect" val="PARALYZE" />
+		<set name="activateRate" val="90" />
+		<set name="basicProperty" val="MEN" />
+		<set name="castRange" val="50" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="200" />
+		<set name="hitTime" val="3600" />
+		<set name="isDebuff" val="true" />
+		<set name="magicLvl" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<set name="trait" val="PARALYZE" />
+		<effects>
+			<effect name="PhysicalAttack">
+				<param power="916" />
+			</effect>
+			<effect name="Paralyze" />
+		</effects>
+	</skill>
+	<skill id="4064" levels="1" name="麻痺">
+		<!-- Confirmed CT2.5 -->
+		<!-- Orfen Skills -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="120" />
+		<set name="abnormalType" val="PARALYZE" />
+		<set name="abnormalVisualEffect" val="PARALYZE" />
+		<set name="activateRate" val="30" />
+		<set name="affectRange" val="200" />
+		<set name="basicProperty" val="MEN" />
+		<set name="castRange" val="800" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1300" />
+		<set name="hitTime" val="4000" />
+		<set name="isDebuff" val="true" />
+		<set name="magicLvl" val="50" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="AREA" />
+		<set name="trait" val="PARALYZE" />
+		<effects>
+			<effect name="Paralyze" />
+		</effects>
+	</skill>
+	<skill id="4065" levels="7" name="NPC Heal">
+		<!-- Freya retail confirmed -->
+		<table name="#amount"> 83 151 245 362 494 628 743 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 24 35 49 64 78 91 </table>
+		<table name="#mpConsume1"> 4 6 9 13 16 20 23 </table>
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="2000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="mpConsume1" val="#mpConsume1" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Heal">
+				<param power="#amount" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4066" levels="7" name="NPC Twister">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 27 35 45 55 65 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 </table>
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="attributeType" val="WIND" />
+		<set name="attributePower" val="20" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4067" levels="7" name="NPC Mortal Blow">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 28 38 50 61 71 </table>
+		<table name="#power"> 137 314 656 1249 2164 3408 4878 </table>
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="800" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="200" />
+		<set name="hitTime" val="1000" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="6000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="FatalBlow">
+				<param power="#power" />
+				<param blowChance="20" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4068" levels="7" name="機甲加農砲">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 28 38 50 61 71 </table>
+		<table name="#power"> 46 105 219 417 722 1136 1626 </table>
+		<set name="castRange" val="600" />
+		<set name="coolTime" val="800" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="1000" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="6000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="PhysicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4069" levels="7" name="NPC Curve Beam Cannon">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 27 35 45 55 65 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 </table>
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4070" levels="1" name="攻擊速度下降">
+		<!-- Confirmed CT2.5 -->
+		<!-- Zone Skill -->
+		<set name="abnormalLvl" val="3" />
+		<set name="abnormalTime" val="5" />
+		<set name="abnormalType" val="ATTACK_TIME_UP" />
+		<set name="activateRate" val="10" />
+		<set name="basicProperty" val="MEN" />
+		<set name="effectPoint" val="-100" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlBonusRate" val="1" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Debuff">
+				<mul stat="pAtkSpd" val="0.77" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4071" levels="1" name="弓箭抵抗">
+		<table name="#icons"> icon.skill4071 </table>
+		<table name="#traits"> 10 </table>
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="DefenceTrait">
+				<param BOW="#traits" />
+				<param CROSSBOW="#traits" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4072" levels="7" name="休克">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 28 38 50 61 71 </table>
+		<table name="#power"> 16 35 73 139 241 379 542 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="9" />
+		<set name="abnormalType" val="STUN" />
+		<set name="abnormalVisualEffect" val="STUN" />
+		<set name="activateRate" val="30" />
+		<set name="affectRange" val="150" />
+		<set name="basicProperty" val="CON" />
+		<set name="coolTime" val="800" />
+		<set name="effectPoint" val="-100" />
+		<set name="hitTime" val="1000" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlBonusRate" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="6000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="AURA" />
+		<set name="trait" val="SHOCK" />
+		<effects>
+			<effect name="PhysicalAttack">
+				<param power="#power" />
+			</effect>
+			<effect name="Stun" />
+		</effects>
+	</skill>
+	<skill id="4073" levels="7" name="休克">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 28 38 50 61 71 </table>
+		<table name="#power"> 16 35 73 139 241 379 542 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="9" />
+		<set name="abnormalType" val="STUN" />
+		<set name="abnormalVisualEffect" val="STUN" />
+		<set name="activateRate" val="50" />
+		<set name="basicProperty" val="CON" />
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="800" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="200" />
+		<set name="hitTime" val="1000" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlBonusRate" val="1" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="6000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<set name="trait" val="SHOCK" />
+		<effects>
+			<effect name="PhysicalAttack">
+				<param power="#power" />
+			</effect>
+			<effect name="Stun" />
+		</effects>
+	</skill>
+	<skill id="4074" levels="2" name="Npc 速度激發">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 1 2 </table>
+		<table name="#magicLvl"> 30 70 </table>
+		<table name="#mpConsume2"> 14 33 </table>
+		<table name="#pAtkSpd"> 1.15 1.33 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="ATTACK_TIME_DOWN" />
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="2000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pAtkSpd" val="#pAtkSpd" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4075" levels="7" name="休克">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 28 38 50 61 71 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="9" />
+		<set name="abnormalType" val="STUN" />
+		<set name="abnormalVisualEffect" val="STUN" />
+		<set name="activateRate" val="80" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="basicProperty" val="CON" />
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="800" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="200" />
+		<set name="hitTime" val="1000" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlBonusRate" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="6000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ENEMY_ONLY" />
+		<set name="trait" val="SHOCK" />
+		<effects>
+			<effect name="Stun" />
+		</effects>
+	</skill>
+	<skill id="4076" levels="3" name="移動速度下降">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<table name="#magicLvl"> 20 40 70 </table>
+		<table name="#mpConsume2"> 20 35 65 </table>
+		<table name="#runSpd"> 0.9 0.8 0.7 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="60" />
+		<set name="abnormalType" val="SPEED_DOWN" />
+		<set name="activateRate" val="80" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="basicProperty" val="MEN" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="2000" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ENEMY_ONLY" />
+		<effects>
+			<effect name="Debuff">
+				<mul stat="runSpd" val="#runSpd" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4077" levels="7" name="NPC Aura Burn">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 10 16 21 28 36 44 52 </table>
+		<table name="#mpConsume1"> 3 4 6 7 9 11 13 </table>
+		<table name="#power"> 14 21 30 42 55 68 82 </table>
+		<set name="castRange" val="150" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="650" />
+		<set name="hitTime" val="1500" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="mpConsume1" val="#mpConsume1" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4078" levels="7" name="NPC Flamestrike">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 18 29 40 53 68 83 98 </table>
+		<table name="#power"> 9 13 19 26 34 43 51 </table>
+		<set name="affectRange" val="200" />
+		<set name="castRange" val="500" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="900" />
+		<set name="attributeType" val="FIRE" />
+		<set name="attributePower" val="20" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="AREA" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4079" levels="1" name="攻城之錘">
+		<!-- Confirmed CT2.5 -->
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="4800" />
+		<set name="magicLvl" val="49" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="5000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="PhysicalAttack">
+				<param power="665060" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4080" levels="1" name="黑暗治癒">
+		<!-- Freya retail confirmed -->
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="60" />
+		<set name="mpConsume2" val="98" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="Heal">
+				<param power="628" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4081" levels="1" name="佯裝偷盜">
+		<!-- Freya retail confirmed -->
+		<set name="affectScope" val="SINGLE" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="70" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ENEMY_ONLY" />
+	</skill>
+	<skill id="4082" levels="1" name="死亡之毒">
+		<!-- Confirmed CT2.5 -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="4200" />
+		<set name="abnormalType" val="FATAL_POISON" />
+		<set name="abnormalVisualEffect" val="DOT_POISON" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="50" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="TickHpFatal">
+				<param power="-20" />
+				<param ticks="5" />
+			</effect>
+			<effect name="Root" />
+		</effects>
+	</skill>
+	<skill id="4083" levels="1" name="死亡命令">
+		<!-- Confirmed CT2.5 -->
+		<set name="castRange" val="600" />
+		<set name="coolTime" val="800" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="1000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="70" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="PhysicalAttack">
+				<param power="90000" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4084" levels="1" name="物理抵抗">
+		<!-- Freya retail confirmed -->
+		<table name="#pDef"> 1.05 </table>
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pDef" val="#pDef" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4085" levels="1" name="致命威力">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="critDmg" val="1.25" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4086" levels="1" name="致命機率">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="critRate" val="1.5" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4087" levels="7" name="NPC Blaze">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 27 35 45 55 65 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 </table>
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="attributeType" val="FIRE" />
+		<set name="attributePower" val="20" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A1" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="MagicalAttack">
+				<param power="#power" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4088" levels="7" name="出血">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 2 3 4 5 6 7 8 </table>
+		<table name="#damage"> -18 -25 -34 -44 -54 -62 -67 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 28 38 50 61 71 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="20" />
+		<set name="abnormalType" val="BLEEDING" />
+		<set name="abnormalVisualEffect" val="DOT_BLEEDING" />
+		<set name="activateRate" val="100" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="basicProperty" val="CON" />
+		<set name="castRange" val="40" />
+		<set name="coolTime" val="800" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="200" />
+		<set name="hitTime" val="1000" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="6000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ENEMY_ONLY" />
+		<set name="trait" val="BLEED" />
+		<effects>
+			<effect name="TickHp">
+				<param power="#damage" />
+				<param ticks="3" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4089" levels="1" name="Npc 熊之圖騰靈">
+		<!-- Freya retail confirmed -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="POSSESSION" />
+		<set name="effectPoint" val="-100" />
+		<set name="hitTime" val="1500" />
+		<set name="magicLvl" val="40" />
+		<set name="mpConsume2" val="18" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="runSpd" val="0.85" />
+				<mul stat="pAtk" val="1.15" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4090" levels="1" name="Npc 狼之圖騰靈">
+		<!-- Freya retail confirmed -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="POSSESSION" />
+		<set name="effectPoint" val="-100" />
+		<set name="hitTime" val="1500" />
+		<set name="magicLvl" val="40" />
+		<set name="mpConsume2" val="18" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="runSpd" val="1.4" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4091" levels="1" name="Npc 食人魔圖騰靈">
+		<!-- Confirmed CT2.5 -->
+		<table name="#accCombat"> 3 </table>
+		<table name="#magicLvl"> 40 </table>
+		<table name="#MaxHp"> 14 </table>
+		<table name="#mpConsume2"> 18 </table>
+		<table name="#pAtk"> 1.05 </table>
+		<table name="#pDef"> 1.1 </table>
+		<table name="#rEvas"> 10 </table>
+		<table name="#runSpd"> 0.85 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="POSSESSION" />
+		<set name="abnormalVisualEffect" val="BIG_BODY" />
+		<set name="effectPoint" val="-100" />
+		<set name="hitTime" val="1500" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Grow">
+				<mul stat="runSpd" val="#runSpd" />
+				<mul stat="pAtk" val="#pAtk" />
+				<mul stat="pDef" val="#pDef" />
+				<sub stat="rEvas" val="#rEvas" />
+				<add stat="accCombat" val="#accCombat" />
+			</effect>
+			<effect name="MaxHp">
+				<param power="#MaxHp" />
+				<param type="PER" />
+				<param heal="true" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4092" levels="1" name="Npc 豹之圖騰靈">
+		<!-- Freya retail confirmed -->
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="POSSESSION" />
+		<set name="effectPoint" val="-100" />
+		<set name="hitTime" val="1500" />
+		<set name="magicLvl" val="40" />
+		<set name="mpConsume2" val="18" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pAtkSpd" val="1.3" />
+				<add stat="rEvas" val="4" />
+				<mul stat="pDef" val="0.8" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4093" levels="1" name="迴避">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<add stat="rEvas" val="4" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4094" levels="1" name="NPC Cancel Magic">
+		<!-- Confirmed CT2.5 -->
+		<table name="#magicLvl"> 10 </table>
+		<table name="#mpConsume2"> 10 </table>
+		<table name="#mpConsume1"> 3 </table>
+		<set name="affectScope" val="SINGLE" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="6000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="mpConsume1" val="#mpConsume1" />
+		<set name="operateType" val="A1" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ENEMY_ONLY" />
+		<effects>
+			<effect name="DispelAll" />
+		</effects>
+	</skill>
+	<skill id="4095" levels="1" name="還擊護盾">
+		<!-- Freya retail confirmed -->
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<add stat="reflectDam" val="20" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4096" levels="3" name="Npc 鷹之眼">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 1 2 3 </table>
+		<table name="#accCombat"> 6 8 10 </table>
+		<table name="#magicLvl"> 20 40 70 </table>
+		<table name="#mpConsume2"> 10 18 33 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="AB_HAWK_EYE" />
+		<set name="effectPoint" val="100" />
+		<set name="hitTime" val="1500" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="6000" />
+		<set name="rideState" val="NONE" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<add stat="accCombat" val="#accCombat" />
+				<mul stat="pDef" val="0.9" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4097" levels="7" name="NPC Chant of Life">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 </table>
+		<table name="#hot"> 7 12 18 27 37 46 55 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 33 59 88 122 159 195 228 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="15" />
+		<set name="abnormalType" val="LIFE_FORCE_OTHERS" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="2000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ONE" />
+		<effects>
+			<effect name="TickHp">
+				<param power="#hot" />
+				<param ticks="1" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="4098" levels="7" name="魔法技能封鎖">
+		<!-- Freya retail confirmed -->
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 </table>
+		<table name="#mpConsume2"> 13 20 27 35 45 55 65 </table>
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="60" />
+		<set name="abnormalType" val="SILENCE" />
+		<set name="abnormalVisualEffect" val="SILENCE" />
+		<set name="activateRate" val="80" />
+		<set name="affectScope" val="SINGLE" />
+		<set name="basicProperty" val="MEN" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="-100" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="2000" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="lvlBonusRate" val="2" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="ENEMY_ONLY" />
+		<set name="trait" val="DERANGEMENT" />
+		<effects>
+			<effect name="Mute" />
+		</effects>
+	</skill>
+	<skill id="4099" levels="2" name="NPC Berserk">
+		<!-- Freya retail confirmed -->
+		<table name="#abnormalLvls"> 1 2 </table>
+		<table name="#magicLvl"> 40 70 </table>
+		<table name="#mAtk"> 1.1 1.16 </table>
+		<table name="#mAtkSpd"> 1.05 1.08 </table>
+		<table name="#mDef"> 0.9 0.84 </table>
+		<table name="#mpConsume2"> 18 33 </table>
+		<table name="#pAtk"> 1.05 1.08 </table>
+		<table name="#pAtkSpd"> 1.05 1.08 </table>
+		<table name="#pDef"> 0.95 0.92 </table>
+		<table name="#rEvas"> 5 8 </table>
+		<table name="#runSpd"> 5 8 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="300" />
+		<set name="abnormalType" val="BERSERKER" />
+		<set name="castRange" val="400" />
+		<set name="effectPoint" val="100" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume2" val="#mpConsume2" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="8000" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pAtk" val="#pAtk" />
+				<mul stat="pAtkSpd" val="#pAtkSpd" />
+				<mul stat="mAtk" val="#mAtk" />
+				<mul stat="mAtkSpd" val="#pAtkSpd" />
+				<add stat="runSpd" val="#runSpd" />
+				<mul stat="pDef" val="#pDef" />
+				<mul stat="mDef" val="#mDef" />
+				<sub stat="rEvas" val="#rEvas" />
+			</effect>
+		</effects>
+	</skill>
+</list>
